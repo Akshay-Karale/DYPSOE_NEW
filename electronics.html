@@ -1,0 +1,1032 @@
+
+<!-- body: white, dark: #001E62, navbar: #012883, light: #1858EC , light-50: #759DF9,   -->
+
+
+
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/comp.js" charset="utf-8"></script>
+
+<link rel="shortcut icon" href="img/logo.png">
+
+<title>Dr.D Y Patil School of Engineering</title>
+</head>
+<body  style="background-color: white;" >
+  
+    
+
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        #s,#e{
+            animation: zoom 6s linear infinite;
+
+        }
+        @keyframes zoom {
+            16% { fill: red;color: red; }
+            32% { fill: black;color:black; }
+            48% { fill: green;color: green; }
+            64% { fill: blue;color: blue; }
+            80% { fill: maroon;color: maroon; }
+            }
+
+        #l{
+            animation: round 6s linear infinite;
+            transform-origin: bottom;
+        }
+        @keyframes round {
+            16% { background-color: red; transform: scale(0);}
+            32% { background-color: black;transform: scale(0.3); }
+            48% {background-color:  green;transform: scale(0.6); }
+            64% {background-color:  blue;transform: scale(1); }
+            80% { background-color: maroon;transform: scale(0.7); }
+
+        }
+        #loader{
+            position: fixed;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+        }
+
+
+        @media screen and (max-width: 440px) {
+          #entc-hod{
+            height: 150px;
+          }
+          #entc-staff{   
+            width: 250px !important;
+          }
+  }
+    </style>
+        <div id="header">header</div>
+
+ 
+  <section id="computer">
+    <div class="10vh"  style="height:330px;">
+  
+  
+    <div class="container-fluid" id="imgetc">
+      <div class="row " >
+        <div class="col-md-6 justify-content-center text-center text-white" style="height:330px; margin-top:150px;">
+          <h4> <strong>ELECTRONICS IN ROBOTICS</strong></h4>
+          <div class="row justify-content-left ml-5 pl-5">
+            <a href="index.html">Home</a><p>-ELECTRONICS IN ROBOTICS</p>
+  
+          </div>
+          <br>
+  
+  
+        </div>
+          <div class="col-md-6">
+  
+          </div>
+  
+      </div>
+    </div>
+  
+  
+    </div>
+    <div class="container-fluid" style="position:relative; ">
+      <div id="departmentlist" class="row list-unstyled">
+        <li class="ml-1 text-left w-25 text-center "><h2 class=" p-3  bg-info text-white text-center"><strong>E & TC</strong></h2></li>
+  
+      </div>
+      <div class="row">
+  
+  
+        <div class="col-3 pp" >
+  
+           <ul id="departmentlist" class="list-unstyled" >
+  
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e; border:none;" id="introduction1"  type="button" onclick="introduction();" name="button">INTRODUCTION</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="faculty();" name="button">FACULTY</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="hodprofile();" name="button">HoD PROFILE</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="research();" name="button">RESEARCH</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="vm();" name="button">VISSION & MISSION</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="pospeos();" name="button">POs & PEOs</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="labdetail();" name="button">LAB & EQUIPMENTS</button> </li>
+                <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="goalso();" name="button">NEWS & EVENT</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="syllabus();" name="button">SYLLABUS</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="student();" name="button">STUDENTS</button> </li>
+  
+  
+           </ul>
+  
+        </div>
+        <div id="departmentdetail" class="col-9  ">
+          <ul class="list-unstyled pt-4">
+            <li id="introduction" >
+              <div class="container">
+                <div class="row">
+                    <h2> <strong> Introduction</strong></h2>
+  
+                </div>
+                <h5 class="text-center">ELECTRONICS IN ROBOTICS</h5>
+                <br>
+                <div  class="row justify-content-center">
+                  <img src="img/e_tc-lab/faculty-entc.jpg" width="80%"  alt="">
+                </div>
+  
+                <div class="text mt-3 mr-2">
+                  <p style="font-style:italic; color:#575655; font-size:18px; text-indent:50px; text-align:justify;">
+  The department of E&amp;TC Engineering started with aim of developing graduates capable of contributing to advancement in Electronics and telecommunication. UG Program Started with an intake of 60 in the year 2010-11. First batch of M.E. (VLSI and Embedded Systems) was inducted in 2012-13 with an intake of 24. The department have qualified and experienced faculties and well equipped laboratories. Department has good academic culture and conductive working environment for teaching learning, research &amp; development. </p>
+  
+                </div>
+  
+             <div class="row ">
+               <table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="background:#D6E3BC;border-collapse:collapse;border:none;">
+                           <tbody><tr style="height:12.85pt;">
+                             <td width="97" valign="top" style="width:72.4pt;border:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;"><p class="MsoNormal" align="center" style="margin-bottom:.0001pt;text-align:center;line-height:normal;"><strong><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; color:#C00000; ">Sr.    No.</span></strong></p></td>
+                             <td width="391" valign="top" style="width:292.9pt;border:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;"><p class="MsoNormal" align="center" style="margin-bottom:.0001pt;text-align:center;line-height:normal;"><strong><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; color:#C00000; ">Course</span></strong></p></td>
+                             <td width="81" valign="top" style="width:60.85pt;border:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;"><p class="MsoNormal" align="center" style="margin-bottom:.0001pt;text-align:center;line-height:normal;"><strong><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; color:#C00000; ">Specialization</span></strong></p>
+                                 </td><td width="391" valign="top" style="width:292.9pt;border:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 3.4pt;height:7.85pt;"><p class="MsoNormal" align="center" style="margin-bottom:.0001pt;text-align:center;line-height:normal;"><strong><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; color:#C00000; ">Duration</span></strong></p></td>
+                               <td width="391" valign="top" style="width:292.9pt;border:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;"><p class="MsoNormal" align="center" style="margin-bottom:.0001pt;text-align:center;line-height:normal;"><strong><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; color:#C00000; ">Intake</span></strong></p></td>
+  
+                           </tr>
+                           <tr style="height:12.85pt;">
+                             <td width="97" valign="top" style="width:72.4pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;"><p class="MsoNormal" align="center" style="margin-bottom:.0001pt;text-align:center;line-height:normal;"><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; ">1.</span></p></td>
+                             <td width="391" valign="top" style="width:292.9pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;"><p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><strong><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; ">Under Graduate(UG)</span></strong></p></td>
+                             <td width="81" valign="top" style="width:60.85pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;"><p class="MsoNormal" align="center" style="margin-bottom:.0001pt;text-align:center;line-height:normal;"><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; ">E&amp;TC</span></p>
+                                  </td><td width="391" valign="top" style="width:292.9pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;"><p class="MsoNormal" align="center" style="margin-bottom:.0001pt;line-height:normal;"><strong><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; ">4 Years</span></strong></p></td>
+                               <td width="391" valign="top" style="width:292.9pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;"><p class="MsoNormal" align="center" style="margin-bottom:.0001pt;line-height:normal;"><strong><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; ">60</span></strong></p></td>
+  
+                           </tr>
+                           <tr style="height:12.85pt;">
+                             <td width="97" valign="top" style="width:72.4pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;"><p class="MsoNormal" align="center" style="margin-bottom:.0001pt;text-align:center;line-height:normal;"><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; ">2.</span></p></td>
+                             <td width="391" valign="top" style="width:292.9pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;"><p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><strong><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; ">Post Graduate(PG)</span></strong></p></td>
+                             <td width="81" valign="top" style="width:60.85pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;"><p class="MsoNormal" align="center" style="margin-bottom:.0001pt;text-align:center;line-height:normal;"><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; ">E&amp;TC(VLSI &amp; Embedded Systems)</span></p>
+                                 </td><td width="97" valign="top" style="width:72.4pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;"><p class="MsoNormal" align="center" style="margin-bottom:.0001pt;text-align:center;line-height:normal;"><strong><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; ">2 Years</span></strong></p></td>
+                               <td width="97" valign="top" style="width:72.4pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;"><p class="MsoNormal" align="center" style="margin-bottom:.0001pt;text-align:center;line-height:normal;"><strong><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; ">24</span></strong></p></td>
+  
+                           </tr>
+  
+  
+                         </tbody></table>
+  
+             </div>
+            <br>
+  
+            <strong ><i>Department Highlights</i></strong><br><br><i>
+   Affiliated to Savitribai Phule Pune University.<br>
+   Highly qualified, dynamic and experienced faculties.<br>
+   Facility for self-learning and learning beyond curriculum such as PCB Laboratory and Ham Radio Club.<br>
+   Efficient Mentoring system to help an individual.<br>
+   Student Forum: EESA (Electronics Engineers Student Association).<br>
+   MOU with industries.<br>
+   Effective and efficient<br> </i>
+  
+              </div>
+            </li>
+          <li id="faculty">
+            
+            <div class="container" >
+              <div style=" text-align:center;width: 130px;"><h2  > <strong> Faculty</strong></h2></div>
+              <div class="row"  id="entc-staff" style="height: 700px;overflow-y: scroll;width: 800px;overflow-x: auto;">
+              <!-- <embed  src="img/Comp/comp_staff.pdf" width="100%" height="1200"> -->
+                <table class="table table-striped" style="width: 800px;"  >
+                  <tbody>
+                      <tr>
+                          <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/entc/EnTC-Dr-Sanjay-Koli.JPG" alt="" height="150px"  ></td>
+                          <td > 
+                              <strong>Dr. Sanjay Koli</strong><br><br>
+                              <strong> Qualification:</strong> PhD(Electronics)<br>
+                              <strong> Experience:</strong> 23 Years <br>
+                              <strong> Email ID:</strong> sanjay.koli@dypic.in <br>
+                              <strong> Specialization:</strong> Video Signal  Processing, Communication Engineering
+                          </td>
+                        </tr>
+
+
+                        <tr>
+                          <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/entc/EnTC-Dr-Saniya-Ansari.JPG" alt="" height="150px"  ></td>
+                          <td > 
+                              <strong>Dr. Saniya Ansari</strong><br><br>
+                              <strong> Qualification:</strong>  Ph.D.(ECE), M.E.( Electronics Engg.)
+                              <br>
+                              <strong> Experience:</strong> 17.9 Years <br>
+                              <strong> Email ID:</strong>  saniya.ansari@dypic.in
+                               <br>
+                              <strong> Specialization:</strong>  Image  Processing, AI, Robotics
+                              
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/entc/EnTC-Dr-Rashmi-Mahajan.JPG" alt="" height="150px"  ></td>
+                          <td > 
+                              <strong>Dr. Rashmi Mahajan</strong><br><br>
+                              <strong> Qualification:</strong>  M.Tech. (VLSI Technology), Ph.D. (Electronics  Engineering)
+                              <br>
+                              <strong> Experience:</strong> 16 Years <br>
+                              <strong> Email ID:</strong>   rashami.mhajan@dypic.in<br>
+                              <strong> Specialization:</strong>  VLSI &  Embedded System, AI
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/entc/EnTC-Riyaj-Kazi.png" alt="Photo here" height="150px"  ></td>
+                          <td > 
+                              <strong>Riyaj Kazi</strong><br><br>
+                              <strong> Qualification:</strong>ME(Electronics) <br>
+                              <strong> Experience:</strong> 16 Years <br>
+                              <strong> Email ID:</strong>   riyaj.kazi@dypic.in<br>
+                              <strong> Specialization:</strong>  Digital Electronics
+                          </td>
+                        </tr>
+                      
+                        <tr>
+                          <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/entc/ETC-Sukumar-Chougule.jpg" alt="" height="150px"  ></td>
+                          <td > 
+                              <strong>Sukumar Chougule</strong><br><br>
+                              <strong> Qualification:</strong>  ME (Electronics Engineering) <br>
+                              <strong> Experience:</strong> 21 Years <br>
+                              <strong> Email ID:</strong>  sukumarchougule@dypic.in<br>
+                              <strong> Specialization:</strong>  Digital Systems 
+                              
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/entc/EnTC-Prof-Swati-Khawate.JPG" alt="" height="150px"  ></td>
+                          <td > 
+                              <strong>Swati Khawate</strong><br><br>
+                              <strong> Qualification:</strong>  M.E.( E & TC.)<br>
+                              <strong> Experience:</strong> 8.10 Years <br>
+                              <strong> Email ID:</strong>   swati.khawate@dypic.in <br>
+                              <strong> Specialization:</strong>VLSI & Embedded system
+                          </td>
+                        </tr>
+                      
+                        <tr>
+                          <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/entc/EnTC-Prof-Prajakta-Khairnar.JPG" alt="" height="150px"    ></td>
+                          <td > 
+                              <strong>Prajakta Khairnar</strong><br><br>
+                              <strong> Qualification:</strong>   ME(Electronics) 
+                              <br>
+                              <strong> Experience:</strong> 7.2 Years <br>
+                              <strong> Email ID:</strong> prajkta.khairnar@dypic.in
+                              
+                               <br>
+                              <strong> Specialization:</strong> Digital systems
+                              
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/entc/EnTC-Prof-Sayali-Mane.JPG" alt="" height="150px"  ></td>
+                          <td > 
+                              <strong>Sayali Mane</strong><br><br>
+                              <strong> Qualification:</strong>  ME (E&TC ) <br>
+                              <strong> Experience:</strong> 5.2 Years <br>
+                              <strong> Email ID:</strong>  sayalimane@dypic.in <br>
+                              <strong> Specialization:</strong>  Wireless  Communication
+                          </td>
+                        </tr>
+                      
+                        <tr>
+                          <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/entc/EnTC-Prof-Ashwini-Bagde.JPG" alt="" height="150px"  ></td>
+                          <td > 
+                              <strong>Ashwini Bagade</strong><br><br>
+                              <strong> Qualification:</strong>  MTech (E&TC)<br>
+                              <strong> Experience:</strong>2 Years <br>
+                              <strong> Email ID:</strong> ashwinisaykar@dypic.in
+                               <br>
+                              <strong> Specialization:</strong>  Wireless  Communications
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/entc/EnTC-Prof-Shital-Patil.JPG" alt="" height="150px"  ></td>
+                          <td > 
+                              <strong>Shital Patil </strong><br><br>
+                              <strong> Qualification:</strong>   ME (E&TC) 
+                              <br>
+                              <strong> Experience:</strong> 6 Months <br>
+                              <strong> Email ID:</strong>   shitalpatil@dypic.in <br>
+                              <strong> Specialization:</strong> VLSI &  Embedded system
+                          </td>
+                        </tr>
+                      
+                        
+                  </tbody>
+                </table>
+          
+              
+            </div>
+
+          </div>
+
+
+
+
+
+
+
+
+
+
+          </li>
+            <li id="hod-profile">
+              <div class="container">
+  
+                <div class="row">
+                    <h2 style="margin: 10px auto;" > <strong> HoD Profile</strong></h2>
+                    <br>
+                  <div class="col-md-12 text-center"style="font-family:Bodoni MT;font-size:20px;" >
+                    <img src="soe-staff-photo/entc/EnTC-Dr-Sanjay-Koli-hod.JPG" id="entc-hod" alt="image" height="500px">
+                    <br>
+                    <h2 ><strong> Dr. Sanjay M. Koli</strong></h2>
+                    <h5 >Ph. D. (Electronics and Telecommunication Engineering) </h5>
+                  </div>
+                  <p class="mt-3 mr-2" style="font-style:italic; color:#575655; font-size:18px; text-indent:50px; text-align:justify;">The department is having highly qualified, experienced and dedicated teaching
+                    and supporting staff. Under the guidance of the management and Principal, the
+                    department is flourishing by leaps and bounds. The department is committed to achieve
+                    excellence in teaching by inculcating a sense of pride and confidence in the students.
+                    The department works with the objective of addressing acute challenges faced by the
+                    Academia, Industry and the Society. Perhaps, even more important is our endless
+                    commitment towards our students helping them to learn, cultivate, progress, and
+                    accomplish their goals in their professional career. The department is open to accept the
+                    valuable inputs from all the stakeholders which will help us to grow.
+                   </p>
+  
+  
+  
+                </div>
+  
+              </div>
+            </li>
+            <li id="research">
+                 <div class="container">
+                   <div class="row">
+                       <h2> <strong> Research:-</strong></h2>
+                   </div>
+                   <div class="row mt-2 text-center  justify-content-center ml-1 mr-1">
+                     <embed src="img/e_tc-lab/research.pdf" width="100%" height="1000px" />
+  
+  
+                   </div>
+  
+  
+                 </div>
+             </li>
+            <li id="vm">
+              <div class="container">
+                <div class="row">
+                    <h2> <strong> Vision & Mission</strong></h2>
+                </div>
+                <div class="row mt-3  mr-2">
+                  <h4> <strong> Vision :- </strong></h4>
+                  <br>
+                  <div class="">
+                    <br>  To educate the student in adopting rapidly changing technologies for solving socio-economic and industrial challenges with accountability in the field of E&amp;TC Engineering.
+                  </div>
+  
+                </div>
+                <div class="row mt-3 mr-2">
+                  <h4> <strong> Mission :-</strong></h4>
+                     <ul>
+                        To consistently engage students with the latest technological advancements for collaborative and multidisciplinary activities.<br>
+   To participate in collaborative efforts to achieve quality education.<br>
+   To develop the department into a state-of-art education hub with multi-faceted learning environment accompanied by necessary facilities and resources.<br>
+                     </ul>
+                    </div>
+  
+  
+              </div>
+            </li>
+  
+            <li id="pospeos">
+                 <div class="container ">
+                   <div class="row">
+                     <h2> <strong> PO's and PEO's</strong></h2>
+                   </div>
+                   <div class="row mt-3 mr-2">
+                     <h6> <strong> Program Outcomes(PO):-</strong></h6>
+                      <ul class="">
+                        <li>Engineering knowledge: Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the   solution of complex engineering problems. </li>
+  
+                        <li>Identify, formulate, research literature, and analyze complex Engineering problems reaching substantiated conclusions using first principles of mathematics and engineering sciences. </li>
+  
+                        <li>Design solutions for complex Engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations. </li>
+  
+                        <li>Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions related to Engineering problems.
+   </li>
+  
+                        <li>Create, select, and apply appropriate techniques, resources, and modern engineering IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations.</li>
+  
+                        <li> Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional Engineering practice.</li>
+  
+                        <li> Understand the impact of the professional Engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development.</li>
+  
+                        <li>Apply ethical principles and commit to professional ethics and responsibilities and norms of the Engineering practice.</li>
+  
+                        <li> Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings. </li>
+  
+                        <li>Communicate effectively on complex Engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions. </li>
+  
+                        <li>Demonstrate knowledge and understanding of the engineering and management principles and apply these to oneÃ¢â‚¬â„¢s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments. </li>
+  
+                        <li> Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.</li>
+                      </ul>
+                      <br>
+                      <h6> <strong><br> Program Educational Objectives (PEO) :-</strong></h6>
+                      <ul>
+                        <li>Graduate will effectively communicate with good interpersonal skills, Technical knowledge, enthusiasm and commitment for quality placement. </li>
+  
+                        <li> Graduate will exhibit proficiency as good entrepreneurs by applying technology and innovation to business.  </li>
+  
+                        <li>Graduate will engage in continual receptiveness to new technological and cultural challenges through life- long learning and intellectual properties. </li>
+  
+                        <li> Graduate will exhibit good citizenship and cultural mannerism and skill in the welfare of society. </li>
+                      </ul>
+  
+  
+                   </div>
+  
+                 </div>
+              </li>
+  
+            <li id="labdetail">
+              <div class="container">
+                <div class="row">
+                  <h2> <strong>Lab Details :-</strong></h2>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 mt-2">
+                    <div class="p-3 card text-center" style="background-color:#ebf2f2;">
+                      <h4> <strong>Digital Signal Processing Lab</strong></h4>
+                      <div class="m-3 row  justify-content-center">
+                        <img src="img/e_tc-lab/lab1.jpg" width="70%" alt="">
+                      </div>
+                      <div class="row  justify-content-center">
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-danger text-center" >Laboratory Hardware- </h5>
+                          </div>
+  
+                        <p> IBM Server, LAN Explorer, DSP Starter Kit</p>
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-info text-center" >LABORATORY SOFTWARE- </h5>
+                          </div>
+                          <p>MATLAB, LAB VIEW, XILINX</p>
+                        </div>
+  
+  
+  
+                    </div>
+  
+                  </div>
+  
+                  <div class="col-md-12 mt-2">
+                    <div class="p-3 card text-center" style="background-color:#ebf2f2;">
+                      <h4> <strong>Communication Lab I</strong></h4>
+                      <div class="m-3 row  justify-content-center">
+                        <img src="img/e_tc-lab/lab2.jpg" width="70%" alt="">
+                      </div>
+                      <div class="row  justify-content-center">
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-danger text-center" >Laboratory Hardware- </h5>
+                          </div>
+  
+                        <p>DSO 100 MHz (Agilent), DSO 100 MHz (Aplap), Spectrum Analyzer with Tracking Generator 3 GHz (Agilent), DSO 100 MHz (Aplap), Arbitrary Signal Generator, Optical Power Meter, Mix signal oscilloscope, Multimeter(6-1/2 digit), DSO 200 MHz, Experimental OTDR benchmark.</p>
+  
+  
+                        </div>
+  
+  
+  
+                    </div>
+  
+                  </div>
+                  <div class="col-md-12 mt-2">
+                    <div class="p-3 card text-center" style="background-color:#ebf2f2;">
+                      <h4> <strong>Communication Lab II</strong></h4>
+                      <div class="m-3 row  justify-content-center">
+                        <img src="img/e_tc-lab/lab3.jpg" width="70%" alt="">
+                      </div>
+                      <div class="row  justify-content-center">
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-danger text-center" >Laboratory Hardware- </h5>
+                          </div>
+  
+                        <p>Antenna System Trainer to Measure Radiation Pattern, Return Loss, Gain, Beam Width, HDTV, Digital TV, Wobulator With Test Jig, Colour Pattern Generator, WI-FI TV, Gunn Diode Test Bench ,Klystron Based Test Bench.</p>
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-info text-center" >LABORATORY SOFTWARE- </h5>
+                          </div>
+                          <p> CAD-FEKO</p>
+                        </div>
+  
+  
+  
+                    </div>
+  
+                  </div>
+                  <div class="col-md-12 mt-2">
+                    <div class="p-3 card text-center" style="background-color:#ebf2f2;">
+                      <h4> <strong>Digital and Embedded Systems Lab</strong></h4>
+                      <div class="m-3 row  justify-content-center">
+                        <img src="img/e_tc-lab/lab4.jpg" width="70%"  alt="">
+                      </div>
+                      <div class="row  justify-content-center">
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-danger text-center" >Laboratory Hardware- </h5>
+                          </div>
+  
+                        <p>PC Based 34 channel Logic Analyzer, Compiler for RTOS with ARM7 &amp; ARM9, PSTN TST, CDMA trainer Kit, mobile phone trainer, VOIP, AT Command. </p>
+  
+  
+                        </div>
+  
+  
+  
+                    </div>
+  
+                  </div>
+                  <div class="col-md-12 mt-2">
+                    <div class="p-3 card text-center" style="background-color:#ebf2f2;">
+                      <h4> <strong>Electronics Devices and Circuits Lab</strong></h4>
+                      <div class="m-3 row  justify-content-center">
+                        <img src="img/e_tc-lab/lab4.jpg" width="70%"  alt="">
+                      </div>
+                      <div class="row  justify-content-center">
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-danger text-center" >Laboratory Hardware- </h5>
+                          </div>
+  
+                        <p>DSO(Agilent)100MHZ, IC Tester, Linear
+  cum digital, Min-Max. Electro Ã¢â‚¬â€œPneumatic Trainer, data acquisition system, Position &amp; Velocity measurement using encoder.</p>
+  
+  
+                        </div>
+  
+  
+  
+                    </div>
+  
+                  </div>
+                  <div class="col-md-12 mt-2">
+                    <div class="p-3 card text-center" style="background-color:#ebf2f2;">
+                      <h4> <strong>Basic Electronics Lab</strong></h4>
+                      <div class="m-3 row  justify-content-center">
+                        <img src="img/e_tc-lab/lab6.jpg" width="70%" alt="">
+                      </div>
+                      <div class="row  justify-content-center">
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-danger text-center" >Laboratory Hardware- </h5>
+                          </div>
+  
+                        <p>Op-amp Kit, Logic Gate Circuit Trainer Kit, DC Regulated power supply  Single Channel 0-30 V /2A, DC Regulated Power Supply Dual channel 0-30 V /2A, Cathode Ray Oscilloscope 20 MHZ, V-I characteristics of SCR, Cathode Ray Oscilloscope 30 MHZ Aplab CRO30 MHz Dual Trace, Power Scope Dual Mode, Smartdunio (An Atmega 328P Based Development Board), Transmission line Trainer.</p>
+  
+                        </div>
+  
+  
+  
+                    </div>
+  
+                  </div>
+                  <div class="col-md-12 mt-2">
+                    <div class="p-3 card text-center" style="background-color:#ebf2f2;">
+                      <h4> <strong>Project Lab</strong></h4>
+                      <div class="m-3 row  justify-content-center">
+                        <img src="img/e_tc-lab/lab7.jpg" width="70%" alt="">
+                      </div>
+                      <div class="row  justify-content-center">
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-danger text-center" >Laboratory Hardware- </h5>
+                          </div>
+  
+                        <p>Op-amp Kit, Logic Gate Circuit Trainer Kit, DC Regulated power supply  Single Channel 0-30 V /2A, DC Regulated Power Supply Dual channel 0-30 V /2A, Cathode Ray Oscilloscope 20 MHZ, V-I characteristics of SCR, Cathode Ray Oscilloscope 30 MHZ Aplab CRO30 MHz Dual Trace, Power Scope Dual Mode, Smartdunio (An Atmega 328P Based Development Board), Transmission line Trainer.</p>
+  
+                        </div>
+  
+  
+  
+                    </div>
+  
+                  </div>
+                  <div class="col-md-12 mt-2">
+                    <div class="p-3 card text-center" style="background-color:#ebf2f2;">
+                      <h4> <strong>PG Lab</strong></h4>
+                      <div class="m-3 row  justify-content-center">
+                        <img src="img/e_tc-lab/lab_8.jpg" width="70%" alt="">
+                      </div>
+                      <div class="row  justify-content-center">
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-danger text-center" >Laboratory Hardware- </h5>
+                          </div>
+  
+  
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-info text-center" >LABORATORY SOFTWARE- </h5>
+                          </div>
+                          <p>CAD-FEKO</p>
+                        </div>
+  
+  
+  
+                    </div>
+  
+                  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+                  <div class="col-md-12 mt-4">
+                    <div class="row">
+  
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+  
+              </div>
+            </li>
+            <li id="goalso">
+                <div class="container">
+                  <div class="row">
+                    <h2> <strong>News & Events :-</strong></h2>
+                  </div>
+                  <br>
+                  <br>
+                  <div class="row text-center">
+                    <h2> Events 2020</strong></h2>
+                  <br>
+                  </div>
+                  <div class=" text-center">
+                     <a href="img/e_tc-lab/events/Alumni Meet Feb 2020.pdf" target="_blank">Alumni Meet Feb 2020</a><br>
+                    <br>
+                      <a href="img/e_tc-lab/events/campus to corporate.pdf" target="_blank">Campus to corporate </a><br>
+                    <br>
+                       <a href="img/e_tc-lab/events/Felicitation of TE E&TC SPPU Ranker.pdf" target="_blank">Felicitation of TE E&TC SPPU Ranker </a><br>
+                      <br>
+                        <a href="img/e_tc-lab/events/Matlab webinar Report.pdf" target="_blank">Matlab webinar Report</a><br>
+                       <br>
+                   </div>
+                   <br>
+                   <div class="row text-center">
+                    <h2> Events 2019</strong></h2>
+                  <br>
+                  </div>
+                  <div class=" text-center">
+                     <a href="img/e_tc-lab/events/A personalized online learning platform for employability.pdf" target="_blank">A personalized online learning platform for employability</a><br>
+                    <br>
+                      <a href="img/e_tc-lab/events/AWS Cloud.pdf" target="_blank">AWS Cloud </a><br>
+                    <br>
+                       <a href="img/e_tc-lab/events/Cyber Security.pdf" target="_blank">Cyber Security </a><br>
+                      <br>
+                        <a href="img/e_tc-lab/events/Cyber Security2.pdf" target="_blank">Cyber Security2</a><br>
+                       <br>
+                      <a href="img/e_tc-lab/events/EESA Day and Teachers Day celebration.pdf" target="_blank">EESA Day and Teachers Day celebration </a><br>
+                    <br>
+                      <a href="img/e_tc-lab/events/Fresher Welcome Function.pdf" target="_blank">Fresher Welcome Function </a><br>
+                    <br>
+                       <a href="img/e_tc-lab/events/Guest Lecture and Demonstration.pdf" target="_blank">Guest Lecture and Demonstration </a><br>
+                      <br>
+                        <a href="img/e_tc-lab/events/Guest Lecture on Data Structures and Algorithms.pdf" target="_blank">Guest Lecture on Data Structures and Algorithms</a><br>
+                       <br>
+                      <a href="img/e_tc-lab/events/Guest lecture on Digital Electronics.pdf" target="_blank">Guest lecture on Digital Electronics </a><br>
+                    <br>
+                      <a href="img/e_tc-lab/events/Guest lecture on Government Engineering Services.pdf" target="_blank">Guest lecture on Government Engineering Services </a><br>
+                    <br>
+                       <a href="img/e_tc-lab/events/Guest Lecture on RF and Microwave circuit design.pdf" target="_blank">Guest Lecture on RF and Microwave circuit design.</a><br>
+                      <br>
+                        <a href="img/e_tc-lab/events/Motivational Speech on Engineering is awesome.pdf" target="_blank">Motivational Speech on Engineering is awesome</a>
+                       <br>
+                      <br>
+                        <a href="img/e_tc-lab/events/PCB Design Workshop.pdf" target="_blank">PCB Design Workshop</a><br>
+                       <br>
+                      <br>
+                        <a href="img/e_tc-lab/events/SS_KRS.pdf" target="_blank">SS_KRS</a><br>
+                       <br>
+                   </div>
+                  
+                  
+                  <div class="row  justify-content-center">
+                    <img src="img/e_tc-lab/eve1.png" width="70%" alt="">
+                  </div>
+                  <br>
+                  <div class="row   justify-content-center">
+                    <div class="col-md-6 ">
+                     <div class="row p-2 justify-content-center">
+                       <img src="img/e_tc-lab/eve2.png" width="70%"  alt="">
+  
+                     </div>
+                    </div>
+                    <div class="col-md-6 ">
+                     <div class="row p-2 justify-content-center">
+                       <img src="img/e_tc-lab/eve3.png"  width="70%" alt="">
+  
+                     </div>
+                    </div>
+  
+                  </div>
+                  <div class="row text-center justify-content-center">
+                    <h5><b>AJEENKYA TECH FEST-2018</b></h5>
+  
+                  </div>
+                  <hr>
+                  <br><br>
+                  <div class="row   justify-content-center">
+                    <div class="col-md-6 ">
+                     <div class="row p-2 justify-content-center">
+                       <img src="img/e_tc-lab/eve4.png" width="70%"  alt="">
+  
+                     </div>
+                    </div>
+                    <div class="col-md-6 ">
+                     <div class="row p-2 justify-content-center">
+                       <img src="img/e_tc-lab/eve5.png" width="70%" alt="">
+  
+                     </div>
+                    </div>
+  
+                  </div>
+                  <div class="row text-center justify-content-center">
+                    <h5><b>International Conference on Emerging Trends in Science, Engineering and Technology (ICETSET-2018)</b></h5>
+  
+                  </div>
+                  <hr>
+                  <br>
+                  <div class="row  justify-content-center">
+                    <img src="img/e_tc-lab/eve6.png" width="70%" alt="">
+                  </div>
+                  <br>
+                  <div class="row   justify-content-center">
+                    <div class="col-md-6 ">
+                     <div class="row p-2 justify-content-center">
+                       <img src="img/e_tc-lab/eve7.png" width="70%"  alt="">
+  
+                     </div>
+                    </div>
+                    <div class="col-md-6 ">
+                     <div class="row p-2 justify-content-center">
+                       <img src="img/e_tc-lab/eve8.png" width="70%"  alt="">
+  
+                     </div>
+                    </div>
+  
+                  </div>
+                  <div class="row text-center justify-content-center">
+                    <h5><b>EPGPEX-2018</b></h5>
+  
+                  </div>
+                  <hr><br>
+                  <div class="row   justify-content-center">
+                    <div class="col-md-6 ">
+                     <div class="row p-2 justify-content-center">
+                       <img src="img/e_tc-lab/eve9.png"  width="70%" alt="">
+  
+                     </div>
+                    </div>
+                    <div class="col-md-6 ">
+                     <div class="row p-2 justify-content-center">
+                       <img src="img/e_tc-lab/eve10.png" width="70%"  alt="">
+  
+                     </div>
+                    </div>
+  
+                  </div>
+                  <div class="row text-center justify-content-center">
+                    <h5><b>Industrial Visit to Prasar Bharti kendra Sinhagad Pune AY 17-18</b></h5>
+  
+                  </div>
+                  <hr>
+  
+                </div>
+            </li>
+            <li id="syllabus">
+               <div class="container">
+                 <div class="row">
+                    <h2> <strong>Syllabus</strong></h2>
+  
+                 </div>
+                 <br>
+                 <div class="row">
+                   <div class="col-md-4">
+                     <div class="card m-1 text-center">
+                       <div class="justify-content-center p-3">
+  
+                           <img class="p-3 rounded-circle border " src="img/pdficon.png" width="80px" alt="">
+  
+                         <h4>SECOND YEAR</h4>
+  
+                         <a href="img/e_tc-lab/SE syllabus.pdf">Download</a>
+                       </div>
+  
+                     </div>
+                   </div>
+                   <div class="col-md-4">
+                     <div class="card m-1 text-center">
+                       <div class="justify-content-center p-3">
+  
+                           <img class="p-3 rounded-circle border " src="img/pdficon.png" width="80px" alt="">
+  
+                         <h4>THIRD YEAR</h4>
+  
+                         <a href="img/e_tc-lab/TE syllabus.pdf">Download</a>
+                       </div>
+  
+                     </div>
+  
+                   </div>
+  
+                   <div class="col-md-4">
+                     <div class="card m-1 text-center">
+                       <div class="justify-content-center p-3">
+  
+                           <img class="p-3 rounded-circle border " src="img/pdficon.png" width="80px" alt="">
+  
+                         <h4>FOURTH YEAR</h4>
+  
+                         <a href="img/e_tc-lab/BE syllabus.pdf">Download</a>
+                       </div>
+  
+                     </div>
+  
+                   </div>
+  
+  
+                 </div>
+  
+               </div>
+            </li>
+            <li id="student">
+              <div class="container ">
+                <div class="row">
+                  <h2> <strong> Students :</strong></h2>
+                </div>
+                <div class="row mt-3 ml-5 mr-5">
+                  <h6> <strong> Defaulter Lists</strong></h6>
+  
+                    <div class="row mt-4 justify-content-center text-center">
+                      <table border="1" id="defaulter_list" class="table_style">
+                        <tbody><tr class="table_style">
+                            <td class="column_style"> List No. </td>
+                            <td class="column_style"> Date </td>
+                            <td class="column_style"> SE </td>
+                            <td class="column_style"> TE </td>
+                            <td class="column_style"> BE </td>
+                        </tr>
+  
+                        <tr class="table_style">
+                            <td class="column_style"> 6th </td>
+                            <td class="column_style"> 6 Sept 2019 </td>
+                            <td class="column_style">
+                                 <a href="student/ETC_6_SE.pdf"> SE E&amp;TC </a>
+                            </td>
+                            <td class="column_style">
+                                 <a href="student/ETC_6_TE.pdf"> TE E&amp;TC </a>
+                            </td>
+                            <td class="column_style">
+                                 <a href="student/ETC_6_BE.pdf"> BE E&amp;TC </a>
+                            </td>
+                        </tr>
+                        <tr class="table_style">
+                            <td class="column_style"> 5th </td>
+                            <td class="column_style"> 23 Aug 2019 </td>
+                            <td class="column_style">
+                                 <a style="color: red" href="#"> SE E&amp;TC </a>
+                            </td>
+                            <td class="column_style">
+                                 <a style="color: red" href="#"> TE E&amp;TC </a>
+                            </td>
+                            <td class="column_style">
+                                 <a style="color: red" href="#"> BE E&amp;TC </a>
+                            </td>
+                        </tr>
+                        <tr class="table_style">
+                            <td class="column_style"> 4th </td>
+                            <td class="column_style"> 9 Aug 2019 </td>
+                            <td class="column_style">
+                                 <a style="color: red" href="#"> SE E&amp;TC </a>
+                            </td>
+                            <td class="column_style">
+                                 <a style="color: red" href="#"> TE E&amp;TC </a>
+                            </td>
+                            <td class="column_style">
+                                 <a style="color: red" href="#"> BE E&amp;TC </a>
+                            </td>
+                        </tr>
+                        <tr class="table_style">
+                            <td class="column_style"> 3rd </td>
+                            <td class="column_style"> 26 July 2019 </td>
+                            <td class="column_style">
+                                 <a href="student/ESE26.pdf"> SE E&amp;TC </a>
+  
+                            </td>
+                            <td class="column_style">
+                                 <a href="student/ETE26.pdf">TE E&amp;TC</a>
+  
+                            </td>
+                            <td class="column_style">
+                                 <a href="student/EBE26.pdf">BE E&amp;TC </a>
+                            </td>
+                        </tr>
+                        <tr class="table_style">
+                            <td class="column_style"> 2nd </td>
+                            <td class="column_style"> 12 July 2019 </td>
+                            <td class="column_style">
+                                 <a href="student/ESE11.pdf"> SE E&amp;TC </a>
+                            </td>
+                            <td class="column_style">
+                                 <a href="student/ETE11.pdf"> TE E&amp;TC </a>
+                            </td>
+                            <td class="column_style">
+                                 <a href="student/EBE11.pdf"> BE E&amp;TC </a>
+                            </td>
+                        </tr>
+                        <tr class="table_style">
+                            <td class="column_style"> 1st </td>
+                            <td class="column_style"> 28 Jun 2019 </td>
+                            <td class="column_style">
+                                 <a href="student/E&amp;TC-SE.pdf"> SE E&amp;TC </a>
+                            </td>
+                            <td class="column_style">
+                                 <a href="student/E&amp;TC-TE.pdf"> TE E&amp;TC </a>
+                            </td>
+                            <td class="column_style">
+                                 <a href="student/E&amp;TC-BE.pdf"> BE E&amp;TC </a>
+                            </td>
+                        </tr>
+                    </tbody></table>
+  
+                    </div>
+  
+                </div>
+  
+              </div>
+            </li>
+          </ul>
+  
+  
+        </div>
+  
+      </div>
+      
+  
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </section>
+ 
+<div id="loader"></div>
+<div id="footer">footer</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+
+  $(document).ready(()=>{
+   $('#loader').load('loader.html');
+    $('#footer').load('footer.html');
+    $('#header').load('header.html');
+  })
+    document.onreadystatechange = function() {
+    if (document.readyState !== "complete") {
+        document.querySelector("body").style.visibility = "hidden";
+        document.querySelector("#loader").style.visibility = "visible";
+    } else {
+        document.querySelector("#loader").style.display = "none";
+        document.querySelector("body").style.visibility = "visible";
+    }
+};
+  </script>
+</body>
+</html>

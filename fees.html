@@ -1,0 +1,893 @@
+<!-- body: white, dark: #001E62, navbar: #012883, light: #1858EC , light-50: #759DF9,   -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="shortcut icon" href="img/logo.png" />
+
+    <title>Dr.D Y Patil School of Engineering</title>
+  </head>
+  <body>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      #s,
+      #e {
+        animation: zoom 6s linear infinite;
+      }
+      @keyframes zoom {
+        16% {
+          fill: red;
+          color: red;
+        }
+        32% {
+          fill: black;
+          color: black;
+        }
+        48% {
+          fill: green;
+          color: green;
+        }
+        64% {
+          fill: blue;
+          color: blue;
+        }
+        80% {
+          fill: maroon;
+          color: maroon;
+        }
+      }
+
+      #l {
+        animation: round 6s linear infinite;
+        transform-origin: bottom;
+      }
+      @keyframes round {
+        16% {
+          background-color: red;
+          transform: scale(0);
+        }
+        32% {
+          background-color: black;
+          transform: scale(0.3);
+        }
+        48% {
+          background-color: green;
+          transform: scale(0.6);
+        }
+        64% {
+          background-color: blue;
+          transform: scale(1);
+        }
+        80% {
+          background-color: maroon;
+          transform: scale(0.7);
+        }
+      }
+      #loader {
+        position: fixed;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      table td {
+        text-align: center;
+      }
+      table tbody tr td:nth-child(2) {
+        text-align: left;
+      }
+    </style>
+    <script type="text/javascript">
+      document.onreadystatechange = function () {
+        if (document.readyState !== "complete") {
+          document.querySelector("body").style.visibility = "hidden";
+          document.querySelector("#loader").style.visibility = "visible";
+        } else {
+          document.querySelector("#loader").style.display = "none";
+          document.querySelector("body").style.visibility = "visible";
+        }
+      };
+    </script>
+    <div id="header">header</div>
+    <br /><br />
+
+    <!-- BE fees table starts here  -->
+    <section id="befees">
+      <div class="container">
+        <br />
+        <h1 style="text-align: center; margin: 20px 0">
+          BE First Year & Direct Second Year Fee Structure
+        </h1>
+
+        <div class="row mt-0">
+          <div class="col-md-4 mt-1">
+            <hr
+              style="
+                width: 100%;
+                height: 2px;
+                background-color: #87ceeb;
+                float: left;
+              "
+            />
+          </div>
+          <div class="col-md-4">
+            <div class="text-center">
+              <h2>Academic Year <br /><strong>2021-2022 </strong></h2>
+            </div>
+          </div>
+          <div class="col-md-4 mt-0">
+            <hr
+              style="
+                width: 100%;
+                height: 2px;
+                background-color: #87ceeb;
+                float: left;
+              "
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container" id="pc-table" style="overflow-x: auto">
+        <br />
+
+        <table class="table" style="width: 100%">
+          <thead
+            style="text-align: center; background-color: blue; color: white"
+          >
+            <tr>
+              <th scope="col">Sr.No</th>
+              <th scope="col">Details</th>
+              <th scope="col">Open(MS)</th>
+              <th scope="col">Open(OMS)</th>
+              <th scope="col">OBC/SEBC/EWS</th>
+              <th scope="col">SC</th>
+              <th scope="col">VJNT/SBC/ST/TFWS</th>
+              <th scope="col">J&K</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Tution Fees</td>
+              <td>81997</td>
+              <td>81997</td>
+              <td>40999</td>
+              <td>0</td>
+              <td>0</td>
+              <td>24000</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Developement Fees</td>
+              <td>10003</td>
+              <td>10003</td>
+              <td>10003</td>
+              <td>0</td>
+              <td>10003</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>SP Pune University Fees</td>
+              <td>818</td>
+              <td>1318</td>
+              <td>818</td>
+              <td>818</td>
+              <td>818</td>
+              <td>1318</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Admission Form and I-card Fees</td>
+              <td>1250</td>
+              <td>1250</td>
+              <td>1250</td>
+              <td>1250</td>
+              <td>1250</td>
+              <td>1250</td>
+            </tr>
+
+            <tr
+              style="
+                color: white;
+                font-weight: 700;
+                background-color: rgb(82, 82, 245);
+              "
+            >
+              <th scope="row"></th>
+              <td>Total</td>
+              <td>94068</td>
+              <td>94568</td>
+              <td>53070</td>
+              <td>2068</td>
+              <td>12071</td>
+              <td>26568</td>
+            </tr>
+          </tbody>
+        </table>
+        <h5 style="text-align: center">
+          Payment Mode: Debit Card / Credit Card / Demand Draft / Net Banking
+        </h5>
+      </div>
+
+      <br />
+
+      <section>
+        <div class="container">
+          <div class="row mt-0">
+            <div class="col-md-4 mt-1">
+              <hr
+                style="
+                  width: 100%;
+                  height: 2px;
+                  background-color: #87ceeb;
+                  float: left;
+                "
+              />
+            </div>
+            <div class="col-md-4">
+              <div class="text-center">
+                <h2><strong>Bank Details</strong></h2>
+              </div>
+            </div>
+            <div class="col-md-4 mt-0">
+              <hr
+                style="
+                  width: 100%;
+                  height: 2px;
+                  background-color: #87ceeb;
+                  float: left;
+                "
+              />
+            </div>
+          </div>
+          <div id="bank-details01">
+            <table class="table" style="width: 50%; margin: 0 auto">
+              <tbody>
+                <tr>
+                  <th scope="col">A/C Holder Name:</th>
+                  <td>DR. D Y PATIL SCHOOL OF ENGINEERING</td>
+                </tr>
+                <tr>
+                  <th scope="col">Bank Name:</th>
+                  <td>ICICI</td>
+                </tr>
+                <tr>
+                  <th scope="col">Account No:</th>
+                  <td>397705001110</td>
+                </tr>
+                <tr>
+                  <th scope="col">RTGS / NEFT IFSC:</th>
+                  <td>ICIC0003977</td>
+                </tr>
+                <tr>
+                  <th scope="col">Account Branch:</th>
+                  <td>DHANORI Branch</td>
+                </tr>
+                <tr>
+                  <th scope="col">Address:</th>
+                  <td>
+                    Shop No, 1,2,3,4 Grounf Floor Tirupati Kashi Ganga, <br />
+                    S. No. 16/31B, Dhanori, Pune, Maharashtra 411015
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- BE fees table ends here  -->
+
+    <br />
+    <br />
+    <br />
+
+    <!-- ME fees table starts here  -->
+    <section id="mefees">
+      <div class="container">
+        <h1 style="text-align: center; margin: 20px 0">ME Fee Structure</h1>
+        <div class="row mt-0">
+          <div class="col-md-4 mt-1">
+            <hr
+              style="
+                width: 100%;
+                height: 2px;
+                background-color: #87ceeb;
+                float: left;
+              "
+            />
+          </div>
+          <div class="col-md-4">
+            <div class="text-center">
+              <h2>Academic Year <br /><strong>2021-2022 </strong></h2>
+            </div>
+          </div>
+          <div class="col-md-4 mt-0">
+            <hr
+              style="
+                width: 100%;
+                height: 2px;
+                background-color: #87ceeb;
+                float: left;
+              "
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container" id="pc-table" style="overflow-x: auto">
+        <br />
+
+        <table class="table" style="width: 100%">
+          <thead
+            style="text-align: center; background-color: blue; color: white"
+          >
+            <tr>
+              <th scope="col">Sr.No</th>
+              <th scope="col">Particular</th>
+              <th scope="col">MAH State/Open</th>
+              <th scope="col">Other State</th>
+              <th scope="col">SC Scholarship</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Tution Fees</td>
+              <td>90506</td>
+              <td>90506</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Developement Fees</td>
+              <td>11494</td>
+              <td>11494</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>
+                <b
+                  >Scholarship from 'Dr. D Y Patil Educational <br />
+                  Enterprises CHaritable Trust'</b
+                >
+              </td>
+              <td>47000</td>
+              <td>47000</td>
+              <td>NA</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td><b>(Tuition+Developement) Fee after Scholarship</b></td>
+              <td>55000</td>
+              <td>55000</td>
+              <td>0</td>
+            </tr>
+
+            <tr>
+              <th scope="row">3</th>
+              <td>University Prorata</td>
+              <td>748</td>
+              <td>1248</td>
+              <td>748</td>
+            </tr>
+
+            <tr>
+              <th scope="row">4</th>
+              <td>Admission From, ID Card</td>
+              <td>1250</td>
+              <td>1250</td>
+              <td>1250</td>
+            </tr>
+
+            <tr
+              style="
+                color: white;
+                font-weight: 700;
+                background-color: rgb(82, 82, 245);
+              "
+            >
+              <th scope="row"></th>
+              <td>Total Fees Payble</td>
+              <td>56998</td>
+              <td>57498</td>
+              <td>1998</td>
+            </tr>
+          </tbody>
+        </table>
+        <h5 style="text-align: center">
+          Payment Mode: NEFT / RTGS / Debit Card / Credit Card
+        </h5>
+        <br />
+        <!-- bank details start here  -->
+
+        <!-- bank details ends here  -->
+      </div>
+
+      <section>
+        <div class="container">
+          <div class="row mt-0">
+            <div class="col-md-4 mt-1">
+              <hr
+                style="
+                  width: 100%;
+                  height: 2px;
+                  background-color: #87ceeb;
+                  float: left;
+                "
+              />
+            </div>
+            <div class="col-md-4">
+              <div class="text-center">
+                <h2><strong>Bank Details</strong></h2>
+              </div>
+            </div>
+            <div class="col-md-4 mt-0">
+              <hr
+                style="
+                  width: 100%;
+                  height: 2px;
+                  background-color: #87ceeb;
+                  float: left;
+                "
+              />
+            </div>
+          </div>
+          <div id="bank-details02">
+            <table class="table" style="width: 50%; margin: 0 auto">
+              <tbody>
+                <tr>
+                  <th scope="col">A/C Holder Name:</th>
+                  <td>DR. D Y PATIL SCHOOL OF ENGINEERING</td>
+                </tr>
+                <tr>
+                  <th scope="col">Bank Name:</th>
+                  <td>ICICI</td>
+                </tr>
+                <tr>
+                  <th scope="col">Account No:</th>
+                  <td>397705001110</td>
+                </tr>
+                <tr>
+                  <th scope="col">RTGS / NEFT IFSC:</th>
+                  <td>ICIC0003977</td>
+                </tr>
+                <tr>
+                  <th scope="col">Account Branch:</th>
+                  <td>DHANORI Branch</td>
+                </tr>
+                <tr>
+                  <th scope="col">Address:</th>
+                  <td>
+                    Shop No, 1,2,3,4 Grounf Floor Tirupati Kashi Ganga, <br />
+                    S. No. 16/31B, Dhanori, Pune, Maharashtra 411015
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- ME fees table ends here  -->
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!-- FY fees table starts here  -->
+    <section id="fyfees">
+      <div class="container">
+        <h1 style="text-align: center; margin: 20px 0">
+          Diploma First Year Fee Structure
+        </h1>
+        <div class="row mt-0">
+          <div class="col-md-4 mt-1">
+            <hr
+              style="
+                width: 100%;
+                height: 2px;
+                background-color: #87ceeb;
+                float: left;
+              "
+            />
+          </div>
+          <div class="col-md-4">
+            <div class="text-center">
+              <h2>Academic Year <br /><strong>2021-2022 </strong></h2>
+            </div>
+          </div>
+          <div class="col-md-4 mt-0">
+            <hr
+              style="
+                width: 100%;
+                height: 2px;
+                background-color: #87ceeb;
+                float: left;
+              "
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container" id="pc-table" style="overflow-x: auto">
+        <br />
+
+        <table class="table" style="width: 100%">
+          <thead
+            style="text-align: center; background-color: blue; color: white"
+          >
+            <tr>
+              <th scope="col">Sr.No</th>
+              <th scope="col">Particulars</th>
+              <th scope="col">OPEN MAH <br />/ OMS</th>
+              <th scope="col">OPEN WITH <br />EBC/OBC/SEBC/EWS</th>
+              <th scope="col">SC</th>
+              <th scope="col">VJNT/SBC/ST/NT/DT</th>
+              <th scope="col">TFWS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Tution Fees</td>
+              <td>45,252</td>
+              <td>22626</td>
+              <td>00</td>
+              <td>00</td>
+              <td>00</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Developement Fees</td>
+              <td>5,748</td>
+              <td>5,748</td>
+              <td>00</td>
+              <td>5,748</td>
+              <td>5,748</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>MSBTE ENR. Fee</td>
+              <td>250</td>
+              <td>250</td>
+              <td>250</td>
+              <td>250</td>
+              <td>250</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Admission Form and I-card Fees</td>
+              <td>1250</td>
+              <td>1250</td>
+              <td>1250</td>
+              <td>1250</td>
+              <td>1250</td>
+            </tr>
+
+            <tr
+              style="
+                color: white;
+                font-weight: 700;
+                background-color: rgb(82, 82, 245);
+              "
+            >
+              <th scope="row"></th>
+              <td>Total</td>
+              <td>52500</td>
+              <td>29874</td>
+              <td>1500</td>
+              <td>7248</td>
+              <td>7248</td>
+            </tr>
+          </tbody>
+        </table>
+        <h5 style="text-align: center">
+          Payment Mode: Debit Card / Credit Card / Demand Draft / Net Banking
+        </h5>
+      </div>
+
+      <br />
+
+      <section>
+        <div class="container">
+          <div class="row mt-0">
+            <div class="col-md-4 mt-1">
+              <hr
+                style="
+                  width: 100%;
+                  height: 2px;
+                  background-color: #87ceeb;
+                  float: left;
+                "
+              />
+            </div>
+            <div class="col-md-4">
+              <div class="text-center">
+                <h2><strong>Bank Details</strong></h2>
+              </div>
+            </div>
+            <div class="col-md-4 mt-0">
+              <hr
+                style="
+                  width: 100%;
+                  height: 2px;
+                  background-color: #87ceeb;
+                  float: left;
+                "
+              />
+            </div>
+          </div>
+          <div id="bank-details03">
+            <table class="table" style="width: 50%; margin: 0 auto">
+              <tbody>
+                <tr>
+                  <th scope="col">A/C Holder Name:</th>
+                  <td>DR. D Y PATIL SCHOOL OF ENGINEERING DIPLOMA</td>
+                </tr>
+                <tr>
+                  <th scope="col">Bank Name:</th>
+                  <td>ICICI</td>
+                </tr>
+                <tr>
+                  <th scope="col">Account No:</th>
+                  <td>397705001111</td>
+                </tr>
+                <tr>
+                  <th scope="col">RTGS / NEFT IFSC:</th>
+                  <td>ICIC0003977</td>
+                </tr>
+                <tr>
+                  <th scope="col">Account Branch:</th>
+                  <td>DHANORI Branch</td>
+                </tr>
+                <tr>
+                  <th scope="col">Address:</th>
+                  <td>
+                    Shop No, 1,2,3,4 Grounf Floor Tirupati Kashi Ganga, <br />
+                    S. No. 16/31B, Dhanori, Pune, Maharashtra 411015
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- FY fees table ends here  -->
+    <br />
+    <br />
+    <br />
+    <!-- DSY fees table starts here  -->
+
+    <section id="dsyfees">
+      <div class="container">
+        <h1 style="text-align: center; margin: 20px 0">
+          Direct Second Year Diploma Fee Structure
+        </h1>
+        <div class="row mt-0">
+          <div class="col-md-4 mt-1">
+            <hr
+              style="
+                width: 100%;
+                height: 2px;
+                background-color: #87ceeb;
+                float: left;
+              "
+            />
+          </div>
+          <div class="col-md-4">
+            <div class="text-center">
+              <h2>Academic Year <br /><strong>2021-2022 </strong></h2>
+            </div>
+          </div>
+          <div class="col-md-4 mt-0">
+            <hr
+              style="
+                width: 100%;
+                height: 2px;
+                background-color: #87ceeb;
+                float: left;
+              "
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container" id="pc-table" style="overflow-x: auto">
+        <br />
+
+        <table class="table" style="width: 100%">
+          <thead
+            style="text-align: center; background-color: blue; color: white"
+          >
+            <tr>
+              <th scope="col">Sr.No</th>
+              <th scope="col">Particulars</th>
+              <th scope="col">OPEN MAH <br />/ OMS</th>
+              <th scope="col">OPEN WITH <br />EBC/OBC/SEBC/EWS</th>
+              <th scope="col">SC</th>
+              <th scope="col">VJNT/SBC/ST/NT/DT</th>
+              <th scope="col">TFWS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Tution Fees</td>
+              <td>45,252</td>
+              <td>22626</td>
+              <td>00</td>
+              <td>00</td>
+              <td>00</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Developement Fees</td>
+              <td>5,748</td>
+              <td>5,748</td>
+              <td>00</td>
+              <td>5,748</td>
+              <td>5,748</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>MSBTE ENR. + COB Fee</td>
+              <td>450</td>
+              <td>450</td>
+              <td>450</td>
+              <td>450</td>
+              <td>450</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Admission Form and I-card Fees</td>
+              <td>1250</td>
+              <td>1250</td>
+              <td>1250</td>
+              <td>1250</td>
+              <td>1250</td>
+            </tr>
+
+            <tr
+              style="
+                color: white;
+                font-weight: 700;
+                background-color: rgb(82, 82, 245);
+              "
+            >
+              <th scope="row"></th>
+              <td>Total</td>
+              <td>52700</td>
+              <td>30074</td>
+              <td>1700</td>
+              <td>7448</td>
+              <td>7448</td>
+            </tr>
+          </tbody>
+        </table>
+        <h5 style="text-align: center">
+          Payment Mode: Debit Card / Credit Card / Demand Draft / Net Banking
+        </h5>
+      </div>
+
+      <br />
+      <div class="container">
+        <div class="row mt-0">
+          <div class="col-md-4 mt-1">
+            <hr
+              style="
+                width: 100%;
+                height: 2px;
+                background-color: #87ceeb;
+                float: left;
+              "
+            />
+          </div>
+          <div class="col-md-4">
+            <div class="text-center">
+              <h2><strong>Bank Details</strong></h2>
+            </div>
+          </div>
+          <div class="col-md-4 mt-0">
+            <hr
+              style="
+                width: 100%;
+                height: 2px;
+                background-color: #87ceeb;
+                float: left;
+              "
+            />
+          </div>
+        </div>
+      </div>
+      <div id="bank-details04">
+        <table class="table" style="width: 40%; margin: 0 auto">
+          <tbody>
+            <tr>
+              <th scope="col">A/C Holder Name:</th>
+              <td>DR. D Y PATIL SCHOOL OF ENGINEERING DIPLOMA</td>
+            </tr>
+            <tr>
+              <th scope="col">Bank Name:</th>
+              <td>ICICI</td>
+            </tr>
+            <tr>
+              <th scope="col">Account No:</th>
+              <td>397705001111</td>
+            </tr>
+            <tr>
+              <th scope="col">RTGS / NEFT IFSC:</th>
+              <td>ICIC0003977</td>
+            </tr>
+            <tr>
+              <th scope="col">Account Branch:</th>
+              <td>DHANORI Branch</td>
+            </tr>
+            <tr>
+              <th scope="col">Address:</th>
+              <td>
+                Shop No, 1,2,3,4 Grounf Floor Tirupati Kashi Ganga, <br />
+                S. No. 16/31B, Dhanori, Pune, Maharashtra 411015
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- DSY fees table ends here  -->
+    <br />
+    <br />
+    <br />
+    <!-- bank details starts here  -->
+
+    <!-- bank details ends here  -->
+
+    <div id="loader"></div>
+    <div id="footer">footer</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/javascript">
+      $(document).ready(() => {
+        $("#loader").load("loader.html");
+        $("#footer").load("footer.html");
+        $("#header").load("header.html");
+      });
+      document.onreadystatechange = function () {
+        if (document.readyState !== "complete") {
+          document.querySelector("body").style.visibility = "hidden";
+          document.querySelector("#loader").style.visibility = "visible";
+        } else {
+          document.querySelector("#loader").style.display = "none";
+          document.querySelector("body").style.visibility = "visible";
+        }
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,1042 @@
+﻿
+<!-- body: white, dark: #001E62, navbar: #012883, light: #1858EC , light-50: #759DF9,   -->
+
+
+
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="shortcut icon" href="img/logo.png">
+<script src="assets/js/comp.js" charset="utf-8"></script>
+
+<title>Dr.D Y Patil School of Engineering</title>
+</head>
+<body  style="background-color: white;" >
+  
+    
+
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        #s,#e{
+            animation: zoom 6s linear infinite;
+
+        }
+        @keyframes zoom {
+            16% { fill: red;color: red; }
+            32% { fill: black;color:black; }
+            48% { fill: green;color: green; }
+            64% { fill: blue;color: blue; }
+            80% { fill: maroon;color: maroon; }
+            }
+
+        #l{
+            animation: round 6s linear infinite;
+            transform-origin: bottom;
+        }
+        @keyframes round {
+            16% { background-color: red; transform: scale(0);}
+            32% { background-color: black;transform: scale(0.3); }
+            48% {background-color:  green;transform: scale(0.6); }
+            64% {background-color:  blue;transform: scale(1); }
+            80% { background-color: maroon;transform: scale(0.7); }
+
+        }
+        #loader{
+            position: fixed;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+        }
+        @media screen and (max-width: 440px) {
+          #civil-hod{
+            height: 150px;
+          }
+          #civil-staff{   
+            width: 250px !important;
+          }
+  }
+    </style>
+    <script type="text/javascript">
+      document.onreadystatechange = function() {
+    if (document.readyState !== "complete") {
+        document.querySelector("body").style.visibility = "hidden";
+        document.querySelector("#loader").style.visibility = "visible";
+    } else {
+        document.querySelector("#loader").style.display = "none";
+        document.querySelector("body").style.visibility = "visible";
+    }
+};
+
+    </script>
+    <div id="header">header</div>
+
+  
+
+  <section id="computer">
+    <div class="10vh"  style="height:330px;">
+  
+  
+    <div class="container-fluid" id="imgcivil">
+      <div class="row">
+        <div
+          class="col-md-4 justify-content-center text-center text-white"
+          style="height: 330px; margin-top: 150px"
+        >
+          <h4><strong>CIVIL ENGINEERING IN INFRASTRUCTURE & TOWN PLANING</strong></h4>
+          <div class="row justify-content-left ml-5 pl-5">
+            <a href="index.html">Home</a>
+            <p>-CIVIL ENGINEERING IN INFRASTRUCTURE & TOWN PLANING</p>
+          </div>
+          <br />
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+    </div>
+  
+  
+    </div>
+    <div class="container-fluid" style="position:relative; ">
+      <div id="departmentlist" class="row list-unstyled">
+        <li class="ml-1 text-left w-25 text-center "><h2 class=" p-3  bg-info text-white text-center"><strong>CIVIL<br> ENGINEERING</strong></h2></li>
+      </div>
+      <div class="row">
+        <div class="col-3 pp" >
+           <ul id="departmentlist" class="list-unstyled" >
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e; border:none;" id="introduction1"  type="button" onclick="introduction();" name="button">INTRODUCTION</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="faculty();" name="button">FACULTY</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="hodprofile();" name="button">HOD PROFILE</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="research();" name="button">NEWS </button> </li>
+                 <li>
+                  <button
+                    class="w-100 m-1 pt-2 pb-2 text-white text-left"
+                    style="background: #113e9e; border: none"
+                    type="button"
+                    onclick="iqacc();"
+                    name="button"
+                  >
+                    Events
+                  </button>
+                </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="vm();" name="button">VISSION & MISSION</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="gearlever();" name="button">T & P</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="function2();" name="button">Alumni </button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="pospeos();" name="button">POs & PEOs</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="labdetail();" name="button">LAB & EQUIPMENTS</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="syllabus();" name="button">SYLLABUS</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="student();" name="button">STUDENTS</button> </li>
+  
+           </ul>
+  
+        </div>
+        <div id="departmentdetail" class="col-9">
+          <ul class="list-unstyled pt-4">
+          <li id="function2">
+            <div class="container">
+                   <div class="row">
+                     <h2> <strong>Alumni :</strong></h2>
+                     <br>
+                     <div class="row  m-3 justify-content-center">
+                    <center><video controls="" width="500" height="500">
+                    <source src="img/civil-lab/civil4.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video> </center>
+                </div>
+               
+                <br><br>
+                <div class="row  m-3 justify-content-center">
+                    <center><video controls="" width="500" height="500">
+                    <source src="img/civil-lab/civil5.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video> </center>
+                </div>
+               
+                <br><br>
+                <div class="row  m-3 justify-content-center">
+                    <center><video controls="" width="500" height="500">
+                    <source src="img/civil-lab/civil6.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video> </center>
+                </div>
+               
+                <br><br>
+                        <div class="row  m-3 justify-content-center">
+                    <center><video controls="" width="500" height="500">
+                    <source src="img/civil-lab/civil1.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video> </center>
+                </div>
+               
+                <br><br>
+                <div class="row justify-content-center">
+                  <h2> (2019-20)</h2>
+  
+                </div>
+                <br>
+                 <div class="row  m-3 justify-content-center">
+                    <center><video controls="" width="500" height="500">
+                    <source src="img/civil-lab/civil2.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video> </center>
+                </div>
+                <br><br>
+                <div class="row justify-content-center">
+                  <h2><a href="https://youtu.be/iNRv01cWVgo"> </a></h2>
+  
+                </div>
+                <br>
+                
+                     <div class="row  m-3 justify-content-center">
+                    <center><video controls="" width="500" height="500">
+                    <source src="img/civil-lab/civil3.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video> </center>
+                </div>
+                <br><br>
+                <div class="row justify-content-center">
+                  <h2>(2019-20)</h2>
+  
+                </div>
+                
+                    </div>
+            </div>
+            
+            </li>
+            <li id="introduction" >
+              <div class="container">
+                <div class="row">
+                    <h2> <strong> Introduction</strong></h2>
+  
+                </div>
+                <h2 class="text-center">CIVIL ENGINEERING IN INFRASTRUCTURE & TOWN PLANING</h2>
+                <br>
+                <div  class="row  justify-content-center">
+                  <img class="" src="img/civil-lab/civil-intro.jpg"  width="70%" alt="">
+                </div>
+  
+                <div class="text mt-3  mr-1">
+                  <p style="font-style:italic; color:#575655; font-size:18px; text-indent:50px; text-align:justify;">
+  Civil engineering is the oldest and most respected discipline of all engineering fields. Civil engineers design, build, and manage the infrastructure of civilization, which includes buildings, bridges, highways, water supply systems, and other public works. These services are the cornerstone of the discipline, although no longer the limiting scope. The civil and environmental engineering programs include structural engineering, structural mechanics, geotechnical engineering, earthquake engineering, hydrology and water resources engineering, and environmental engineering.
+  
+  Civil engineers play a vital role in creating the man-made environment and in protecting the natural environment, bringing together science and art to create much of the tangible fabric of today's society. They plan, design, construct, maintain, and manage airports, bridges, tunnels, buildings, harbor facilities, dams, highways, waterways, pipelines, sanitation systems, and other aspects of the built environment.
+  
+  Civil Engineering is a Profession of designing and executing structural works that serve the general public, holding the safety, health, and welfare of the public paramount". Civil engineering is a broad field of engineering dealing with the planning, design, construction, maintenance and management of physical infrastructure networks. </p>
+  
+                </div>
+  
+  
+              </div>
+            </li>
+            <li id="faculty">
+              <div class="container" >
+                <div style=" text-align:center;width: 130px;"><h2  > <strong> Faculty</strong></h2></div>
+                <div class="row"  id="civil-staff" style="height: 700px;overflow-y: scroll;width: 800px;overflow-x: auto;">
+                <!-- <embed  src="img/Comp/comp_staff.pdf" width="100%" height="1200"> -->
+                  <table class="table table-striped" style="width: 800px;"  >
+                    <tbody>
+                        <tr>
+                            <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/civil/Civil-Lt-Col-Sanjay-Karodpati.JPG" alt="" height="150px"  ></td>
+                            <td > 
+                                <strong>Lt. Col. Sanjay Karodpati</strong><br><br>
+                                <strong> Qualification:</strong>  M.E (Construction Management), PhD (Pursuing)
+                                <br>
+                                <strong> Experience:</strong>35 Years <br>
+                                <strong> Email ID:</strong> D: hod_civil@dypic.in  <br>
+                                <strong> Specialization:</strong> Construction Management
+                                
+                            </td>
+                          </tr>
+  
+  
+                          <tr>
+                            <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/civil/Civil-Dr-Rajesh-Katdare.JPG" alt="" height="150px"  ></td>
+                            <td > 
+                                <strong>Dr. Rajesh Katdare </strong><br><br>
+                                <strong> Qualification:</strong>  M.Tech (Environment), Ph.D
+                                
+                                <br>
+                                <strong> Experience:</strong>40 Years <br>
+                                <strong> Email ID:</strong>  rajesh.katdare@dypic.in
+                                
+                                 <br>
+                                <strong> Specialization:</strong> Environmental Engineering
+                                
+                            </td>
+                          </tr>
+  
+                          <tr>
+                            <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/civil/Civil-Prof-Ramakant-Koshti.JPG" alt="" height="150px"  ></td>
+                            <td > 
+                                <strong>Ramakant Koshti   </strong><br><br>
+                                <strong> Qualification:</strong>  M.E. (Structures), Ph.D (Pursuing)
+                                <br>
+                                <strong> Experience:</strong> 25 Years <br>
+                                <strong> Email ID:</strong>   ramakant.koshti@dypic.in<br>
+                                <strong> Specialization:</strong>Structural  Engineering
+                            </td>
+                          </tr>
+  
+                          <tr>
+                            <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/civil/Civil-Prof-Jitendra-Dalvi.JPG" alt="Photo here" height="150px"  ></td>
+                            <td > 
+                                <strong>Jitendra Dalvi</strong><br><br>
+                                <strong> Qualification:</strong> ME  (Structures) Ph.D (pursuing)
+                                 <br>
+                                <strong> Experience:</strong> 20 Years <br>
+                                <strong> Email ID:</strong>   jitendradalvi@dypic.in<br>
+                                <strong> Specialization:</strong>   Structural Engineering
+                                
+                            </td>
+                          </tr>
+                        
+                          <tr>
+                            <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/civil/Civil-Prof-Uday-Kakde.JPG" alt="" height="150px"  ></td>
+                            <td > 
+                                <strong>Uday Kakde</strong><br><br>
+                                <strong> Qualification:</strong>   M.Tech   (Structures), PhD (Pursuing) <br>
+                                <strong> Experience:</strong> 12 Years <br>
+                                <strong> Email ID:</strong>   udaykakde@dypic.in<br>
+                                <strong> Specialization:</strong>  Structural Engineering
+                                
+                            </td>
+                          </tr>
+  
+                          <tr>
+                            <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/civil/Civil-Swapnil-Bijwe.jpg" alt="" height="150px"  ></td>
+                            <td > 
+                                <strong>Swapnil Bijwe</strong><br><br>
+                                <strong> Qualification:</strong> M.Tech(Envi),PhD  (Pursuing)<br>
+                                <strong> Experience:</strong> 11 Years <br>
+                                <strong> Email ID:</strong>   swapnilbijwe@dypic.in<br>
+                                <strong> Specialization:</strong>Environmental   Engineering
+                            </td>
+                          </tr>
+                        
+                          <tr>
+                            <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/civil/Civil-Proff-Akanksha-Ingle.JPG" alt="" height="150px"    ></td>
+                            <td > 
+                                <strong>Aakansha Ingle</strong><br><br>
+                                <strong> Qualification:</strong>    M.E (Construction Management), PhD (Pursuing)
+                                <br>
+                                <strong> Experience:</strong> 5 Years <br>
+                                <strong> Email ID:</strong>  aakanshaingle@dypic.in
+                                
+                                 <br>
+                                <strong> Specialization:</strong>  Construction  Management
+                                
+                            </td>
+                          </tr>
+  
+                          <tr>
+                            <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/civil/Civil-Prof-Prasad-Gayake.JPG" alt="" height="150px"  ></td>
+                            <td > 
+                                <strong>Prasad Gayake</strong><br><br>
+                                <strong> Qualification:</strong> M.Tech (Structures) <br>
+                                <strong> Experience:</strong> 6 Years <br>
+                                <strong> Email ID:</strong>  prasdgayake@dypic.in<br>
+                                <strong> Specialization:</strong>  Structural Engineering
+                            </td>
+                          </tr>
+                        
+                          <tr>
+                            <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/civil/Civil-Prof-Aniket-Nemade.JPG" alt="" height="150px"  ></td>
+                            <td > 
+                                <strong>Aniket Nemade</strong><br><br>
+                                <strong> Qualification:</strong>  M.Tech  (Structures)<br>
+                                <strong> Experience:</strong> 4.5 Years <br>
+                                <strong> Email ID:</strong> nemadeaniket@dypic.in
+                                 <br>
+                                <strong> Specialization:</strong>  Structural Engineering
+                            </td>
+                          </tr>
+  
+                          <tr>
+                            <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/civil/Civil-Ahinsak-Taksande.jpg" alt="" height="150px"  ></td>
+                            <td > 
+                                <strong>Ahinsak Taksande </strong><br><br>
+                                <strong> Qualification:</strong>   ME (Structures) 
+                                <br>
+                                <strong> Experience:</strong> 5 Years <br>
+                                <strong> Email ID:</strong>   ahinsaktaksande@dypic.in
+                                 <br>
+                                <strong> Specialization:</strong> Structural Engineering
+                            </td>
+                          </tr>
+                        
+
+                          <tr>
+                            <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/civil/Civil-Prof-Uzma-Shaikh.JPG" alt="" height="150px"  ></td>
+                            <td > 
+                                <strong>Uzma Shaikh </strong><br><br>
+                                <strong> Qualification:</strong> M.Tech(WRE)
+                                <br>
+                                <strong> Experience:</strong> 4 Years <br>
+                                <strong> Email ID:</strong>  uzma@dypic.in <br>
+                                <strong> Specialization:</strong>  Water  Resources Engineering
+                                
+                            </td>
+                          </tr>
+                          
+                    </tbody>
+                  </table>
+            
+                
+              </div>
+  
+            </div></li>
+            <li id="hod-profile">
+              <div class="container">
+  
+                <div class="row">
+                    <h2 style="margin: 10px auto;" > <strong> Hod Profile</strong></h2>
+                    <br>
+                  <div class="col-md-12 text-center"style="font-family:Bodoni MT;font-size:20px;" >
+                        <img src="soe-staff-photo/civil/Civil-Lt-Col-Snajay-Karodpati-hod.JPG" id="civil-hod" height="500px" alt="">                    <br>
+                    <h2 ><strong>Prof. Lt. Col. Sanjay Karodpati</strong></h2>
+                    <h5 > ME (CM), Ph. D (Pursuing)</h5>
+                  </div>
+                  <p class="mt-3  mr-1" style="font-style:italic; color:#575655; font-size:18px; text-indent:50px; text-align:justify;">1.  An affectionate welcome to the Civil Engineering discipline. The Department of Civil Engineering strives for excellence in teaching and learning along with professional development. The department has          state-of-art laboratories with dedicated team to support vision of our college. The department with its experienced faculties offer practice based education thereby preparing our students for a successful and rewarding career.<br>
+  <br>
+  2.  The department maintains its strong links with the construction industry by engaging in consultancy activities. The students here are encouraged to engage extra-curricular and co-curricular activities which are essential for personality development, nurturing of team spirit and development of organizational skills.<br>
+  <br>
+   3. The field of Civil Engineering is very broad, covering many areas such as planning, design and construction of buildings, highways and bridges, irrigation schemes, water supply and sewerage schemes, powerhouses and transmission systems, tunnels and underground structures, etc.  It is our aim to provide you with the necessary education to face these challenges with confidence.<br>
+  <br>
+   4. If you are looking for a well-balanced and innovative teaching-learning
+         environment, come join us now and build the Nation!<br>
+  
+                   </p>
+  
+  
+  
+                </div>
+  
+              </div>
+            </li>
+            <li id="research">
+              <div class="container">
+                <div class="row">
+                  <h4><strong>News & Events</strong></h4>
+  
+                </div>
+                <div class="row m-1">
+                  <ul class="" style="font-style:italic; color:#575655; font-size:18px;  text-align:justify;">
+                    <li><a href="img/civil-lab/website_updation_for_March.pdf">Website Updation Report For March 2021</a></li>  
+                  <br> 
+                    <li><a href="img/civil-lab/FDP Programme.pdf">FDP Programme</a></li>
+                  <br>
+  
+                  <li><a href="img/civil-lab/Seminar.pdf">Seminar</a></li>
+                  <br>
+  
+                  <li><a href="img/civil-lab/Social work by students.pdf">Social work by students</a></li>
+                  <br>
+                  <li><a href="img/civil-lab/Sports.pdf">Sports</a></li>
+                  <br>
+                  <li><a href="img/civil-lab/Testing and consultancy cell.pdf">Testing and consultancy cell</a></li>
+                  <br>
+                  <li><a href="img/civil-lab/Visit_Zilla_Parishad_School.pdf">Visit_Zilla_Parishad_School</a></li>
+               </ul>
+  
+  
+  
+                </div>
+  
+              </div>
+            </li>
+  
+            <li id="vm">
+              <div class="container">
+                <div class="row">
+                    <h2> <strong> Vision & Mission</strong></h2>
+                </div>
+                <div class="row mt-3 mr-2">
+                  <h4> <strong> Vision :- </strong></h4>
+                  <br>
+                  <div class="">
+                    <br> To meet the needs of the society by educating students with requisite technical skills enabling them to achieve excellence in Civil Engineering.
+                  </div>
+  
+                </div>
+                <div class="row mt-3  mr-2">
+                  <h4> <strong> Mission :-</strong></h4>
+                     <ul>
+                       <li>To transform students into competent workforce possessing high quality consciousness with ethical values. </li>
+                       <li>To sensitize students in the development of good practices leading to sustainable growth along with industry interactions and entrepreneurial skills. </li>
+                       <li>To enter into Memorandum of Understanding with Civil Engineering Industries and reputed National and International Institutes/Universities for exchange of academic practices, research and development. </li>
+                       <li>To encourage students and faculty to participate in Govt. funded development programme and consultancy activities.
+  </li>
+                     </ul>
+                    </div>
+  
+  
+              </div>
+            </li>
+            <li id="iqacc">
+              <div class="container">
+                <div class="row">
+                  <h4><strong>Events</strong></h4>
+                </div>
+                <br />
+                <div class="row m-1">
+                  <h6 class="text-center">Activity Report 2021</h6>
+                  <ul
+                    class=""
+                    style="
+                      font-style: italic;
+                      color: #575655;
+                      font-size: 18px;
+                      text-align: justify;
+                    "
+                  >
+                    <li>
+                      <a
+                        href="img/civil-lab/Monthly_Activity_Report_Feb_2021.pdf"
+                        >Monthly Activity Report Feb 2021</a
+                      >
+                    </li>
+                    <br />
+                    <li>
+                      <a
+                        href="img/civil-lab/Monthly_Activity_Report_Jan_2021.pdf"
+                        >Monthly Activity Report Jan 2021</a
+                      >
+                    </li>
+                    <br />
+
+                    <li>
+                      <a
+                        href="img/civil-lab/Monthly_Activity_Report_March_2021.pdf"
+                        >Monthly Activity Report March 2021</a
+                      >
+                    </li>
+                    <br />
+
+                    <li>
+                      <a
+                        href="img/civil-lab/Monthly_Activity_Report_April_2021.pdf"
+                        >Monthly Activity Report April 2021</a
+                      >
+                    </li>
+                    <br />
+                    <li>
+                      <a
+                        href="img/civil-lab/Monthly_Activity_Report_July_2021.pdf"
+                        >Monthly Activity Report July 2021</a
+                      >
+                    </li>
+                    <br />
+                    <li>
+                      <a
+                        href="img/civil-lab/Monthly_Activity_Report_June_2021.pdf"
+                        >Monthly Activity Report June 2021</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <br />
+                <div class="row m-1">
+                  <h6 class="text-center">Activity Report 2020</h6>
+                  <ul
+                    class=""
+                    style="
+                      font-style: italic;
+                      color: #575655;
+                      font-size: 18px;
+                      text-align: justify;
+                    "
+                  >
+                    <li>
+                      <a
+                        href="img/civil-lab/Monthly_Activity_Report_Nov_2020.pdf"
+                        >Monthly Activity Report Nov 2020</a
+                      >
+                    </li>
+                    <br />
+                    <li>
+                      <a
+                        href="img/civil-lab/Monthly_Activity_Report_Aug_2020.pdf"
+                        >Monthly Activity Report Aug 2020</a
+                      >
+                    </li>
+                    <br />
+
+                    <li>
+                      <a
+                        href="img/civil-lab/Monthly_Activity_Report_Dec_2020.pdf"
+                        >Monthly Activity Report Dec 2020</a
+                      >
+                    </li>
+                    <br />
+
+                    <li>
+                      <a
+                        href="img/civil-lab/Monthly_Activity_Report_July_2020.pdf"
+                        >Monthly Activity Report July 2020</a
+                      >
+                    </li>
+                    <br />
+                    <li>
+                      <a
+                        href="img/civil-lab/Monthly_Activity_Report_May_2020.pdf"
+                        >Monthly Activity Report May 2020</a
+                      >
+                    </li>
+                    <br />
+                    <li>
+                      <a
+                        href="img/civil-lab/Monthly_Activity_Report_OCT_2020.pdf"
+                        >Monthly Activity Report OCT 2020</a
+                      >
+                    </li>
+                    <br />
+                    <li>
+                      <a
+                        href="img/civil-lab/Monthly_Activity_Report_SEP_2020.pdf"
+                        >Monthly Activity Report SEP 2020</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+  
+            <li id="pospeos">
+                 <div class="container ">
+                   <div class="row">
+                     <h2> <strong> PO's and PEO's</strong></h2>
+                   </div>
+                   <div class="row mt-3 mr-2">
+                     <h6> <strong> Program Outcomes(PO):-</strong></h6>
+                      <ul class="">
+                        <li>Apply the knowledge of mathematics, science, engineering fundamentals, and Civil Engineering principles to the solution of complex problems in Civil Engineering. </li>
+  
+                        <li>Identify, formulate, research literature, and analyze complex Civil Engineering problems reaching substantiated conclusions using first principles of mathematics and engineering sciences. </li>
+  
+                        <li>Design solutions for complex Civil Engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations. </li>
+  
+                        <li>Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions related to Civil Engineering problems. </li>
+  
+                        <li>Create, select, and apply appropriate techniques, resources, and modern engineering tools such as CAD, FEM and GIS including prediction and modeling to complex Civil Engineering activities with an understanding of the limitations.</li>
+  
+                        <li> Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional Civil Engineering practice.</li>
+  
+                        <li>Understand the impact of the professional Civil Engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development.</li>
+  
+                        <li>Apply ethical principles and commit to professional ethics and responsibilities and norms of the Civil Engineering practice.</li>
+  
+                        <li>Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings </li>
+  
+                        <li>Communicate effectively on complex Civil Engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.</li>
+  
+       <li> Demonstrate knowledge and understanding of the engineering and management principles and apply these to oneâ€™s own work, as a member and leader in a team, to manage Civil Engineering projects and in multidisciplinary environments. </li>
+  
+                        <li>Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change. </li>
+                      </ul>
+                      <br>
+                      <h6> <strong><br> Program Educational Objectives (PEO) :-</strong></h6>
+                      <ul>
+                        <li>To establish an understanding of professional ethics, quality continuances, safety, and sustainability that will lead to giving solutions of complex civil engineering problems. </li>
+                        <li>To develop studentâ€™s communication skills in oral, written, visual modes and develop team spirit when working as team member or leader. </li>
+                        <li>To groom students become compact and engaged engineering professionals so that they can apply their technical, communication  and managerial skill in the planning, designing, construction or maintenance of built and global environment. </li>
+  
+                      </ul>
+  
+                      <h6> <strong> <br> Program Specific Outcomes (PSO):-</strong></h6>
+                      <ul>
+  
+  
+                        <li>PSO1: To Identify and formulate complex civil engineering problems, using literature and new analysis techniques by involving students and imparting in them, the research culture and training to handle the experimental facilities and use of modern engineering tools like CAD, FEM, GIS and other modelling techniques provided at the â€˜Innovation and Incubation centre  at the Institute. The validation of the conclusions drawn in this way is done to ensure if the consideration of the cultural diversity, societal and Environmental obligations for the sustainable growth of the Institute is taken into account or otherwise.
+   </li>
+                        <li>
+  PSO2: To visualize and understand both positive and negative impacts of Engineering solutions provided by taking into consideration professional ethics, social benefits of the society. </li>
+                        <li>PSO3: To develop studentâ€™s personality by imparting in them, the leadership qualities to head independently a diverse and multidisciplinary team, having credentials like effective communication &amp; report preparation and an appetite to undergo independent and lifelong learning capabilities in the broadest contest of technology change.
+  
+   </li>
+  
+                      </ul>
+  
+  
+                   </div>
+  
+                 </div>
+              </li>
+  
+            <li id="labdetail">
+              <div class="container">
+                <div class="row">
+                  <h2> <strong>Lab Details :-</strong></h2>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 mt-2">
+                    <div class="p-3 card text-center" style="background-color:#d8dde8;">
+                      <h4> <strong>Strength of Material Lab</strong></h4>
+                      <div class=" row  justify-content-center" >
+                          <div class="col-md-4">
+                            <div class="row p-2">
+                              <img src="img/civil-lab/Strength1.png" width="90%"   alt="">
+  
+                            </div>
+  
+                          </div>
+                          <div class="col-md-4">
+                             <div class="row p-2">
+                               <img src="img/civil-lab/Strength2.png" width="90%"  alt="">
+  
+  
+                             </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="row p-2">
+                              <img src="img/civil-lab/Strength3.png" width="90%"  alt="">
+  
+  
+                            </div>
+                          </div>
+                            </div>
+  
+  
+  
+                    </div>
+  
+                  </div>
+                  <div class="col-md-12 mt-2">
+                    <div class="p-3 card text-center" style="background-color:#ebf2f2;">
+                      <h4> <strong>Concrete Technology Lab</strong></h4>
+                      <div class=" row  justify-content-center" >
+                          <div class="col-md-6">
+                            <div class="row p-2">
+                              <img src="img/civil-lab/con1.png"  width="90%"  alt="">
+  
+                            </div>
+  
+                          </div>
+                          <div class="col-md-6">
+                             <div class="row p-2">
+                               <img src="img/civil-lab/con2.png" width="90%"  alt="">
+  
+  
+                             </div>
+                          </div>
+  
+                            </div>
+  
+  
+  
+                    </div>
+  
+                  </div>
+                  <div class="col-md-12 mt-2">
+                    <div class="p-3 card text-center" style="background-color:#ebf2f2;">
+                      <h4> <strong>Transportation Lab</strong></h4>
+                      <div class=" row  justify-content-center" >
+                          <div class="col-md-12">
+                            <div class="row p-2">
+                              <img src="img/civil-lab/tran.png"  width="90%"  alt="">
+  
+                            </div>
+  
+                          </div>
+                                                  </div>
+  
+  
+  
+                    </div>
+  
+                  </div>
+                  <div class="col-md-12 mt-2">
+                    <div class="p-3 card text-center" style="background-color:#ebf2f2;">
+                      <h4> <strong>Geotechnical Engineering Lab</strong></h4>
+                      <div class=" row  justify-content-center" >
+                          <div class="col-md-4">
+                            <div class="row p-2">
+                              <img src="img/civil-lab/geo1.png"  width="90%"  alt="">
+  
+                            </div>
+  
+                          </div>
+                          <div class="col-md-4">
+                             <div class="row p-2">
+                               <img src="img/civil-lab/geo2.png" width="90%" alt="">
+  
+  
+                             </div>
+                          </div>
+                          <div class="col-md-4">
+                             <div class="row p-2">
+                               <img src="img/civil-lab/geo3.png" width="90%"  alt="">
+  
+  
+                             </div>
+                          </div>
+  
+                            </div>
+  
+  
+  
+                    </div>
+  
+                  </div>
+                  <div class="col-md-12 mt-2">
+                    <div class="p-3 card text-center" style="background-color:#ebf2f2;">
+                      <h4> <strong>Geology Lab</strong></h4>
+                      <div class=" row  justify-content-center" >
+                          <div class="col-md-6">
+                            <div class="row p-2">
+                              <img src="img/civil-lab/jo1.png" width="90%"   alt="">
+  
+                            </div>
+  
+                          </div>
+                          <div class="col-md-6">
+                             <div class="row p-2">
+                               <img src="img/civil-lab/jo2.png" width="90%"  alt="">
+  
+  
+                             </div>
+                          </div>
+  
+                            </div>
+  
+  
+  
+                    </div>
+  
+                  </div>
+                  <div class="col-md-12 mt-2">
+                    <div class="p-3 card text-center" style="background-color:#ebf2f2;">
+                      <h4> <strong>Fluid Mechanics Lab</strong></h4>
+                      <div class=" row  justify-content-center" >
+                          <div class="col-md-6">
+                            <div class="row p-2">
+                              <img src="img/civil-lab/flu1.png"  width="90%"  alt="">
+  
+                            </div>
+  
+                          </div>
+                          <div class="col-md-6">
+                             <div class="row p-2">
+                               <img src="img/civil-lab/flu2.png"  width="90%" alt="">
+  
+  
+                             </div>
+                          </div>
+  
+                            </div>
+  
+  
+  
+                    </div>
+  
+                  </div>
+                  <div class="col-md-12 mt-2">
+                    <div class="p-3 card text-center" style="background-color:#ebf2f2;">
+                      <h4> <strong>Surveying Lab</strong></h4>
+                      <div class=" row  justify-content-center" >
+                          <div class="col-md-6">
+                            <div class="row p-2">
+                              <img src="img/civil-lab/sur1.png" width="90%"   alt="">
+  
+                            </div>
+  
+                          </div>
+                          <div class="col-md-6">
+                             <div class="row p-2">
+                               <img src="img/civil-lab/sur2.png"   width="90%" alt="">
+  
+  
+                             </div>
+                          </div>
+  
+                            </div>
+  
+  
+  
+                    </div>
+  
+                  </div>
+                  <div class="col-md-12 mt-2">
+                    <div class="p-3 card text-center" style="background-color:#ebf2f2;">
+                      <h4> <strong>Environmental Enginering Lab </strong></h4>
+                      <div class=" row  justify-content-center" >
+                          <div class="col-md-6">
+                            <div class="row p-2">
+                              <img src="img/civil-lab/en1.png" width="90%"   alt="">
+  
+                            </div>
+  
+                          </div>
+                          <div class="col-md-6">
+                             <div class="row p-2">
+                               <img src="img/civil-lab/en2.png"  width="90%" alt="">
+  
+  
+                             </div>
+                          </div>
+  
+                            </div>
+  
+  
+  
+                    </div>
+  
+                  </div>
+                  <div class="col-md-12 mt-2">
+                    <div class="p-3 card text-center" style="background-color:#ebf2f2;">
+                      <h4> <strong>Engineering Mechanics Lab  </strong></h4>
+                      <div class=" row  justify-content-center" >
+                          <div class="col-md-6">
+                            <div class="row p-2">
+                              <img src="img/civil-lab/lab1.png" width="90%"   alt="">
+  
+                            </div>
+  
+                          </div>
+                          <div class="col-md-6">
+                             <div class="row p-2">
+                               <img src="img/civil-lab/lab2.png" width="90%"  alt="">
+  
+  
+                             </div>
+                          </div>
+  
+                            </div>
+  
+  
+  
+                    </div>
+  
+                  </div>
+  
+  
+  
+                </div>
+  
+              </div>
+            </li>
+            <li id="syllabus">
+               <div class="container">
+                 <div class="row">
+                    <h2> <strong>Syllabus</strong></h2>
+  
+                 </div>
+                 <br>
+                 <div class="row">
+                   <div class="col-md-4">
+                     <div class="card m-1 text-center">
+                       <div class="justify-content-center p-3">
+  
+                           <img class="p-3 rounded-circle border " src="img/pdficon.png" width="80px" alt="">
+  
+                         <h4>SECOND YEAR</h4>
+  
+                         <a href="img/civil-lab/SE syllabus.pdf">Download</a>
+                       </div>
+  
+                     </div>
+                   </div>
+                   <div class="col-md-4">
+                     <div class="card m-1 text-center">
+                       <div class="justify-content-center p-3">
+  
+                           <img class="p-3 rounded-circle border " src="img/pdficon.png" width="80px" alt="">
+  
+                         <h4>THIRD YEAR</h4>
+  
+                         <a href="img/civil-lab/TE syllabus.pdf">Download</a>
+                       </div>
+  
+                     </div>
+  
+                   </div>
+  
+                   <div class="col-md-4">
+                     <div class="card m-1 text-center">
+                       <div class="justify-content-center p-3">
+  
+                           <img class="p-3 rounded-circle border " src="img/pdficon.png" width="80px" alt="">
+  
+                         <h4>FOURTH YEAR</h4>
+  
+                         <a href="img/civil-lab/BE syllabus.pdf">Download</a>
+                       </div>
+  
+                     </div>
+  
+                   </div>
+  
+  
+                 </div>
+  
+               </div>
+            </li>
+            <li id="gearlever">
+              <div class="container">
+                <div class="row">
+                  <h2> <strong> Traning & Placement</strong></h2>
+                  <br>
+                  <embed  src="img/civil-lab/T& P DATA CONSOLIDATED.pdf" width="100%" height="1200">
+                </div>
+    
+              </div></li>
+            <li id="student">
+                 <div class="container ">
+                   <div class="row">
+                     <h2> <strong> Students :</strong></h2>
+                   </div>
+                 
+  
+                 </div>
+              </li>
+          </ul>
+  
+  
+        </div>
+  
+      </div>
+  
+      <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSet1vdPvjCxUACaZI-PJpdWB4AreoTsXarcNZanu4RYrqNtHQ/viewform" target="_blank" class="text-white bg-primary p-2 text-decoration-none"> <b>Apply Now </b></a>
+        </div>
+  
+      </div>
+  
+    </div>
+  </section>
+<div id="loader"></div>
+<div id="footer">footer</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+
+  $(document).ready(()=>{
+   $('#loader').load('loader.html');
+    $('#footer').load('footer.html');
+    $('#header').load('header.html');
+  })
+    document.onreadystatechange = function() {
+    if (document.readyState !== "complete") {
+        document.querySelector("body").style.visibility = "hidden";
+        document.querySelector("#loader").style.visibility = "visible";
+    } else {
+        document.querySelector("#loader").style.display = "none";
+        document.querySelector("body").style.visibility = "visible";
+    }
+};
+  </script>
+</body>
+</html>

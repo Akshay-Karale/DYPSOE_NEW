@@ -1,0 +1,136 @@
+
+<!-- body: white, dark: #001E62, navbar: #012883, light: #1858EC , light-50: #759DF9,   -->
+
+
+
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="shortcut icon" href="img/logo.png">
+
+<title>Dr.D Y Patil School of Engineering</title>
+</head>
+<body  style="background-color: white;" >
+  
+    
+
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        #s,#e{
+            animation: zoom 6s linear infinite;
+
+        }
+        @keyframes zoom {
+            16% { fill: red;color: red; }
+            32% { fill: black;color:black; }
+            48% { fill: green;color: green; }
+            64% { fill: blue;color: blue; }
+            80% { fill: maroon;color: maroon; }
+            }
+
+        #l{
+            animation: round 6s linear infinite;
+            transform-origin: bottom;
+        }
+        @keyframes round {
+            16% { background-color: red; transform: scale(0);}
+            32% { background-color: black;transform: scale(0.3); }
+            48% {background-color:  green;transform: scale(0.6); }
+            64% {background-color:  blue;transform: scale(1); }
+            80% { background-color: maroon;transform: scale(0.7); }
+
+        }
+        #loader{
+            position: fixed;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+        }
+
+    </style>
+    <script type="text/javascript">
+      document.onreadystatechange = function() {
+    if (document.readyState !== "complete") {
+        document.querySelector("body").style.visibility = "hidden";
+        document.querySelector("#loader").style.visibility = "visible";
+    } else {
+        document.querySelector("#loader").style.display = "none";
+        document.querySelector("body").style.visibility = "visible";
+    }
+};
+
+    </script>
+    <div id="header">header</div>
+
+  <br><br>
+
+ <section id="Principal">
+  <div class="container pt-4" >
+    <div class="row mt-0 ">
+      <div class="col-md-4 mt-1"> <hr style="width: 100%; height:2px; background-color:#87CEEB; float:left;"> </div>
+      <div class="col-md-4">
+         <div class="text-center" style="color:#001e62;">
+           <h2><strong>Principal </strong>Desk</h2>
+         </div>
+      </div>
+      <div class="col-md-4 mt-0"><hr style="width: 100%; height:2px; background-color:#87CEEB; float:left;"> </div>
+    </div>
+  </div>
+   <div class="container">
+     <br>
+    <div class="row ml-1 mr-1">
+      <div class="col-md-12 text-center"style="font-family:Bodoni MT;font-size:20px; color:#001e62;" >
+        <img  style="border-radius:20px; border:1px solid gray; " src="img/faook.jpg" width="40%" alt="">
+        <br>
+        <h4 ><strong> Dr. Farook Sayyad</strong></h4>
+		<span>(DME, BE, ME, PhD, PDF(Malaysia))</span>
+        <h2 >Principal, D Y Patil School of Engineering</h2>
+      </div>
+      <p  style="font-style:italic;  font-size:20px; text-align:justify; color:#001e62;">
+        &emsp;&emsp; The college has developed excellent infra-structural facilities with well-equipped laboratories and an enriched library, which are updated regularly.The facilities and in- depth teaching is improvising students to understand the recent trends of Engineering and Technology.The College provides not only technical education to students but also conducts many co-curricular and extra-curricular programs, which ensure multifaceted development of students. With all the laurels we have achieved
+        till date, I am sure we will keep providing a gamut of professional Engineers and Technocrats, backed by top most professional services.
+</p>
+
+
+    </div>
+
+   </div>
+</section>
+<div id="loader"></div>
+<div id="footer">footer</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+
+  $(document).ready(()=>{
+   $('#loader').load('loader.html');
+    $('#footer').load('footer.html');
+    $('#header').load('header.html');
+  })
+    document.onreadystatechange = function() {
+    if (document.readyState !== "complete") {
+        document.querySelector("body").style.visibility = "hidden";
+        document.querySelector("#loader").style.visibility = "visible";
+    } else {
+        document.querySelector("#loader").style.display = "none";
+        document.querySelector("body").style.visibility = "visible";
+    }
+};
+  </script>
+</body>
+</html>

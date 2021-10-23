@@ -1,0 +1,615 @@
+
+<!-- body: white, dark: #001E62, navbar: #012883, light: #1858EC , light-50: #759DF9,   -->
+
+
+
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/comp.js" charset="utf-8"></script>
+
+<link rel="shortcut icon" href="img/logo.png">
+
+<title>Dr.D Y Patil School of Engineering</title>
+</head>
+<body  style="background-color: white;" >
+  
+    
+
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        #s,#e{
+            animation: zoom 6s linear infinite;
+
+        }
+        @keyframes zoom {
+            16% { fill: red;color: red; }
+            32% { fill: black;color:black; }
+            48% { fill: green;color: green; }
+            64% { fill: blue;color: blue; }
+            80% { fill: maroon;color: maroon; }
+            }
+
+        #l{
+            animation: round 6s linear infinite;
+            transform-origin: bottom;
+        }
+        @keyframes round {
+            16% { background-color: red; transform: scale(0);}
+            32% { background-color: black;transform: scale(0.3); }
+            48% {background-color:  green;transform: scale(0.6); }
+            64% {background-color:  blue;transform: scale(1); }
+            80% { background-color: maroon;transform: scale(0.7); }
+
+        }
+        #loader{
+            position: fixed;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+        }
+
+    </style>
+
+    <div id="header">header</div>
+
+  <section id="library">
+    <div class="10vh"  style="height:330px;">
+  
+  
+    <div class="container-fluid" id="imglibrary">
+      <div class="row " >
+        <div class="col-md-6 justify-content-center   text-white" style="height:330px; margin-top:150px;">
+          <h1 class="ml-5 pl-4"> <strong>LIBRARY</strong></h1>
+          <div class="row justify-content-left ml-5 pl-5">
+            <a href="index.html">Home</a><p>-Library</p>
+  
+          </div>
+          <br>
+  
+  
+        </div>
+          <div class="col-md-6">
+  
+          </div>
+  
+      </div>
+    </div>
+  
+  
+    </div>
+    <div class="container-fluid" style="position:relative; ">
+      <div id="departmentlist" class="row list-unstyled">
+        <li class="ml-1 text-left w-25 text-center "><h2 class=" p-3  bg-info text-white text-center"><strong>LIBRARY</strong></h2></li>
+  
+      </div>
+      <div class="row">
+  
+  
+        <div class="col-3 pp" >
+  
+           <ul id="departmentlist" class="list-unstyled" >
+  
+  
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e; border:none;" id="introduction1"  type="button" onclick="introduction();" name="button">INTRODUCTION</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="faculty();" name="button">Librarian Profile</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="hodprofile();" name="button">Library Resources</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="research();" name="button">Library Timings</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="vm();" name="button">Library Events</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="pospeos();" name="button">Rules</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="labdetail();" name="button">SERVICES</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="syllabus();" name="button">Useful Links</button> </li>
+           </ul>
+  
+        </div>
+        <div id="departmentdetail" class="col-9  ">
+          <ul class="list-unstyled pt-4">
+            <li id="introduction" >
+              <div class="container">
+                <div class="row">
+                    <h2> <strong> Introduction</strong></h2>
+  
+                </div>
+                <h2 class="text-center">LIBRARY</h2>
+                <br>
+                <div class="row" style="width:100%; height:100%;" >
+                  <embed src="img\library.pdf" width="100%" height="1200px" />
+                  </div>
+                
+  
+                <div class="text mt-3 ">
+                  <p style="font-style:italic; color:#575655; font-size:18px; text-indent:50px; text-align:justify;">
+  The  Library  is  the  nucleus  of  the  teaching-learning  program.  Though the  collection  is  not  larger  by  number,  it  is  rich  in  quality.  The  basic functioning  of  any  document  is  its  use  and  hence  a  user  occupies important  place  in  functioning  of  the  library.  TheLibrary  offers  its services   and   access   to   information   for   our   students,   the   faculty members  and  the  alumni.  The Central  Library  of  DYPSOE islocated on  the first floor of  the Technical  Campusbuilding. The Library aims to  offer  services,  resources  and  physical  spaces  should  provide  a strong  foundation  to  support  the  institute  in  achieving  the  highest standards in teaching, learning and research. The Library preserves the knowledge of the past while ensuring we are a library for the 21st century and beyond.Library employees take pride in the services they provide.  </p>
+  
+                </div>
+  
+  
+              </div>
+            </li>
+            <li id="faculty">
+            <div class="container">
+              <div class="row">
+                <h2> <strong> Library Staff :</strong></h2>
+                <br>
+                <div class="col-md-12 text-center"style="font-family:Bodoni MT;font-size:20px;" >
+                  <img  style="border-radius:20px; border:1px solid gray; " src="" width="250px" alt="img">
+                  <br>
+                  <h2 ><strong>Mr. Santosh M.Ankus</strong></h2>
+  
+                  <h5 >Librarian <br>NET, SET, MLISc, B.Com <br>Experience: 10years</h5>
+                </div>
+                <p class="mt-3 ml-5 mr-5" style="font-style:italic; color:#575655; font-size:18px; text-indent:50px; text-align:justify;">
+                 <br>  Papers Publication: Total-03 <br> International Conference Ã¢â‚¬â€œ01 <br>National Conference Ã¢â‚¬â€œ02
+                 </p>
+  
+  
+              </div>
+              <hr>
+              <div class="row text-center" style="font-family:Bodoni MT;font-size:20px;" >
+                <div class="col-md-6 ">
+                  <img src="" alt="img">
+                  <h2><strong>Mr. Shivaji S Solankar</strong></h2>
+                  <h5 >Librarian <br>NET, SET, MLISc, B.Com <br>Experience: 10years</h5>
+  
+                </div>
+                <div class="col-md-6">
+                  <img src="" alt="img">
+                  <h2 ><strong>Mr. Vaibhav B Bansode</strong></h2>
+                  <h5 > Library Assistant <br>B A, MLISc <br>Experience: 3 years</h5>
+  
+                </div>
+  
+              </div>
+  
+            </div></li>
+            <li id="hod-profile" class="resources">
+              <div class="container">
+  
+                <div class="row">
+                    <h2> <strong>Library Resources :</strong></h2>
+                    <br>
+                    <br>
+  
+                    <table class="table table-striped">
+  
+                      <thead>
+                        <tr>
+                          <th scope="col">Sr No</th>
+                          <th scope="col">Particulars</th>
+                          <th scope="col">Qty</th>
+  
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Books</td>
+                          <td>13212(3412 Titles)</td>
+  
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Print Journals</td>
+                          <td>72</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>E-Journals </td>
+                          <td>500+</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">4</th>
+                          <td>E-Books </td>
+                          <td>600+</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">5</th>
+                          <td>CD,s </td>
+                          <td>300</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">6</th>
+                          <td>Project Reports </td>
+                          <td>100</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">7</th>
+                          <td>Journals Bound Volumes </td>
+                          <td>137</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">8</th>
+                          <td>News Papers</td>
+                          <td>16</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">9</th>
+                          <td>Magazines </td>
+                          <td>10</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table class="table table-striped">
+                      <br>
+                      <h4 class="text-info"><strong>E-Resources: </strong></h4>
+                      <thead>
+                        <tr>
+                          <th class="col-2">Sr.No</th>
+                          <th class="col-2">Particulars</th>
+                          <th class="col-2">URLÃ¢â‚¬â„¢s</th>
+                          <th class="col-4">What can you access?</th>
+                          <th class="col-2"> Useful to</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>NDL: National Digital Library of India</td>
+                          <td>http://ndl.iitkgp.ac.in/</td>
+                          <td>E-books, e-journals articles, e-thesis, e-manuscripts, Video lectures, Audio lectures, etc.</td>
+                          <td>All subjects of Engineering</td>
+                        </tr>
+                      </tbody>
+  
+                    </table>
+  
+                </div>
+  
+              </div>
+            </li>
+            <li id="research" class="librarytiming">
+                 <div class="container">
+                   <div class="row">
+                       <h2> <strong> Library Timings:-</strong></h2>
+                   </div>
+                  <div class="row ml-5">
+                    <div class="col-md-12">
+                      <br><br>
+                      <h3><strong>Monday to Friday: Library: 10.00 am to 5.30pmb</strong></h3>
+                      <br><br>
+                      <h3><strong>Saturday, Sunday & Public Holidays: Closed </strong></h3>
+  
+                    </div>
+  
+                  </div>
+  
+                 </div>
+             </li>
+            <li id="vm" class="events">
+              <div class="container">
+                <div class="row">
+                    <h2> <strong> Library Events</strong></h2>
+                </div>
+                <div class="row ">
+                  <embed src="img/library/library1.pdf" width="100%" height="1200px" />
+  
+  
+                </div>
+  
+              </div>
+            </li>
+  
+            <li id="pospeos">
+                 <div class="container ">
+                   <div class="row">
+                     <h2> <strong> Library Rules</strong></h2>
+                   </div>
+                   <div class="row mt-3 ml-5 mr-5">
+                     <h6> <strong> DO & DONT:</strong></h6>
+                     <br>
+                       <ul class="list-unstyled">
+                         <li><br>DO's :-
+                           <ul class="" style="list-style: decimal inside;">
+                            <li>Ensure that you always possesslibrary card</li>
+                            <li>Switch your mobile onsilentmode</li>
+                            <li>Make entryin the entryregister</li>
+                            <li>Respectthe library environment </li>
+                            <li>Ask your queries tothe Library staff wheneverrequired</li>
+                            <li>Speak softly or in low voice if necessar</li>
+                            <li>Switch off light and fans if not required.</li>
+                           </ul>
+                         </li>
+                         <li>DON't :-
+                           <ul class="" style="list-style: decimal inside;">
+                             <li>Bringingyour personal material (Bags, Books, Note books, etc.) in the library </li>
+                             <li>Bring foodor drinks</li>
+                             <li>Make voice calls</li>
+                             <li>Talk or make noise to distract others around you</li>
+                             <li>Tear off pages or damage property of the library</li>
+                           </ul>
+                         </li>
+  
+                       </ul>
+  
+  
+  
+                   </div>
+                   <br>
+                   <hr>
+                   <div class="row mt-3 ml-5 mr-5">
+                     <h6> <strong> DIGITAL LIBRARY RULES:</strong></h6>
+                     <br>
+                       <ul class="" style="list-style: decimal inside;">
+                         <li>Digital Library shall beused only for the academic purposes.</li>
+                         <li>Use the computers carefully</li>
+                         <li>Users  must  carry  their  own  Library  card /Institute Identity  Card while  using the Digital Library and produceiton demand.</li>
+                         <li>Users must enter detail entry in the Digital Library Entry Register</li>
+                         <li>Users   are   not   allowed   to   carry   personal   belongings/personal   copies   of books/Any printed materials/note books atthe digital library. Library membersprovideloose papers to take down the notes</li>
+                         <li>Users  must  enter theirnameswith  all  details  in  the  Digital  Libraryentry Register.</li>
+                         <li>Changing the settings of the computers is strictly prohibited.</li>
+                         <li>Do   not   save   personal   data   in   the   computer.   If   loss   library   staff   not   be responsible.</li>
+                         <li>Shutdown the computer after use</li>
+                         <li>Switch off the lights and fans if not required</li>
+  
+  
+                       </ul>
+                       <p><strong> Note:-In case of dispute,the matter should be referred to the Librarian first and ifit is  not  settled  then  it  shall  be  referred  to  Library Advisory  Committeewhose decision will be finaland binding</strong></p>
+  
+  
+  
+                   </div>
+                   <br>
+                   <hr>
+                   <div class="row mt-3 ml-5 mr-5">
+                     <h6> <strong> READING ROOM RULES:</strong></h6>
+                     <br>
+                       <ul class="" style="list-style: decimal inside;">
+                        <li>Users shouldcarry  their ValidLibrary  Card/ Identity  Cardwhile  using the Reading Room& shouldbe producedon demand.</li>
+                        <li>Users must enter detail entryin the Reading Room Entry Register.</li>
+                        <li>Maintainsilence in the reading room, and avoid unnecessary conversations and noises.</li>
+                        <li>All electronic devices brought into the reading room must be mute. </li>
+                        <li>Smoking, eatingandsleeping isstrictly prohibited.</li>
+                        <li>Readers   are   requested   to   handle   all   reading roomproperty   carefully withoutdamage</li>
+                        <li>Do not change the arrangement of furniture.</li>
+                        <li>Do not sit on the reading tables.</li>
+                        <li>Writing/drawing  onthe reading  room furniture  (Tables,  Chairs,  Boards, etc.) isstrictly prohibited.</li>
+                        <li>Switch off light and fans if not required.</li>
+                        <li>Suggestions on all aspects of reading room services are welcome.</li>
+  
+                       </ul>
+                       <p><strong> Note:-In case of dispute,the matter should be referred to the Librarian first and ifit is  not  settled  then  it  shall  be  referred  to  Library Advisory  Committeewhose decision will be finaland binding</strong></p>
+  
+  
+  
+                   </div>
+                   <br>
+                   <hr>
+                   <div class="row mt-3 ml-5 mr-5">
+                     <h6> <strong> LIBRARY GENERAL RULES:</strong></h6>
+                     <br>
+                       <ul class="" style="list-style: decimal inside;">
+                        <li>Always carry Valid Library Card/ Identity Cardbefore entering the library.</li>
+                        <li>Library card is non-transferable.</li>
+                        <li>Members are not allowed to bring personal belongings.</li>
+                        <li>Members shouldmake the entry with all details in the library entry register.</li>
+                        <li>Uses of Mobile phones arestrictly prohibited in the library.</li>
+                        <li>Smoking, eating, sleeping and speaking loudly isstrictly prohibited.</li>
+                        <li>Library resources i.e. Books, Journals, computers & equipmentÃ¢â‚¬â„¢s should be handled with care.</li>
+                        <li>Donot mark, underline, write, fold or tear pages of the library resources, if found strict action will be taken.</li>
+                        <li>Being  an  open-access,  library membersare  advised to;  leave  the  book  on  the  readingtableafter use. The library staff will shelve it back at its proper location.</li>
+                        <li>Bookswill be reissued / renewed when itis not reservedby other members. </li>
+                        <li>Reference copies/ sources to be used in Library only.</li>
+                        <li>Members areresponsible for the loss / damage of books during the loan period.</li>
+                        <li>Loss of books should be reported to the librarystaffimmediately. It should be replaced with a new copy of the same / subsequent edition within the due date.</li>
+                        <li>The  Librarian,  with  the  approval of  the Library  Advisory  Committee reserves  the right to add, delete, or modify any such rules as and when required.</li>
+                        <li>Switch off the lights and fans if not required.</li>
+                        <li>Suggestions on all aspects of library services are welcome.</li>
+                       </ul>
+                       <p><strong> Note:-In case of dispute,the matter should be referred to the Librarian first and ifit is  not  settled  then  it  shall  be  referred  to  Library Advisory  Committeewhose decision will be finaland binding</strong></p>
+  
+  
+  
+                   </div>
+                   <br>
+                   <hr>
+  
+                 </div>
+              </li>
+  
+            <li id="labdetail">
+              <div class="container">
+                <div class="row">
+                  <h2> <strong>Library services :-</strong></h2>
+                </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <ul style="list-style: decimal inside;">
+                    <li>Book Bank</li>
+                    <li>Reprographic </li>
+                    <li>CAS (Current Awareness Service)</li>
+                    <li>Document printing</li>
+                    <li>Document scanning</li>
+                    <li>E-mail alerts</li>
+                    <li>Inter library loan</li>
+                    <li>Digital library</li>
+                    <li>Newspaper clippings</li>
+                    <li>Reference</li>
+                    <li>OPAC</li>
+                    <li>WIFI</li>
+  
+  
+  
+                  </ul>
+  
+                </div>
+  
+              </div>
+  
+              </div>
+            </li>
+            <li id="syllabus">
+               <div class="container">
+                 <div class="row">
+                    <h2> <strong>Useful Links</strong></h2>
+  
+                 </div>
+                 <br>
+                 <div class="row">
+                   <div class="col-md-12">
+                     <ul>
+                       <li><strong>Free eBooks websites:</strong>
+                         <ul>
+                           <li>Books in PDF: <a href="http://www.pdfdrive.net/">http://www.pdfdrive.net</a></li><br>
+  
+                             <li>Marathi Literature  <a href="http://www.esahity.com/">http://www.esahity.com/</a></li><br>
+  
+                               <li>Book Ganga <a href="http://www.bookganga.com/">http://www.bookganga.com/</a></li><br>
+  
+                                 <li>Ebookee <a href="http://ebookee.org/">http://ebookee.org/</a></li><br>
+  
+                                   <li>Project Gutenberg offers over 38,000 free eBooks: <a href="http://www.gutenberg.org/">http://www.gutenberg.org/</a></li><br>
+  
+                                     <li>Free-eBooks : <a href="http://www.free-ebooks.net/">http://www.free-ebooks.net/</a></li><br>
+  
+                                       <li>Virtual books: <a href="http://www.virtualbooks4u.blogspot.in/">http://www.virtualbooks4u.blogspot.in/</a></li><br>
+  
+                                         <li>Free tech books:  <a href="http://www.freetechbooks.com/">http://www.freetechbooks.com/</a></li><br>
+  
+                                           <li>Digital Book Index: <a href="http://www.digitalbookindex.org/search001a.htm">http://www.digitalbookindex.org/search001a.htm</a></li><br>
+  
+                                             <li>Free PDF e-books Archive:  <a href="http://www.planetpdf.com/free_pdf_ebooks.asp?CurrentPage=1">http://www.planetpdf.com/free_pdf_ebooks.asp?CurrentPage=1</a></li><br>
+  
+                                               <li>Google Book Search <a href="http://books.google.com/">http://books.google.com/</a></li><br>
+  
+                                                 <li>Read Print <a href="http://www.readprint.com/">http://www.readprint.com/</a></li><br>
+  
+                                                   <li>Wiki Books: <a href="http://en.wikibooks.org/wiki/Main_page">http://en.wikibooks.org/wiki/Main_page</a></li><br>
+  
+                                                     <li>Google Scholars:<a href="https://scholar.google.co.in/W">https://scholar.google.co.in/</a></li><br>
+                         </ul>
+                       </li>
+                       <li><strong>Free Audio Books websites: </strong>
+                         <br>
+                         <ul>
+                           <li><a href="https://librivox.org/">https://librivox.org/</a></li>
+                           <li><a href="http://etc.usf.edu/lit2go/">http://etc.usf.edu/lit2go/</a></li>
+                           <li><a href="http://www.loyalbooks.com/">http://www.loyalbooks.com/</a></li>
+                           <li><a href="https://archive.org/details/MindWebs_201410">https://archive.org/details/MindWebs_201410</a></li>
+                           <li><a href="http://www.openculture.com/freeaudiobooks">http://www.openculture.com/freeaudiobooks</a></li>
+                           <li><a href="https://www.overdrive.com/">https://www.overdrive.com/</a></li>
+                           <li><a href="https://scribl.com/info/podiobooks-now-scribl">https://scribl.com/info/podiobooks-now-scribl</a></li>
+                           <li><a href="https://www.gutenberg.org/browse/categories/1">https://www.gutenberg.org/browse/categories/1</a></li>
+                         </ul>
+                       </li>
+  
+                       <li><strong>Free E-Journals websites:</strong>
+                         <br>
+                         <ul>
+                           <li>Search and browse 4775 Open Access journals <a href="http://www.kkhsou.in/library/oajse/ ">http://www.kkhsou.in/library/oajse/</a></li><br>
+                            <li>DOAJ: Directory of Open Access Journals -Provides access to over 1500+ learned journals covering all major disciplines:<a href="http://doaj.org/">http://doaj.org/</a></li><br>
+                             <li>NISCAIR Full Text Journals: <a href="http://nopr.niscair.res.in/">http://nopr.niscair.res.in/</a></li><br>
+                              <li>Institute of Physics electronic journals (IOP) 60 e-journals: <a href="http://iopscience.iop.org/journals">http://iopscience.iop.org/journals</a></li><br>
+                               <li>Journal of the Indian Institute of Science: <a href="http://journal.library.iisc.ernet.in/index.php/iisc">http://journal.library.iisc.ernet.in/index.php/iisc</a></li><br>
+                                <li>Down to Earth:<a href="http://www.downtoearth.org.in/">http://www.downtoearth.org.in/</a></li><br>
+                                 <li>Open Access Journals Search Engine: <a href="http://www.oajse.com/">http://www.oajse.com/</a></li><br>
+                                  <li>MedknowPublications Journals:<a href="http://www.medknow.com/">http://www.medknow.com/</a></li><br>
+                                   <li>Directory of Open Access Repositories:<a href="http://www.opendoar.org/">http://www.opendoar.org/</a></li><br>
+                                    <li>Nano Technology Open Access Journals:<a href="Nano Technology Open Access Journals:">Nano Technology Open Access Journals:</a></li><br>
+                                     <li>World Scientific:<a href="http://www.worldscientific.com/worldscinet/opl">http://www.worldscientific.com/worldscinet/opl</a></li><br>
+                         </ul>
+                       </li>
+                       <li><strong>Free e-newspapers: </strong>
+                         <br>
+                         <ul>
+                           <li>Sakal<a href="http://www.esakal.com/">http://www.esakal.com/</a></li><br>
+                            <li>Times of India:<a href="http://timesofindia.indiatimes.com/">http://timesofindia.indiatimes.com/</a></li><br>
+                             <li>The Indian Express:<a href="http://indianexpress.com/">http://indianexpress.com/</a></li><br>
+                              <li>The Hindu:<a href="http://www.thehindu.com/">http://www.thehindu.com/</a></li><br>
+                               <li>Aaj Tak:<a href="http://aajtak.intoday.in/">http://aajtak.intoday.in/</a></li><br>
+                                <li>The Hindustan Times:<a href="http://www.hindustantimes.com/">http://www.hindustantimes.com/</a></li><br>
+                                 <li>The Economic Times:<a href="http://economictimes.indiatimes.com/">http://economictimes.indiatimes.com/</a></li><br>
+                                  <li>Dainik Bhaskar:<a href="http://epaper.bhaskar.com/">http://epaper.bhaskar.com/</a></li><br>
+                                   <li>BBC Hindi:<a href="http://www.bbc.com/hindi">http://www.bbc.com/hindi</a></li><br>
+                                    <li>Employment News:<a href="http://www.employmentnews.gov.in/">http://www.employmentnews.gov.in/</a></li><br>
+                         </ul>
+                       </li>
+                       <li><strong>Engineering TV/Shows:</strong>
+                        <br>
+                        <ul>
+                          <li><a href="http://www.tvguide.com/tvshows/extreme-engineering/194611/">http://www.tvguide.com/tvshows/extreme-engineering/194611/</a></li>
+                          <li><a href="https://ieeetv.ieee.org/">https://ieeetv.ieee.org/</a></li>
+                          <li><a href="https://www.youtube.com/user/engineeringtv">https://www.youtube.com/user/engineeringtv</a></li>
+                          <li><a href="https://www.sciencechannel.com/tv-shows/impossible-engineering/">https://www.sciencechannel.com/tv-shows/impossible-engineering/</a></li>
+                          <li><a href="http://www.natgeotv.com/ca/shows/subject/engineering">http://www.natgeotv.com/ca/shows/subject/engineering</a></li>
+                          <li><a href="http://www.natgeotv.com/ca/shows/subject/engineering">http://www.natgeotv.com/ca/shows/subject/engineering</a></li>
+                          <li><a href="https://www.ecnmag.com/blog/2015/01/14-best-engineering-shows-netflix">https://www.ecnmag.com/blog/2015/01/14-best-engineering-shows-netflix</a></li>
+                          <li><a href="http://easyengineeringtv.com/">http://easyengineeringtv.com/</a></li>
+                          <li><a href="https://www.discovery.com/">https://www.discovery.com/</a></li>
+                          <li><a href="https://www.swayamprabha.gov.in/">https://www.swayamprabha.gov.in/</a></li>
+                        </ul>
+                       </li>
+                       <li><strong>E-learning websites: </strong>
+                        <br>
+                        <ul>
+                          <li>Free Video Lectures:<a href="http://freevideolectures.com/">http://freevideolectures.com/</a></li><br>
+                          <li>NPTEL Videos:<a href="http://nptel.ac.in/">http://nptel.ac.in/</a></li><br>
+                          <li>Engineering videos:<a href="https://www.engineering.com/">https://www.engineering.com/</a></li><br>
+                          <li>Open Education Consortium<a href="http://www.oeconsortium.org/">http://www.oeconsortium.org/</a></li><br>
+                          <li>Carnegie Mellon UniversityÃ¢â‚¬â„¢s Open Learning Initiative:<a href="http://oli.cmu.edu/learn-with-oli/see-our-free-open-courses">http://oli.cmu.edu/learn-with-oli/see-our-free-open-courses</a></li><br>
+                          <li>Open Yale Courses: <a href="https://www.engineeringforchange.org/10-best-sites-for-free-online-education">https://www.engineeringforchange.org/10-best-sites-for-free-online-education</a></li><br>
+                          <li>khanacademy<a href="https://www.khanacademy.org/">https://www.khanacademy.org/</a></li><br>
+                          <li>Udemy<a href="https://www.udemy.com/">https://www.udemy.com/</a></li><br>
+                          <li>wikiversity<a href="http://en.wikiversity.org/">http://en.wikiversity.org/</a></li><br>
+                          <li>Coursera <a href="https://www.coursera.org/">https://www.coursera.org/</a></li><br>
+                          <li>You tube Education: <a href="https://www.youtube.com/education">https://www.youtube.com/education</a></li><br>
+                          <li>IGNOU Resources:<a href="http://www.egyankosh.ac.in/">http://www.egyankosh.ac.in/</a></li><br>
+            0            </ul>
+                       </li>
+                     </ul>
+  
+                   </div>
+  
+  
+                 </div>
+  
+               </div>
+            </li>
+          </ul>
+  
+  
+        </div>
+  
+      </div>
+  
+    </div>
+  </section>
+  
+ 
+<div id="loader"></div>
+<div id="footer">footer</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+
+  $(document).ready(()=>{
+   $('#loader').load('loader.html');
+    $('#footer').load('footer.html');
+    $('#header').load('header.html');
+  })
+    document.onreadystatechange = function() {
+    if (document.readyState !== "complete") {
+        document.querySelector("body").style.visibility = "hidden";
+        document.querySelector("#loader").style.visibility = "visible";
+    } else {
+        document.querySelector("#loader").style.display = "none";
+        document.querySelector("body").style.visibility = "visible";
+    }
+};
+  </script>
+</body>
+</html>

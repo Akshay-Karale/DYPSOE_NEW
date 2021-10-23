@@ -1,0 +1,1158 @@
+
+<!-- body: white, dark: #001E62, navbar: #012883, light: #1858EC , light-50: #759DF9,   -->
+
+
+
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/comp.js" charset="utf-8"></script>
+
+<link rel="shortcut icon" href="img/logo.png">
+
+<title>Dr.D Y Patil School of Engineering</title>
+</head>
+<body  style="background-color: white;" >
+  
+    
+
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        #s,#e{
+            animation: zoom 6s linear infinite;
+
+        }
+        @keyframes zoom {
+            16% { fill: red;color: red; }
+            32% { fill: black;color:black; }
+            48% { fill: green;color: green; }
+            64% { fill: blue;color: blue; }
+            80% { fill: maroon;color: maroon; }
+            }
+
+        #l{
+            animation: round 6s linear infinite;
+            transform-origin: bottom;
+        }
+        @keyframes round {
+            16% { background-color: red; transform: scale(0);}
+            32% { background-color: black;transform: scale(0.3); }
+            48% {background-color:  green;transform: scale(0.6); }
+            64% {background-color:  blue;transform: scale(1); }
+            80% { background-color: maroon;transform: scale(0.7); }
+
+        }
+        #loader{
+            position: fixed;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+        }
+        @media screen and (max-width: 440px) {
+          #comp-hod{
+            height: 150px;
+          }
+          #comp-staff{
+            width: 250px !important;
+          }
+  }
+
+
+    </style>
+    <script type="text/javascript">
+      document.onreadystatechange = function() {
+    if (document.readyState !== "complete") {
+        document.querySelector("body").style.visibility = "hidden";
+        document.querySelector("#loader").style.visibility = "visible";
+    } else {
+        document.querySelector("#loader").style.display = "none";
+        document.querySelector("body").style.visibility = "visible";
+    }
+};
+
+    </script>
+    <div id="header">header</div>
+
+ 
+
+  <section id="computer">
+    <div class="10vh"  style="height:330px;">
+  
+  
+    <div class="container-fluid" id="imgcomp">
+      <div class="row " >
+        <div class="col-md-6 justify-content-center text-center text-white" style="height:330px; margin-top:150px;">
+          <h1> <strong>COMPUTER ENGINEERING</strong></h1>
+          <div class="row justify-content-left ml-5 pl-5">
+            <a href="index.html">Home</a><p>-Computer Engineering</p>
+  
+          </div>
+          <br>
+  
+  
+        </div>
+          <div class="col-md-6">
+  
+          </div>
+  
+      </div>
+    </div>
+  
+  
+    </div>
+    <div class="container-fluid" style="position:relative; ">
+      <div id="departmentlist" class="row list-unstyled">
+        <li class="ml-1 text-left w-25 text-center "><h2 class=" p-3  bg-info text-white text-center"><strong>COMPUTER <br> ENGINEERING</strong></h2></li>
+  
+      </div>
+      <div class="row">
+  
+  
+        <div class="col-3 pp" >
+  
+           <ul id="departmentlist" class="list-unstyled" >
+  
+  
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e; border:none;" id="introduction1"  type="button" onclick="introduction();" name="button">INTRODUCTION</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="faculty();" name="button">FACULTY</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="hodprofile();" name="button">HOD PROFILE</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="research();" name="button">RESEARCH</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="vm();" name="button">VISSION & MISSION</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="function2();" name="button">Events</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="gearlever();" name="button">T & P</button> </li>
+  
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="pospeos();" name="button">POs & PEOs</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="labdetail();" name="button">LAB & EQUIPMENTS</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="syllabus();" name="button">SYLLABUS</button> </li>
+           </ul>
+  
+        </div>
+        <div id="departmentdetail" class="col-9  ">
+          <ul class="list-unstyled pt-4">
+            <li id="introduction" >
+              <div class="container">
+                <div class="row">
+                    <h2> <strong> Introduction</strong></h2>
+  
+                </div>
+                <h2 class="text-center">Computer Engineering</h2>
+                <br>
+                <div  class="row justify-content-center">
+                  <img src="img/Comp/faculty-ce.png" width="80%" alt="">
+                </div>
+  
+                <div class="text mt-3 ">
+                  <p style="font-style:italic; color:#575655; font-size:18px; text-indent:50px; text-align:justify;">
+  The department of Computer Engineering started its journey in the year 2010 with an initial intake of 60 students to cater to the requirement of trained Engineers in the field of Computers. The department is presently having a Under Graduate (UG) course in Computer Engineering, with an intake capacity of 120 students and Post Graduate (PG) course in Computer Engineering with an intake capacity of 24 students. The department has modern laboratories which are equipped with latest computers, software's and peripherals. The student to computer ratio is maintained of 1:1, with 24 X 7 internet facility and WiFi. We also boast of modern infrastructure facilities and beautiful ambience to support overall development of the stakeholders. Our aim is to create skillful Computer Engineers enthused with the soul of polished methodology and mindful responsibility. To achieve this, we have competent, dedicated and highly motivated staff to train our students. Besides the regular class room teaching, we conduct special trainings in soft skills programs (personality development, communication skills, group discussions, debate, etc.) and foreign language programs (Japanese and German) which are a continuous process for development of students to facilitate better placement opportunities. The Department is known for its excellent results in academics. The department has signed many MoUs with different organizations for the advanced programing languages and foreign language courses. Our staff is motivated to carry out research work in varied fields like: Database, Data warehousing, Data Mining, Networking, Wireless Communication, Image Processing, Wireless Sensor Networks, Deep Learning, Artificial Intelligence and Robotics and Internet of Things (IoT) etc.We expect our students to take the advantage of the facilities in the department, gain knowledge and excel in their chosen career. </p>
+  
+                </div>
+  
+  
+              </div>
+            </li>
+            <li id="faculty" style="padding:0">
+              <div class="container" >
+                <div style=" text-align:center;width: 130px;"><h2  > <strong> Faculty</strong></h2></div>
+                <div class="row"  id="comp-staff" style="height: 700px;overflow-y: scroll;width: 800px;overflow-x: auto;">
+                  <table class="table table-striped" style="width: 800px;"  >
+                    <tbody>
+                        <tr>
+                            <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/comp/Comp-Dr-Pankaj-Agarkar.JPG" alt="" height="150px"  ></td>
+                            <td > 
+                                <strong>Dr. Pankaj Agarkar</strong><br><br>
+                                <strong> Qualification:</strong> PhD(Computer
+                                Engineering), MBA (IAE), ADC-E  <br>
+                                <strong> Experience:</strong> 24 Years <br>
+                                <strong> Email ID:</strong> pankaj.agarkar@dypic.in <br>
+                                <strong> Specialization:</strong>Data Mining ,High performance Computing.
+                            </td>
+                          </tr>
+
+
+                          <tr>
+                            <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/comp/Comp-Dr-Sunil-Rathod.JPG" alt="" height="150px"  ></td>
+                            <td > 
+                                <strong>Dr. Sunil Rathod</strong><br><br>
+                                <strong> Qualification:</strong> PhD(Computer Engineering).<br>
+                                <strong> Experience:</strong> 24 Years <br>
+                                <strong> Email ID:</strong> sunil.rathod@dypic.in <br>
+                                <strong> Specialization:</strong> AI, Machine Learning & Algorithms
+                                
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/comp/Comp-Prof-Jayashree-Chaudhari.JPG" alt="" height="150px"  ></td>
+                            <td > 
+                                <strong>Jayashree Chaudhari</strong><br><br>
+                                <strong> Qualification:</strong> M.Tech(IT) , PhD (Pursuing)
+                                <br>
+                                <strong> Experience:</strong> 16 Years <br>
+                                <strong> Email ID:</strong> jayashree.chaudhari@dypic.in <br>
+                                <strong> Specialization:</strong> AI, Machine Learning, Data Mining
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/comp/Comp-Prof-Nilesh-Mali.JPG" alt="" height="150px"  ></td>
+                            <td > 
+                                <strong>Nilesh Mali</strong><br><br>
+                                <strong> Qualification:</strong> M.E. (IT) <br>
+                                <strong> Experience:</strong> 16 Years <br>
+                                <strong> Email ID:</strong> nileshmali@dypic.in<br>
+                                <strong> Specialization:</strong> Cloud Computing.
+                            </td>
+                          </tr>
+                        
+                          <tr>
+                            <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/comp/Comp-Prof-Monika-Dangore.JPG" alt="" height="150px"  ></td>
+                            <td > 
+                                <strong>Monika Dangore</strong><br><br>
+                                <strong> Qualification:</strong> M.E. (CE), PhD (Pursuing) <br>
+                                <strong> Experience:</strong> 14 Years <br>
+                                <strong> Email ID:</strong>monikadangore@dypic.in <br>
+                                <strong> Specialization:</strong> Mobile Adhoc Network
+                                
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/comp/Comp-Prof-Pallavi-Shimpi.JPG" alt="" height="150px"  ></td>
+                            <td > 
+                                <strong>Pallavi M. Shimpi</strong><br><br>
+                                <strong> Qualification:</strong>  M.E. (CE), PhD (Pursuing)<br>
+                                <strong> Experience:</strong> 12.8 Years <br>
+                                <strong> Email ID:</strong>  pallavi.shimpi@dypic.in <br>
+                                <strong> Specialization:</strong>AI, Machine Learning & Algorithms
+                            </td>
+                          </tr>
+                        
+                          <tr>
+                            <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/comp/Comp-Nilesh-Pinjarkar.jpg" alt="" height="150px"    ></td>
+                            <td > 
+                                <strong>Nilesh Pinjarkar</strong><br><br>
+                                <strong> Qualification:</strong>  ME (Computer  Engineering)
+                                <br>
+                                <strong> Experience:</strong> 11.3 Years <br>
+                                <strong> Email ID:</strong> nileshpinjarkar@dypic.in
+                                 <br>
+                                <strong> Specialization:</strong>Data Mining and Cyber Security
+                                
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/comp/Comp-Prof-Amruta-Chitari.JPG" alt="" height="150px"  ></td>
+                            <td > 
+                                <strong>Amruta Chitari</strong><br><br>
+                                <strong> Qualification:</strong> M.E. (CE), PhD (Pursuing) <br>
+                                <strong> Experience:</strong> 11 Years <br>
+                                <strong> Email ID:</strong>amruta.chitari@dypic.in <br>
+                                <strong> Specialization:</strong> AI, Machine Learning,  Data Mining
+                            </td>
+                          </tr>
+                        
+                          <tr>
+                            <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/comp/Comp-Prof-Vishal-Borate.JPG" alt="" height="150px"  ></td>
+                            <td > 
+                                <strong>Vishal Borate</strong><br><br>
+                                <strong> Qualification:</strong>  M.E. (IT) <br>
+                                <strong> Experience:</strong> 9.1 Years <br>
+                                <strong> Email ID:</strong> vishalborate@dypic.in <br>
+                                <strong> Specialization:</strong> IOT, Data Science 
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/comp/Comp-Prof-Yogesh-Mali.JPG" alt="" height="150px"  ></td>
+                            <td > 
+                                <strong>Yogesh Mali</strong><br><br>
+                                <strong> Qualification:</strong>  M.E. (Computer  Network), PhD (Pursuing)
+                                <br>
+                                <strong> Experience:</strong> 8 Years <br>
+                                <strong> Email ID:</strong>  yogesh.mali@dypic.in<br>
+                                <strong> Specialization:</strong>Cyber Security,IOT,AI
+                            </td>
+                          </tr>
+                        
+                          <tr>
+                            <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/comp/Comp-Prof-Ajita-Mahapadi.JPG" alt="" height="150px"  ></td>
+                            <td > 
+                                <strong>Ajita Mahapadi</strong><br><br>
+                                <strong> Qualification:</strong> M.E. (CE)<br>
+                                <strong> Experience:</strong> 8 Years <br>
+                                <strong> Email ID:</strong>  ajitamahapadi@dypic.in <br>
+                                <strong> Specialization:</strong> Networking,  Cloud
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/comp/Comp-Prof-Chaitanya-Bhosale.JPG" alt="" height="150px"  ></td>
+                            <td > 
+                                <strong>Chaitanya Bhosale</strong><br><br>
+                                <strong> Qualification:</strong>  M.E. (CE), PhD (Pursuing)
+                                 <br>
+                                <strong> Experience:</strong> 7 Years <br>
+                                <strong> Email ID:</strong>chaitanya.bhosale@dypic.in <br>
+                                <strong> Specialization:</strong> IOT,AI, Theory of  Computation
+                            </td>
+                          </tr>
+                        
+                          <tr>
+                            <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/comp/Comp-Prof-Prashant-Mandale.JPG" alt="" height="150px"  ></td>
+                            <td > 
+                                <strong>Prashant Mandale</strong><br><br>
+                                <strong> Qualification:</strong>  M.Tech. (IT), Ph.D.(Pursuing) <br>
+                                <strong> Experience:</strong> 6 Years <br>
+                                <strong> Email ID:</strong> prashantmandale@dypic.in  <br>
+                                <strong> Specialization:</strong> Cloud, Algorithms,  Data Structures
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/comp/Comp-Prof-Komal-Jakotiya.JPG" alt="" height="150px"  ></td>
+                            <td > 
+                                <strong>Komal Jakotiya</strong><br><br>
+                                <strong> Qualification:</strong>  M.E. (CE) <br>
+                                <strong> Experience:</strong> 6 Years <br>
+                                <strong> Email ID:</strong> komaljakotiya@dypic.in <br>
+                                <strong> Specialization:</strong>D Cloud Computing 
+                            </td>
+                          </tr>
+                        
+                          <tr>
+                            <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/comp/Comp-Prof-Pooja-Shinde.JPG" alt="" height="150px"  ></td>
+                            <td > 
+                                <strong>Pooja Shinde</strong><br><br>
+                                <strong> Qualification:</strong>  M.E. (CE)<br>
+                                <strong> Experience:</strong> 5 Years <br>
+                                <strong> Email ID:</strong>  poojashinde@dypic.in<br>
+                                <strong> Specialization:</strong> Deep Learning, Machine Learning
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/comp/Comp-Swati-Kadu.jpg" alt="" height="150px"  ></td>
+                            <td > 
+                                <strong>Swati Kadu</strong><br><br>
+                                <strong> Qualification:</strong> ME (Information  Technology)
+                                <br>
+                                <strong> Experience:</strong> 5 Years <br>
+                                <strong> Email ID:</strong>  swatikadu@dypic.in <br>
+                                <strong> Specialization:</strong> Data Mining and  Cyber Security
+                                
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td scope="row" style="width: 120px;"  ><img src="soe-staff-photo/comp/Comp-Poonam-Bhogade.jpg" alt="" height="150px"  ></td>
+                            <td > 
+                                <strong>Poonam Bhogade</strong><br><br>
+                                <strong> Qualification:</strong>  M.Tech(Computer)<br>
+                                <strong> Experience:</strong> 4.2 Years <br>
+                                <strong> Email ID:</strong> poonambhogade@dypic.in <br>
+                                <strong> Specialization:</strong> Cloud  Computing,AI,Networking
+                                
+                            </td>
+                        </tr>
+                        
+                          
+
+                          
+
+                          
+
+                          
+                    </tbody>
+                  </table>
+            
+                
+              </div>
+  
+            </div></li>
+            <li id="hod-profile">
+              <div class="container">
+  
+                <div class="row">
+                    <h2 style="margin: 0 auto;"> <strong> Hod Profile</strong></h2>
+                    <br>
+                  <div class="col-md-12 text-center"style="font-family:Bodoni MT;font-size:20px;" >
+                    <img src="soe-staff-photo/comp/Comp-DrPankaj-Agarkar-hod.JPG" id="comp-hod" alt="" height="500px">
+                    <br>
+                    <h2 ><strong> Dr. Pankaj Agarkar</strong></h2>
+                    <h5 >HOD <br> (Computer Engineering) </h5>
+                  </div>
+                  <p class="mt-3 " style="font-style:italic; color:#575655; font-size:18px; text-indent:50px; text-align:justify;">Department of Computer Engineering is committed to excellence in teaching, and inculcating a sense of pride and confidence in our students. The objective is to empower our students with latest technical knowledge and skills by providing them with the best teaching faculty, lab facilities and excellent research and development environment. The motivation is not just to nurture their technical skills but to provide professional grooming and guidance so that our students come-up as thorough professionals and inspiring individuals. To meet the objectives, the department pays special emphasis on teaching and hands on practical work. The students exhibit their learning through their projects in the final years of curriculum. Thanks to the efforts of our management, faculty and our students, we continue to play a leading role in our discipline. We welcome all the students to the department of Computer Engineering as undergraduate or post graduate student and we hope to be part of your success.
+  
+                   </p>
+  
+  
+  
+                </div>
+  
+              </div>
+            </li>
+            <li id="research">
+                 <div class="container">
+                   <div class="row">
+                       <h2> <strong> Research:-</strong></h2>
+                   </div>
+                   <div class="row mt-2 text-center  justify-content-center ml-5 mr-5">
+                      <p class="text-cen"><strong>Research Activity (2 years)</strong></p>
+                    <br>
+                    <br>
+  
+                   </div>
+                   <div class="row justify-content-center ">
+                     <table class="MsoTableGrid" style="background:#D6E3BC;border-collapse:collapse;border:none;" cellspacing="0" cellpadding="0" border="1">
+                       <tbody><tr style="height:12.85pt;">
+                         <td style="width:72.4pt;border:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;" width="97" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;text-align:center;line-height:normal;" align="center"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; color:#C00000; ">Sr.    No.</span></strong></p></td>
+                         <td style="width:292.9pt;border:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;" width="391" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;text-align:center;line-height:normal;" align="center"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; color:#C00000; ">Research    Activities</span></strong></p></td>
+                         <td style="width:60.85pt;border:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;" width="81" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;text-align:center;line-height:normal;" align="center"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; color:#C00000; ">Total</span></strong></p>
+                           <p class="MsoNormal" style="margin-bottom:.0001pt;text-align:center;line-height:normal;" align="center"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; color:#C00000; ">&nbsp;</span></strong></p></td>
+                       </tr>
+                       <tr style="height:12.85pt;">
+                         <td style="width:72.4pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;" width="97" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;text-align:center;line-height:normal;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">1.</span></p></td>
+                         <td style="width:292.9pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;" width="391" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Paper Publication (International    Journal)</span></strong></p></td>
+                         <td style="width:60.85pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;" width="81" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;text-align:center;line-height:normal;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">18</span></p>
+                           <p class="MsoNormal" style="margin-bottom:.0001pt;text-align:center;line-height:normal;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">&nbsp;</span></p></td>
+                       </tr>
+                       <tr style="height:12.85pt;">
+                         <td style="width:72.4pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;" width="97" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;text-align:center;line-height:normal;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">2.</span></p></td>
+                         <td style="width:292.9pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;" width="391" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Research Seminar</span></strong></p></td>
+                         <td style="width:60.85pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;" width="81" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;text-align:center;line-height:normal;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">04</span></p>
+                           <p class="MsoNormal" style="margin-bottom:.0001pt;text-align:center;line-height:normal;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">&nbsp;</span></p></td>
+                       </tr>
+                       <tr style="height:12.85pt;">
+                         <td style="width:72.4pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;" width="97" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;text-align:center;line-height:normal;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">3.</span></p></td>
+                         <td style="width:292.9pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;" width="391" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Patent Filing of Students</span></strong></p></td>
+                         <td style="width:60.85pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;" width="81" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;text-align:center;line-height:normal;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">03</span></p>
+                           <p class="MsoNormal" style="margin-bottom:.0001pt;text-align:center;line-height:normal;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">&nbsp;</span></p></td>
+                       </tr>
+                       <tr style="height:12.85pt;">
+                         <td style="width:72.4pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;" width="97" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;text-align:center;line-height:normal;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">4.</span></p></td>
+                         <td style="width:292.9pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;" width="391" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Research Workshop Conducted</span></strong></p></td>
+                         <td style="width:60.85pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;" width="81" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;text-align:center;line-height:normal;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">01</span></p>
+                           <p class="MsoNormal" style="margin-bottom:.0001pt;text-align:center;line-height:normal;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">&nbsp;</span></p></td>
+                       </tr>
+                       <tr style="height:12.85pt;">
+                         <td style="width:72.4pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;" width="97" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;text-align:center;line-height:normal;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">5.</span></p></td>
+                         <td style="width:292.9pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;" width="391" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Internship done by student</span></strong></p></td>
+                         <td style="width:60.85pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;" width="81" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;text-align:center;line-height:normal;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">02</span></p>
+                           <p class="MsoNormal" style="margin-bottom:.0001pt;text-align:center;line-height:normal;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">&nbsp;</span></p></td>
+                       </tr>
+                       <tr style="height:12.85pt;">
+                         <td style="width:72.4pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;" width="97" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;text-align:center;line-height:normal;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">6.</span></p></td>
+                         <td style="width:292.9pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;" width="391" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">PhD completed by Staff</span></strong></p></td>
+                         <td style="width:60.85pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;" width="81" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;text-align:center;line-height:normal;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">03</span></p>
+                           <p class="MsoNormal" style="margin-bottom:.0001pt;text-align:center;line-height:normal;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">&nbsp;</span></p></td>
+                       </tr>
+                       <tr style="height:13.65pt;">
+                         <td style="width:72.4pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:13.65pt;" width="97" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;text-align:center;line-height:normal;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">7.</span></p></td>
+                         <td style="width:292.9pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:13.65pt;" width="391" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Industrial Visit</span></strong></p></td>
+                         <td style="width:60.85pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:13.65pt;" width="81" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;text-align:center;line-height:normal;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">03</span></p>
+                           <p class="MsoNormal" style="margin-bottom:.0001pt;text-align:center;line-height:normal;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">&nbsp;</span></p></td>
+                       </tr>
+                     </tbody></table>
+                   </div>
+                   <div class="row mt-2 text-center  justify-content-center ml-5 mr-5">
+                      <p class="text-cen"><strong>Internship Data</strong></p>
+                    <br>
+                    <br>
+  
+                   </div>
+                   <div class="row justify-content-center ">
+                     <table class="MsoNormalTable" style="background:#D6E3BC;margingin-left:.25pt;border-collapse:collapse;border:none;style=background:#D6E3BC" 0="" cellspacing="0" cellpadding="0" border="1">
+                      <tbody><tr>
+                        <td style="width:28.1pt;border:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;" width="37" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; color:#C00000; ">Sr. no.</span></strong></p></td>
+                        <td style="width:72.8pt;border:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;" width="97" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; color:#C00000; ">Title of the Course</span></strong></p></td>
+                        <td style="width:136.05pt;border:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;" width="181" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; color:#C00000; ">Name of the partnering    institution/ Industry/ research lab with contact details</span></strong></p></td>
+                        <td style="width:93.25pt;border:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;" width="124" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; color:#C00000; ">Year of commencement</span></strong></p></td>
+                        <td style="width:87.2pt;border:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;" width="116" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; color:#C00000; ">Duration (From-To)</span></strong></p></td>
+                        <td style="width:106.15pt;border:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;" width="142" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; color:#C00000; ">Nature of course</span></strong></p></td>
+                      </tr>
+                      <tr>
+                        <td style="width:28.1pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;" width="37"><p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">1</span></p></td>
+                        <td style="width:72.8pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;" width="97"><p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Training</span></p></td>
+                        <td style="width:136.05pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;" width="181" valign="top"><p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Leveragenet Solutions Pvt. Ltd.,    Pune</span></p>
+                          <p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Mr. Rohit Chalvade</span></p>
+                          <p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Suite 21, Bldg 2, New Lakshmi    Narayan, Koregoan Park, Pune, Maharashtra 411001</span></p>
+                          <p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">099703 19054</span></p></td>
+                        <td style="width:93.25pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;" width="124"><p class="MsoNormal" style="margin-bottom:.0001pt;text-align:center;line-height:normal;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">2017</span></p></td>
+                        <td style="width:87.2pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;" width="116"><p class="MsoNormal" style="margin-bottom:.0001pt;text-align:center;line-height:normal;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">29.05.2017 to 01.07.2017</span></p></td>
+                        <td style="width:106.15pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;" width="142"><p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; color:black; ">Internship</span></p></td>
+                      </tr>
+                      <tr>
+                        <td style="width:28.1pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;" width="37"><p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">2</span></p></td>
+                        <td style="width:72.8pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;" width="97" valign="bottom"><p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Internship on project development</span></p></td>
+                        <td style="width:136.05pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;" width="181" valign="bottom"><p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">EQUIPE software Pvt. Ltd.&nbsp; 606, Karvy, Garden City Samarvani rd.    Silvassa, Dadar, Nagar Haveli -396230 </span></p></td>
+                        <td style="width:93.25pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;" width="124" valign="bottom"><p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">2017</span></p></td>
+                        <td style="width:87.2pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;" width="116" valign="bottom"><p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">26<sup>th</sup> May 2017 to 26<sup>th</sup> June 2017</span></p></td>
+                        <td style="width:106.15pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;" width="142" valign="bottom"><p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Software Project Development.</span></p></td>
+                      </tr>
+                    </tbody></table>
+                   </div>
+                   <div class="row mt-2 text-center  justify-content-center ml-5 mr-5">
+                      <p class="text-cen"><strong>Workshop/Seminar under R&D</strong></p>
+                    <br>
+                    <br>
+  
+                   </div>
+                   <div class="row justify-content-center ">
+                     <table class="MsoNormalTable" style="background:#D6E3BC;border-collapse:collapse;border:none;margin-left:6.75pt;margin-right:6.75pt;" width="0" cellspacing="0" cellpadding="0" border="1" align="left">
+                        <tbody><tr style="height:57.45pt;">
+                          <td style="width:72.75pt;border:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:57.45pt;" width="97" valign="top"><p class="MsoNormal" style="text-autospace:none;"><strong><span style="line-height:115%; font-family:'Times New Roman',serif; font-size:12.0pt; color:#C00000; ">Year</span></strong></p></td>
+                          <td style="width:130.7pt;border:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;height:57.45pt;" width="174" valign="top"><p class="MsoNormal" style="text-autospace:none;"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; color:#C00000; ">Name of the    workshop/</span></strong></p></td>
+                          <td style="width:78.7pt;border:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;height:57.45pt;" width="105" valign="top"><p class="MsoNormal"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; color:#C00000; ">seminar Date From-To </span></strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; color:#C00000; "> </span></p></td>
+                          <td style="width:108.6pt;border:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;height:57.45pt;" width="145" valign="top"><p class="MsoNormal"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; color:#C00000; ">Link to the Activity report on the website</span></strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; color:#C00000; "> </span></p></td>
+                          <td style="width:86.05pt;border:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;height:57.45pt;" width="115" valign="top"><p class="MsoNormal"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; color:#C00000; ">No. of participation</span></strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; color:#C00000; "> </span></p></td>
+                        </tr>
+                        <tr style="height:83.85pt;">
+                          <td style="width:72.75pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:83.85pt;" width="97" valign="top"><p class="MsoNormal"><span style="line-height:115%; font-family:'Times New Roman',serif; font-size:12.0pt; color:black; ">2017</span></p></td>
+                          <td style="width:130.7pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:83.85pt;" width="174" valign="top"><p class="MsoNormal" style="text-autospace:none;"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; color:black; ">A Seminar On Guidelines For Innovative Projects</span><span style="font-family:'Times New Roman',serif; font-size:12.0pt; color:black; "> </span></p>
+                            <p class="MsoNormal"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; color:black; ">&nbsp;</span></p></td>
+                          <td style="width:78.7pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:83.85pt;" width="105" valign="top"><p class="MsoNormal"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; color:black; ">12/01/2017</span></p></td>
+                          <td style="width:108.6pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:83.85pt;" width="145" valign="top"><p class="MsoNormal"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; color:black; ">&nbsp;</span></p></td>
+                          <td style="width:86.05pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:83.85pt;" width="115" valign="top"><p class="MsoNormal"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; color:black; ">60</span></p></td>
+                        </tr>
+                        <tr style="height:58.95pt;">
+                          <td style="width:72.75pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:58.95pt;" width="97" valign="top"><p class="MsoNormal"><span style="line-height:115%; font-family:'Times New Roman',serif; font-size:12.0pt; ">2017</span></p></td>
+                          <td style="width:130.7pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:58.95pt;" width="174" valign="top"><p class="MsoNormal"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Android    Project Development Skills</span></p></td>
+                          <td style="width:78.7pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:58.95pt;" width="105" valign="top"><p class="MsoNormal"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">04<sup>th</sup> Feb 2017</span></p></td>
+                          <td style="width:108.6pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:58.95pt;" width="145" valign="top"><p class="MsoNormal"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">iNature    Education Solution Pvt. Ltd</span></p></td>
+                          <td style="width:86.05pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:58.95pt;" width="115" valign="top"><p class="MsoNormal"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">30</span></p></td>
+                        </tr>
+                      </tbody></table>
+                   </div>
+                   <div class="row mt-2 text-center  justify-content-center ml-5 mr-5">
+                      <p class="text-cen"><strong>Patent Filing by Students</strong></p>
+                    <br>
+                    <br>
+  
+                   </div>
+                   <div class="row justify-content-center ">
+                     <table class="MsoNormalTable" style="margin-left:5.4pt;border-collapse:collapse;border:none;" width="0" cellspacing="0" cellpadding="0" border="1">
+                        <tbody><tr style="height:14.0pt;">
+                          <td style="width:135.0pt;border:solid gray 1.0pt;background:#DFDFDF;padding:0in 5.4pt 0in 5.4pt;height:14.0pt;" width="180" bgcolor="#DFDFDF"><p class="MsoNormal"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Paten-1:</span></strong></p></td>
+                          <td style="border:none;border-bottom:solid silver 1.0pt;" width="468"><p class="MsoNormal">&nbsp;</p></td>
+                        </tr>
+                        <tr style="height:13.0pt;">
+                          <td colspan="2" style="width:6.75in;border:solid silver 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:13.0pt;" width="648"><p class="MsoNormal"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; color:#C00000; ">Patent: System for    Automatic identification and notification of threats in Text, Voice    communication in defense &amp; corporate sectors</span></strong><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; "> </span></strong></p></td>
+                        </tr>
+                        <tr style="height:12.55pt;">
+                          <td colspan="2" style="width:6.75in;border:solid silver 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:12.55pt;" width="648"><p class="MsoNormal"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Patent No. :</span></strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; "> <strong>201721025345</strong></span></p></td>
+                        </tr>
+                        <tr style="height:12.55pt;">
+                          <td colspan="2" style="width:6.75in;border:solid silver 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:12.55pt;" width="648"><p class="MsoNormal"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Date of Filing: 17/07/2017</span></strong></p></td>
+                        </tr>
+                        <tr style="height:12.55pt;">
+                          <td colspan="2" style="width:6.75in;border:solid silver 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:12.55pt;" width="648"><p class="MsoNormal"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Status: Filed</span></strong></p></td>
+                        </tr>
+                        <tr style="height:12.55pt;">
+                          <td colspan="2" style="width:6.75in;border:solid silver 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:12.55pt;" width="648"><p class="MsoNormal"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Student Names: <span style="color:#0070C0; ">Ms.    Shayanika Hazarika,&nbsp; Ms. Elizabeth    Mathew, Ms. Manisha Adarshe</span></span></strong></p></td>
+                        </tr>
+                      </tbody></table>
+                   </div>
+                   <br>
+                   <div class="row justify-content-center ">
+                     <table class="MsoNormalTable" style="margin-left:5.4pt;border-collapse:collapse;border:none;" width="0" cellspacing="0" cellpadding="0" border="1">
+                      <tbody><tr style="height:14.0pt;">
+                        <td style="width:135.0pt;border:solid gray 1.0pt;background:#DFDFDF;padding:0in 5.4pt 0in 5.4pt;height:14.0pt;" width="180" bgcolor="#DFDFDF"><p class="MsoNormal"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Paten-2:</span></strong></p></td>
+                        <td style="border:none;border-bottom:solid silver 1.0pt;" width="468"><p class="MsoNormal">&nbsp;</p></td>
+                      </tr>
+                      <tr style="height:13.0pt;">
+                        <td colspan="2" style="width:6.75in;border:solid silver 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:13.0pt;" width="648"><p class="MsoNormal"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; color:#C00000; ">Patent: System &amp;    Methods for Automatic Human queue management at Public or Holy Site </span></strong><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; "> </span></strong></p></td>
+                      </tr>
+                      <tr style="height:12.55pt;">
+                        <td colspan="2" style="width:6.75in;border:solid silver 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:12.55pt;" width="648"><p class="MsoNormal"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Patent No. :</span></strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; "> <strong>201621037303</strong></span></p></td>
+                      </tr>
+                      <tr style="height:12.55pt;">
+                        <td colspan="2" style="width:6.75in;border:solid silver 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:12.55pt;" width="648"><p class="MsoNormal"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Date of Filing:01 /11/2016</span></strong></p></td>
+                      </tr>
+                      <tr style="height:12.55pt;">
+                        <td colspan="2" style="width:6.75in;border:solid silver 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:12.55pt;" width="648"><p class="MsoNormal"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Status: Filed</span></strong></p></td>
+                      </tr>
+                      <tr style="height:12.55pt;">
+                        <td colspan="2" style="width:6.75in;border:solid silver 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:12.55pt;" width="648"><p class="MsoNormal"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Student Names: <span style="color:#0070C0; ">Mr.    Ajinkya Kale,&nbsp; Ms. Shivani Naidu, Ms.    Poonam Khobare, Ms. Bhagyashree Patel</span></span></strong></p></td>
+                      </tr>
+                    </tbody></table>
+                   </div>
+                   <br>
+                   <div class="row justify-content-center ">
+                     <table class="MsoNormalTable" style="margin-left:5.4pt;border-collapse:collapse;border:none;" width="0" cellspacing="0" cellpadding="0" border="1">
+                       <tbody><tr style="height:14.0pt;">
+                         <td style="width:135.0pt;border:solid gray 1.0pt;background:#DFDFDF;padding:0in 5.4pt 0in 5.4pt;height:14.0pt;" width="180" bgcolor="#DFDFDF"><p class="MsoNormal"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Paten-3:</span></strong></p></td>
+                         <td style="border:none;border-bottom:solid silver 1.0pt;" width="468"><p class="MsoNormal">&nbsp;</p></td>
+                       </tr>
+                       <tr style="height:13.0pt;">
+                         <td colspan="2" style="width:6.75in;border:solid silver 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:13.0pt;" width="648"><p class="MsoNormal"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; color:#C00000; ">Patent: System &amp;    Methods for For Portable And Automatic Water Quality Monitoring System</span></strong><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; "> </span></strong></p></td>
+                       </tr>
+                       <tr style="height:12.55pt;">
+                         <td colspan="2" style="width:6.75in;border:solid silver 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:12.55pt;" width="648"><p class="MsoNormal"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Patent No. :</span></strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; "> <strong>201721014471</strong></span></p></td>
+                       </tr>
+                       <tr style="height:12.55pt;">
+                         <td colspan="2" style="width:6.75in;border:solid silver 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:12.55pt;" width="648"><p class="MsoNormal"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Date of Filing:24 /04/2017</span></strong></p></td>
+                       </tr>
+                       <tr style="height:12.55pt;">
+                         <td colspan="2" style="width:6.75in;border:solid silver 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:12.55pt;" width="648"><p class="MsoNormal"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Status: Filed</span></strong></p></td>
+                       </tr>
+                       <tr style="height:12.55pt;">
+                         <td colspan="2" style="width:6.75in;border:solid silver 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:12.55pt;" width="648"><p class="MsoNormal"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Student Names: <span style="color:#0070C0; ">Mr.    Viraj Dicholkar, Mr. Shreyas Musale, Mr. Omkar Thakare</span></span></strong></p></td>
+                       </tr>
+                     </tbody></table>
+                   </div>
+  
+                 </div>
+             </li>
+            <li id="vm">
+              <div class="container">
+                <div class="row">
+                    <h2> <strong> Vision & Mission</strong></h2>
+                </div>
+                <div class="row mt-3 ">
+                  <h4> <strong> Vision :- </strong></h4>
+                  <br>
+                  <div class="">
+                    <br>  To impart and inculcate excellence in Technical knowledge and skills to secure socio-economic conditions.
+                  </div>
+  
+                </div>
+                <div class="row mt-3 ">
+                  <h4> <strong> Mission :-</strong></h4>
+                     <ul>
+                       <li>To develop excellent learning center through continuous up gradation in technologies in proximity with Academia, R&D centers and Industries. </li>
+                       <li>To pursue research of local and global relevance. </li>
+                       <li>To encourage students to consider "startups" as a career option through Entrepreneurship Development Cell. </li>
+                       <li>Uplift and groom the learners to emerge as committed professionals.</li>
+                     </ul>
+                    </div>
+  
+  
+              </div>
+            </li>
+  
+            <li id="pospeos">
+                 <div class="container ">
+                   <div class="row">
+                     <h2> <strong> PO's and PEO's</strong></h2>
+                   </div>
+                   <div class="row mt-3 ">
+                     <h6> <strong> Program Outcomes(PO):-</strong></h6>
+                      <ul class="">
+                        <li>To apply knowledge of mathematics, science, engineering fundamentals, problem solving skills, algorithmic analysis and mathematical modeling to the solution of complex engineering problems. </li>
+                        <li>To analyze the problem by finding its domain and applying domain specific skills </li>
+                        <li>To understand the design issues of the product/software and develop effective solutions with appropriate consideration for public health and safety, cultural, societal, and environmental considerations. </li>
+                        <li>To find solutions of complex problems by conducting investigations applying suitable techniques. </li>
+                        <li>To adapt the usage of modern tools and recent software.</li>
+                        <li>To contribute towards the society by understanding the impact of Engineering on global aspect.</li>
+                        <li>To understand environment issues and design a sustainable system.</li>
+                        <li>To understand and follow professional ethics. </li>
+                        <li>To function effectively as an individual and as member or leader in diverse teams and interdisciplinary settings. </li>
+                        <li>To demonstrate effective communication at various levels. </li>
+                        <li>To apply the knowledge of Computer Engineering for development of projects, and its finance and management. </li>
+                        <li>To keep in touch with current technologies and inculcate the practice of lifelong learning. </li>
+                      </ul>
+                      <br>
+                      <h6> <strong><br> Program Educational Objectives (PEO) :-</strong></h6>
+                      <ul>
+                        <li>To prepare globally competent graduates having strong fundamentals, domain knowledge, updated with modern technology to provide the effective solutions for engineering problems. </li>
+                        <li>To prepare the graduates to work as a committed professional with strong professional ethics and values, sense of responsibilities, understanding of legal, safety, health, societal, cultural and environmental issues. </li>
+                        <li>To prepare committed and motivated graduates with research attitude, lifelong learning, investigative approach, and multidisciplinary thinking. </li>
+                        <li>To prepare the graduates with strong managerial and communication skills to work effectively as individual as well as in teams.</li>
+                      </ul>
+  
+                      <h6> <strong> <br> Program Specific Outcomes (PSO):-</strong></h6>
+                      <ul>
+                        A graduate of the Computer Engineering Program will demonstrate-
+  
+                        <li>PSO1: Professional Skills-The ability to understand, analyze and develop computer programs in the areas related to algorithms, system software, multimedia, web design, big data analytics, and networking for efficient design of computer-based systems of varying. </li>
+                        <li>
+  PSO2: Problem-Solving Skills- The ability to apply standard practices and strategies in software project development using open-ended programming environments to deliver a quality product for business success. </li>
+                        <li>PSO3: Successful Career and Entrepreneurship- The ability to employ modern computer languages, environments, and platforms in creating innovative career paths to be an entrepreneur, and a zest for higher studies.
+   </li>
+  
+                      </ul>
+  
+  
+                   </div>
+  
+                 </div>
+              </li>
+  
+            <li id="labdetail">
+              <div class="container">
+                <div class="row">
+                  <h2> <strong>Lab Details :-</strong></h2>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 mt-2">
+                    <div class="p-3 card text-center" style="background-color:#ebf2f2;">
+                      <h4> <strong>Hardware and Networks Lab</strong></h4>
+                      <div class="m-3 row  justify-content-center">
+                        <img src="img/Comp/soe-ce-lab-1.jpg" width="100%" alt="">
+                      </div>
+                      <div class="row  justify-content-center">
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-danger text-center" >Laboratory Hardware- </h5>
+                          </div>
+  
+                        <p> HP Pro 3330 MT PC Desktop. Intel Core i3 2100 (20)
+                          Printer Epson LQ 1150( 01)
+                          89X51 rd2 Besed development Board (03), PIC development board
+                          12c ADC-DAC card (03), Stepper Moter Inerfacing Card (03), 4X4 Interfacing Card</p>
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-info text-center" >LABORATORY SOFTWARE- </h5>
+                          </div>
+                          <p> Operating System:-MS Windows 7, Fedora-19 <br>
+                          Software Installed:-MS Office  2010, MASM, TASM, NASM, Latex</p>
+                        </div>
+  
+  
+  
+                    </div>
+  
+                  </div>
+  
+                  <div class="col-md-12 mt-2">
+                    <div class="p-3 card text-center" style="background-color:#ebf2f2;">
+                      <h4> <strong>Computer Graphics Lab</strong></h4>
+                      <div class="m-3 row  justify-content-center">
+                        <img src="img/Comp/soe-ce-lab-2.jpg" width="100%" alt="">
+                      </div>
+                      <div class="row  justify-content-center">
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-danger text-center" >Laboratory Hardware- </h5>
+                          </div>
+  
+                        <p>HP Pro 3330 MT PC Desktop. Intel Core i3 2100 (20) <br>
+  Printer Epson lQ 1150( 1)</p>
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-info text-center" >LABORATORY SOFTWARE- </h5>
+                          </div>
+                          <p> Operating System:-MS Windows 7, Fedora - 18 <br>
+  Software Installed:-MS Office  2010, VB 6.0, Oracal 11g, Ecalips, Java-Jdk, Turbo C C++</p>
+                        </div>
+  
+  
+  
+                    </div>
+  
+                  </div>
+                  <div class="col-md-12 mt-2">
+                    <div class="p-3 card text-center" style="background-color:#ebf2f2;">
+                      <h4> <strong>Post-Graduation Lab (PG)</strong></h4>
+                      <div class="m-3 row  justify-content-center">
+                        <img src="img/Comp/soe-ce-lab-3.jpg" width="100%" alt="">
+                      </div>
+                      <div class="row  justify-content-center">
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-danger text-center" >Laboratory Hardware- </h5>
+                          </div>
+  
+                        <p>HP Pro 3330 MT PC Desktop. Intel Core i3 2100 (25)
+  Printer Epson LQ 1150 ( 01)</p>
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-info text-center" >LABORATORY SOFTWARE- </h5>
+                          </div>
+                          <p> Operating System:-MS Windows 7, Ubuntu-13
+  Software Installed:-MS Office  2010, NS3, JAVA-JDK, Libre Office,</p>
+                        </div>
+  
+  
+  
+                    </div>
+  
+                  </div>
+                  <div class="col-md-12 mt-2">
+                    <div class="p-3 card text-center" style="background-color:#ebf2f2;">
+                      <h4> <strong>Programming and Data Structures Lab</strong></h4>
+                      <div class="m-3 row  justify-content-center">
+                        <img src="img/Comp/soe-ce-lab-4.jpg" width="100%"  alt="">
+                      </div>
+                      <div class="row  justify-content-center">
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-danger text-center" >Laboratory Hardware- </h5>
+                          </div>
+  
+                        <p>HP Pro 3330 MT PC Desktop. Intel Core i3 2100 (22)
+  Printer :Epson Dotmatrix LQ1150( 1) </p>
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-info text-center" >LABORATORY SOFTWARE- </h5>
+                          </div>
+                          <p> Operating System:-MS Windows 7, Fedora 19
+  Software Installed:-MS Office  2010, MASM,TASM, NASM, TC, Latex</p>
+                        </div>
+  
+  
+  
+                    </div>
+  
+                  </div>
+                  <div class="col-md-12 mt-2">
+                    <div class="p-3 card text-center" style="background-color:#ebf2f2;">
+                      <h4> <strong>Research & Development Tools Lab ( PG)</strong></h4>
+                      <div class="m-3 row  justify-content-center">
+                        <img src="img/Comp/soe-ce-lab-5.jpg" width="100%"  alt="">
+                      </div>
+                      <div class="row  justify-content-center">
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-danger text-center" >Laboratory Hardware- </h5>
+                          </div>
+  
+                        <p>HP Pro 3330 MT PC Desktop. Intel Core i3 2100 (20)
+  Printer Cannon  laserjet LBP2900 ( 1)
+  Printer HP laserjet 1020 Plus (1)</p>
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-info text-center" >LABORATORY SOFTWARE- </h5>
+                          </div>
+                          <p>Operating System:-MS Windows 7, Ubuntu-13
+  Software Installed:-MS Office  2010, NS3, Libre Office</p>
+                        </div>
+  
+  
+  
+                    </div>
+  
+                  </div>
+                  <div class="col-md-12 mt-2">
+                    <div class="p-3 card text-center" style="background-color:#ebf2f2;">
+                      <h4> <strong>Software Development Tools Lab</strong></h4>
+                      <div class="m-3 row  justify-content-center">
+                        <img src="img/Comp/soe-ce-lab-6.jpg" width="100%" alt="">
+                      </div>
+                      <div class="row  justify-content-center">
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-danger text-center" >Laboratory Hardware- </h5>
+                          </div>
+  
+                        <p>HP Pro 3330 MT PC Desktop. Intel Core i3 2100 (22)
+  Printer Epson LQ 1150( 1)</p>
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-info text-center" >LABORATORY SOFTWARE- </h5>
+                          </div>
+                          <p>Operating System:-MS Windows 7, Fedora 19
+  Software Installed:-MS Office  2010, Visual Studio 2010, Sql Server, TC, Paython</p>
+                        </div>
+  
+  
+  
+                    </div>
+  
+                  </div>
+                  <div class="col-md-12 mt-2">
+                    <div class="p-3 card text-center" style="background-color:#ebf2f2;">
+                      <h4> <strong>Software Lab</strong></h4>
+                      <div class="m-3 row  justify-content-center">
+                        <img src="img/Comp/soe-ce-lab-7.jpg" width="100%" alt="">
+                      </div>
+                      <div class="row  justify-content-center">
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-danger text-center" >Laboratory Hardware- </h5>
+                          </div>
+  
+                        <p>HP Pro 3330 MT PC Desktop. Intel Core i3 2100 (23)
+  Printer Epson LQ 1150( 1)</p>
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-info text-center" >LABORATORY SOFTWARE- </h5>
+                          </div>
+                          <p>Operating System:-MS Windows 7, Fedora - 19
+  Software Installed:-MS Office  2010, Visual Studio, Java-JDK, Eclips, VB 6.0,</p>
+                        </div>
+  
+  
+  
+                    </div>
+  
+                  </div>
+                  <div class="col-md-12 mt-2">
+                    <div class="p-3 card text-center" style="background-color:#ebf2f2;">
+                      <h4> <strong>Digital Electronics & Microprocessor Interfacing</strong></h4>
+                      <div class="m-3 row  justify-content-center">
+                        <img src="img/Comp/soe-ce-lab-8.jpg" width="100%" alt="">
+                      </div>
+                      <div class="row  justify-content-center">
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-danger text-center" >Laboratory Hardware- </h5>
+                          </div>
+  
+                        <p>HP Pro 3330 MT PC Desktop. Intel Core i3 2100 (23)
+  Printer Epson LQ 1150( 1)HP Pro 3330 MT PC Desktop. Intel Core i3 2100 (05), Teaching Aids DYNA-86L #3978 to 398 (7), Dx-3030 30 MHz Dual channel Oscilloscope(2), Dx- 6101 3 1/2 Digital Multimeter(1), Dx- 1101 30 MHz 125 Msals 8'' TFT Color Display Digital Storage Oscilloscope (1), Digital Trainer kit</p>
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-info text-center" >LABORATORY SOFTWARE- </h5>
+                          </div>
+                          <p>Operating System:-MS Windows 7, Ubuntu-13
+  Software Installed:-MS Office  2010, Xilinx, NASM, TASM.</p>
+                        </div>
+  
+  
+  
+                    </div>
+  
+                  </div>
+                  <div class="col-md-12 mt-2">
+                    <div class="p-3 card text-center" style="background-color:#ebf2f2;">
+                      <h4> <strong>Computer Center</strong></h4>
+                      <div class="m-3 row  justify-content-center">
+                        <img src="img/Comp/soe-ce-lab-9.jpg" width="100%" alt="">
+                      </div>
+                      <div class="row  justify-content-center">
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-danger text-center" >Laboratory Hardware- </h5>
+                          </div>
+  
+                        <p>HP 3090 PC Desktop, HP Pro 4000 MT Desktop.
+  Printer Epson LQ(02)</p>
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-info text-center" >LABORATORY SOFTWARE- </h5>
+                          </div>
+                          <p>Operating System:-MS Windows 7, Ubuntu-13
+  Software Installed:-MS Office  2010, Eclips, Autocad, Metlab, Creo 2.0</p>
+                        </div>
+  
+  
+  
+                    </div>
+  
+                  </div>
+                  <div class="col-md-12 mt-2">
+                    <div class="p-3 card text-center" style="background-color:#ebf2f2;">
+                      <h4> <strong>Foreign Language Training Center</strong></h4>
+                      <div class="m-3 row  justify-content-center">
+                        <img src="img/Comp/soe-ce-lab-10.jpg" width="100%" alt="">
+                      </div>
+                      <div class="row  justify-content-center">
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-danger text-center" >Laboratory Hardware- </h5>
+                          </div>
+  
+                        <p>HP Pro 3330 MT PC Desktop. Intel Core i3 2100 (22)
+  Printer Epson LQ 1150( 1)</p>
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-info text-center" >LABORATORY SOFTWARE- </h5>
+                          </div>
+                          <p>Operating System:-MS Windows 7, Fedora 19
+  Software Installed:-MS Office  2010, Visual Studio 2010, Sql Server, TC, Paython</p>
+                        </div>
+  
+  
+  
+                    </div>
+  
+                  </div>
+                  <div class="col-md-12 mt-2">
+                    <div class="p-3 card text-center" style="background-color:#ebf2f2;">
+                      <h4> <strong>Departmental  Library</strong></h4>
+                      <div class="m-3 row  justify-content-center">
+                        <img src="img/Comp/soe-ce-lab-11.jpg" width="100%"  alt="">
+                      </div>
+                      <div class="row  justify-content-center">
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-danger text-center" >Departmental  Library contain more than 600 Books</h5>
+                          </div>
+  
+  
+                        </div>
+  
+  
+  
+                    </div>
+  
+                  </div>
+                  <div class="col-md-12 mt-4">
+                    <div class="row">
+                      <table class="MsoTableGrid" style="border-collapse:collapse;border:none;" cellspacing="0" cellpadding="0" border="1" align="center">
+                        <tbody><tr style="height:15.25pt;">
+                          <td style="width:61.15pt;border:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.25pt;" width="82" valign="top"><p class="MsoNormal" style="text-align:center;" align="center"><strong><span style="line-height:115%; font-family:'Times New Roman',serif; font-size:12.0pt; ">Lab. No.</span></strong></p></td>
+                          <td style="width:167.25pt;border:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;height:15.25pt;" width="223" valign="top"><p class="MsoNormal" style="text-align:center;" align="center"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Name of Laboratory</span></strong></p></td>
+                          <td style="width:135.35pt;border:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;height:15.25pt;" width="180" valign="top"><p class="MsoNormal" style="text-align:center;" align="center"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Area</span></strong></p></td>
+                          <td style="width:79.8pt;border:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;height:15.25pt;" width="106" valign="top"><p class="MsoNormal" style="text-align:center;" align="center"><strong><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Cost</span></strong></p></td>
+                        </tr>
+                        <tr style="height:25.6pt;">
+                          <td style="width:61.15pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:25.6pt;" width="82" valign="top"><p class="MsoNormal" style="text-align:center;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">321</span></p></td>
+                          <td style="width:167.25pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:25.6pt;" width="223" valign="top"><p class="MsoNormal"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Project Lab&nbsp;    Laboratory</span></p></td>
+                          <td style="width:135.35pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:25.6pt;" width="180" valign="top"><p class="MsoNormal" style="text-align:center;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">66    Sq. m.</span></p></td>
+                          <td style="width:79.8pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:25.6pt;" width="106" valign="top"><p class="MsoNormal" style="text-align:center;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">8,48,868.00</span></p></td>
+                        </tr>
+                        <tr style="height:35.5pt;">
+                          <td style="width:61.15pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:35.5pt;" width="82" valign="top"><p class="MsoNormal" style="text-align:center;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">325</span><span style="font-family:'Times New Roman',serif; font-size:12.0pt; "> </span></p></td>
+                          <td style="width:167.25pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:35.5pt;" width="223" valign="top"><p class="MsoNormal"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Data Structures and Programming&nbsp;    Laboratory</span><span style="font-family:'Times New Roman',serif; font-size:12.0pt; "> </span></p></td>
+                          <td style="width:135.35pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:35.5pt;" width="180" valign="top"><p class="MsoNormal" style="text-align:center;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">66 Sq. m.</span><span style="font-family:'Times New Roman',serif; font-size:12.0pt; "> </span></p></td>
+                          <td style="width:79.8pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:35.5pt;" width="106" valign="top"><p class="MsoNormal" style="text-align:center;" align="center"><span style="line-height:115%; font-family:'Times New Roman',serif; font-size:12.0pt; color:black; ">14,77,117.02</span></p>
+                            <p class="MsoNormal" style="text-align:center;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">&nbsp;</span></p></td>
+                        </tr>
+                        <tr style="height:16.05pt;">
+                          <td style="width:61.15pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:16.05pt;" width="82" valign="top"><p class="MsoNormal" style="text-align:center;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">327</span></p></td>
+                          <td style="width:167.25pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:16.05pt;" width="223" valign="top"><p class="MsoNormal"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Hardware &amp;Network Lab</span></p></td>
+                          <td style="width:135.35pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:16.05pt;" width="180" valign="top"><p class="MsoNormal" style="text-align:center;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">66    Sq. m.</span></p></td>
+                          <td style="width:79.8pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:16.05pt;" width="106" valign="top"><p class="MsoNormal" style="text-align:center;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">12,25,388.00</span></p></td>
+                        </tr>
+                        <tr style="height:15.25pt;">
+                          <td style="width:61.15pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:15.25pt;" width="82" valign="top"><p class="MsoNormal" style="text-align:center;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">330</span></p></td>
+                          <td style="width:167.25pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.25pt;" width="223" valign="top"><p class="MsoNormal"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Computer Graphics Lab</span></p></td>
+                          <td style="width:135.35pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.25pt;" width="180" valign="top"><p class="MsoNormal" style="text-align:center;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">66    Sq. m.</span></p></td>
+                          <td style="width:79.8pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.25pt;" width="106" valign="top"><p class="MsoNormal" style="text-align:center;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">9,69,772.00</span></p></td>
+                        </tr>
+                        <tr style="height:15.25pt;">
+                          <td style="width:61.15pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:15.25pt;" width="82" valign="top"><p class="MsoNormal" style="text-align:center;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">338</span></p></td>
+                          <td style="width:167.25pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.25pt;" width="223" valign="top"><p class="MsoNormal"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Computer&nbsp;    Laboratory</span></p></td>
+                          <td style="width:135.35pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.25pt;" width="180" valign="top"><p class="MsoNormal" style="text-align:center;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">66    Sq. m.</span></p></td>
+                          <td style="width:79.8pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.25pt;" width="106" valign="top"><p class="MsoNormal" style="text-align:center;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">1264526.00</span></p></td>
+                        </tr>
+                        <tr style="height:15.25pt;">
+                          <td style="width:61.15pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:15.25pt;" width="82" valign="top"><p class="MsoNormal" style="text-align:center;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">339</span></p></td>
+                          <td style="width:167.25pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.25pt;" width="223" valign="top"><p class="MsoNormal"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Digital Electronics &amp;Microprocessor Lab</span></p></td>
+                          <td style="width:135.35pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.25pt;" width="180" valign="top"><p class="MsoNormal" style="text-align:center;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">66    Sq. m.</span></p></td>
+                          <td style="width:79.8pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.25pt;" width="106" valign="top"><p class="MsoNormal" style="text-align:center;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; color:black; ">8,58,943.00</span><span style="font-family:'Times New Roman',serif; font-size:12.0pt; "> </span></p></td>
+                        </tr>
+                        <tr style="height:15.25pt;">
+                          <td style="width:61.15pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:15.25pt;" width="82" valign="top"><p class="MsoNormal" style="text-align:center;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">333</span></p></td>
+                          <td style="width:167.25pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.25pt;" width="223" valign="top"><p class="MsoNormal"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Software&nbsp;    Laboratory</span></p></td>
+                          <td style="width:135.35pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.25pt;" width="180" valign="top"><p class="MsoNormal" style="text-align:center;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">66    Sq. m.</span></p></td>
+                          <td style="width:79.8pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.25pt;" width="106" valign="top"><p class="MsoNormal" style="text-align:center;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">1264526.00</span></p></td>
+                        </tr>
+                        <tr style="height:16.05pt;">
+                          <td style="width:61.15pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:16.05pt;" width="82" valign="top"><p class="MsoNormal" style="text-align:center;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">331</span></p></td>
+                          <td style="width:167.25pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:16.05pt;" width="223" valign="top"><p class="MsoNormal"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">Software Development Tools&nbsp; Laboratory</span></p></td>
+                          <td style="width:135.35pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:16.05pt;" width="180" valign="top"><p class="MsoNormal" style="text-align:center;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">66    Sq. m.</span></p></td>
+                          <td style="width:79.8pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:16.05pt;" width="106" valign="top"><p class="MsoNormal" style="text-align:center;" align="center"><span style="font-family:'Times New Roman',serif; font-size:12.0pt; ">10,27,067.00</span></p></td>
+                        </tr>
+                        </tbody>
+                    </table>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+  
+              </div>
+            </li>
+            <li id="function2">
+              <div class="container">
+                <div class="row">
+                  <h2> <strong> Events</strong></h2>
+                  <br>
+                  <embed  src="img/Comp/Monthly_Report_February_2021.pdf" width="100%" height="1200">
+                  <embed  src="img/Comp/Monthly_Report_January_2021.pdf" width="100%" height="1200">
+                  <embed  src="img/Comp/event_comp.pdf" width="100%" height="1200">
+                </div>
+    
+              </div></li>
+              <li id="gearlever">
+                <div class="container">
+                  <div class="row">
+                    <h2> <strong> Traning & Placement</strong></h2>
+                    <br>
+                    <embed  src="img/Comp/comp_placment.pdf" width="100%" height="1200">
+                  </div>
+      
+                </div></li>
+            <li id="syllabus">
+               <div class="container">
+                 <div class="row">
+                    <h2> <strong>Syllabus</strong></h2>
+  
+                 </div>
+                 <br>
+                 <div class="row">
+                   <div class="col-md-4">
+                     <div class="card m-1 text-center">
+                       <div class="justify-content-center p-3">
+  
+                           <img class="p-3 rounded-circle border " src="img/pdficon.png" width="80px" alt="">
+  
+                         <h4>SECOND YEAR</h4>
+  
+                         <a href="img/Comp/SE syllabus.pdf">Download</a>
+                       </div>
+  
+                     </div>
+                   </div>
+                   <div class="col-md-4">
+                     <div class="card m-1 text-center">
+                       <div class="justify-content-center p-3">
+  
+                           <img class="p-3 rounded-circle border " src="img/pdficon.png" width="80px" alt="">
+  
+                         <h4>THIRD YEAR</h4>
+  
+                         <a href="img/Comp/TE syllabus.pdf">Download</a>
+                       </div>
+  
+                     </div>
+  
+                   </div>
+  
+                   <div class="col-md-4">
+                     <div class="card m-1 text-center">
+                       <div class="justify-content-center p-3">
+  
+                           <img class="p-3 rounded-circle border " src="img/pdficon.png" width="80px" alt="">
+  
+                         <h4>FOURTH YEAR</h4>
+  
+                         <a href="img/Comp/BE syllabus.pdf">Download</a>
+                       </div>
+  
+                     </div>
+  
+                   </div>
+  
+  
+                 </div>
+  
+               </div>
+            </li>
+          </ul>
+  
+  
+        </div>
+  
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSet1vdPvjCxUACaZI-PJpdWB4AreoTsXarcNZanu4RYrqNtHQ/viewform" target="_blank" class="text-white bg-primary p-2 text-decoration-none"> <b>Apply Now </b></a>
+        </div>
+  
+      </div>
+  
+    </div>
+  </section>
+<div id="loader"></div>
+<div id="footer">footer</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+
+  $(document).ready(()=>{
+   $('#loader').load('loader.html');
+    $('#footer').load('footer.html');
+    $('#header').load('header.html');
+  })
+    document.onreadystatechange = function() {
+    if (document.readyState !== "complete") {
+        document.querySelector("body").style.visibility = "hidden";
+        document.querySelector("#loader").style.visibility = "visible";
+    } else {
+        document.querySelector("#loader").style.display = "none";
+        document.querySelector("body").style.visibility = "visible";
+    }
+};
+  </script>
+</body>
+</html>

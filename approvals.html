@@ -1,0 +1,152 @@
+
+<!-- body: white, dark: #001E62, navbar: #012883, light: #1858EC , light-50: #759DF9,   -->
+
+
+
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/comp.js" charset="utf-8"></script>
+
+<link rel="shortcut icon" href="img/logo.png">
+
+<title>Dr.D Y Patil School of Engineering</title>
+</head>
+<body  style="background-color: white;" >
+  
+    
+
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        #s,#e{
+            animation: zoom 6s linear infinite;
+
+        }
+        @keyframes zoom {
+            16% { fill: red;color: red; }
+            32% { fill: black;color:black; }
+            48% { fill: green;color: green; }
+            64% { fill: blue;color: blue; }
+            80% { fill: maroon;color: maroon; }
+            }
+
+        #l{
+            animation: round 6s linear infinite;
+            transform-origin: bottom;
+        }
+        @keyframes round {
+            16% { background-color: red; transform: scale(0);}
+            32% { background-color: black;transform: scale(0.3); }
+            48% {background-color:  green;transform: scale(0.6); }
+            64% {background-color:  blue;transform: scale(1); }
+            80% { background-color: maroon;transform: scale(0.7); }
+
+        }
+        #loader{
+            position: fixed;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+        }
+
+    </style>
+    <script type="text/javascript">
+      document.onreadystatechange = function() {
+    if (document.readyState !== "complete") {
+        document.querySelector("body").style.visibility = "hidden";
+        document.querySelector("#loader").style.visibility = "visible";
+    } else {
+        document.querySelector("#loader").style.display = "none";
+        document.querySelector("body").style.visibility = "visible";
+    }
+};
+
+    </script>
+    <div id="header">header</div>
+
+  <section id="approvals">
+    <div class="container">
+      <div class="row justify-content-center">
+         <h3><strong>APPROVALS ( AICTE / SPPU )</strong></h3>
+         <br>
+      </div>
+      <div class="row m-3">
+        <ul class="list-unstyled">
+           <li class=""> <h4> <strong>1) AICTE</strong></h4>
+               <ul class="m-4 styled justify-content-center">
+                 <li> <a href="img/Approvals/71.pdf">Extended Profile Template</a></li>
+                 <li> <a href="img/Approvals/72.pdf">Approval for New Institute 2010-11</a></li>
+                 <li> <a href="img/Approvals/73.pdf">EOA Report 2011-12</a></li>
+                 <li> <a href="img/Approvals/74.pdf">EOA Report 2012-13</a></li>
+                 <li> <a href="img/Approvals/75.pdf">EOA Report 2013-14</a></li>
+                 <li><a href="img/Approvals/76.pdf">EOA Report 2014-15</a></li>
+                 <li><a href="img/Approvals/77.pdf">EOA Report 2015-16</a></li>
+                 <li><a href="img/Approvals/78.pdf">EOA Report 2016-17</a></li>
+                 <li><a href="img/Approvals/79.pdf">EOA Report 2019-20</a></li>
+               </ul>
+           </li>
+           <li> <h4> <strong>2) Metrics Level Deviations</strong></h4>
+                <ul class="m-4">
+                  <li><a href="img/Approvals/81.pdf">SPPU Affiliation-2012-13</a></li>
+                  <li><a href="img/Approvals/82.pdf">SPPU Affiliation-2013-14.</a></li>
+                  <li><a href="img/Approvals/83.pdf">SPPU Affiliation-2014-15</a></li>
+                  <li><a href="img/Approvals/84.pdf">SPPU Affiliation-2015-16</a></li>
+                  <li><a href="img/Approvals/85.pdf">SPPU Affiliation-2016-17</a></li>
+                  <li><a href="img/Approvals/86.pdf">SPPU Affiliation-2017-18</a></li>
+                  <li><a href="img/Approvals/87.pdf">SPPU Affiliation-2019-20</a></li>
+
+
+                </ul>
+				
+
+           </li>
+		   <li> <h4> <strong>3) Department of Scientific and Industrial Research (DSIR), Ministry of Science and Technology, Government of India. </strong></h4>
+                <ul class="m-4">
+                  <li><a href="img/Approvals/88.pdf">Recognition of Scientific and Industrial research organizations (SIRO)</a></li>
+                </ul>
+           </li>
+        </ul>
+
+      </div>
+
+    </div>
+ </section>
+ 
+<div id="loader"></div>
+<div id="footer">footer</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+
+  $(document).ready(()=>{
+   $('#loader').load('loader.html');
+    $('#footer').load('footer.html');
+    $('#header').load('header.html');
+  })
+    document.onreadystatechange = function() {
+    if (document.readyState !== "complete") {
+        document.querySelector("body").style.visibility = "hidden";
+        document.querySelector("#loader").style.visibility = "visible";
+    } else {
+        document.querySelector("#loader").style.display = "none";
+        document.querySelector("body").style.visibility = "visible";
+    }
+};
+  </script>
+</body>
+</html>

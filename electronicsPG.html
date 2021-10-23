@@ -1,0 +1,469 @@
+
+<!-- body: white, dark: #001E62, navbar: #012883, light: #1858EC , light-50: #759DF9,   -->
+
+
+
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/comp.js" charset="utf-8"></script>
+
+<link rel="shortcut icon" href="img/logo.png">
+
+<title>Dr.D Y Patil School of Engineering</title>
+</head>
+<body  style="background-color: white;" >
+  
+    
+
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        #s,#e{
+            animation: zoom 6s linear infinite;
+
+        }
+        @keyframes zoom {
+            16% { fill: red;color: red; }
+            32% { fill: black;color:black; }
+            48% { fill: green;color: green; }
+            64% { fill: blue;color: blue; }
+            80% { fill: maroon;color: maroon; }
+            }
+
+        #l{
+            animation: round 6s linear infinite;
+            transform-origin: bottom;
+        }
+        @keyframes round {
+            16% { background-color: red; transform: scale(0);}
+            32% { background-color: black;transform: scale(0.3); }
+            48% {background-color:  green;transform: scale(0.6); }
+            64% {background-color:  blue;transform: scale(1); }
+            80% { background-color: maroon;transform: scale(0.7); }
+
+        }
+        #loader{
+            position: fixed;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+        }
+
+    </style>
+
+    <div id="header">header</div>
+
+
+  <section id="computer">
+    <div class="10vh"  style="height:330px;">
+  
+  
+    <div class="container-fluid" id="imgetc">
+      <div class="row " >
+        <div class="col-md-8 justify-content-center text-white" style="height:330px; margin-top:150px;">
+          <h1> <strong>VLSI & EMBEDDED SYSTEM</strong></h1>
+          <div class="row justify-content-left ml-5 pl-5">
+            <a href="index.html">Home</a><p>-VLSI & EMBEDDED SYSTEM</p>
+  
+          </div>
+          <br>
+  
+  
+        </div>
+          <div class="col-md-4">
+  
+          </div>
+  
+      </div>
+    </div>
+  
+  
+    </div>
+    <div class="container-fluid" style="position:relative; ">
+      <div id="departmentlist" class="row list-unstyled">
+        <li class="ml-1 text-left w-25 text-center "><h2 class=" p-3  bg-info text-white text-center"><strong>VLSI & EMBEDDED <br> SYSTEM</strong></h2></li>
+  
+      </div>
+      <div class="row">
+  
+  
+        <div class="col-3 pp" >
+  
+           <ul id="departmentlist" class="list-unstyled" >
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e; border:none;" id="introduction1"  type="button" onclick="introduction();" name="button">INTRODUCTION</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="faculty();" name="button">FACULTY</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="hodprofile();" name="button">HOD PROFILE</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="research();" name="button">RESEARCH</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="vm();" name="button">VISSION & MISSION</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="pospeos();" name="button">POs & PEOs</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="labdetail();" name="button">LAB & EQUIPMENTS</button> </li>
+                <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="gearlever();" name="button">NEWS & EVENT</button> </li>
+                 <li> <button class="w-100 m-1 pt-2 pb-2 text-white text-left" style="background:#113e9e;border:none;" type="button" onclick="syllabus();" name="button">SYLLABUS</button> </li>
+  
+  
+           </ul>
+  
+        </div>
+        <div id="departmentdetail" class="col-9  ">
+          <ul class="list-unstyled pt-4">
+            <li id="introduction" >
+              <div class="container">
+                <div class="row">
+                    <h2> <strong> Introduction</strong></h2>
+  
+                </div>
+                <h4 class="text-center">Electronics & Telecommunication (PG)</h4>
+                <br>
+                <div  class="row justify-content-center">
+                  <img src="img/e_tc-lab/faculty-entc.jpg" width="60%"  alt="">
+                </div>
+  
+                <div class="text mt-3 mr-2">
+                  <p style="font-style:italic; color:#575655; font-size:18px; text-indent:50px; text-align:justify;">
+  The department of E&amp;TC Engineering started with aim of developing graduates capable of contributing to advancement in Electronics and telecommunication. UG Program Started with an intake of 60 in the year 2010-11. First batch of M.E. (VLSI and Embedded Systems) was inducted in 2012-13 with an intake of 24. The department have qualified and experienced faculties and well equipped laboratories. Department has good academic culture and conductive working environment for teaching learning, research &amp; development. </p>
+  
+                </div>
+  
+             <div class="row ">
+               <table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="background:#D6E3BC;border-collapse:collapse;border:none;">
+                           <tbody><tr style="height:12.85pt;">
+                             <td width="97" valign="top" style="width:72.4pt;border:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;"><p class="MsoNormal" align="center" style="margin-bottom:.0001pt;text-align:center;line-height:normal;"><strong><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; color:#C00000; ">Sr.    No.</span></strong></p></td>
+                             <td width="391" valign="top" style="width:292.9pt;border:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;"><p class="MsoNormal" align="center" style="margin-bottom:.0001pt;text-align:center;line-height:normal;"><strong><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; color:#C00000; ">Course</span></strong></p></td>
+                             <td width="81" valign="top" style="width:60.85pt;border:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;"><p class="MsoNormal" align="center" style="margin-bottom:.0001pt;text-align:center;line-height:normal;"><strong><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; color:#C00000; ">Specialization</span></strong></p>
+                                 </td><td width="391" valign="top" style="width:292.9pt;border:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 3.4pt;height:7.85pt;"><p class="MsoNormal" align="center" style="margin-bottom:.0001pt;text-align:center;line-height:normal;"><strong><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; color:#C00000; ">Duration</span></strong></p></td>
+                               <td width="391" valign="top" style="width:292.9pt;border:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;"><p class="MsoNormal" align="center" style="margin-bottom:.0001pt;text-align:center;line-height:normal;"><strong><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; color:#C00000; ">Intake</span></strong></p></td>
+  
+                           </tr>
+                           <tr style="height:12.85pt;">
+                             <td width="97" valign="top" style="width:72.4pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;"><p class="MsoNormal" align="center" style="margin-bottom:.0001pt;text-align:center;line-height:normal;"><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; ">1.</span></p></td>
+                             <td width="391" valign="top" style="width:292.9pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;"><p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><strong><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; ">Under Graduate(UG)</span></strong></p></td>
+                             <td width="81" valign="top" style="width:60.85pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;"><p class="MsoNormal" align="center" style="margin-bottom:.0001pt;text-align:center;line-height:normal;"><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; ">E&amp;TC</span></p>
+                                  </td><td width="391" valign="top" style="width:292.9pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;"><p class="MsoNormal" align="center" style="margin-bottom:.0001pt;line-height:normal;"><strong><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; ">4 Years</span></strong></p></td>
+                               <td width="391" valign="top" style="width:292.9pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;"><p class="MsoNormal" align="center" style="margin-bottom:.0001pt;line-height:normal;"><strong><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; ">60</span></strong></p></td>
+  
+                           </tr>
+                           <tr style="height:12.85pt;">
+                             <td width="97" valign="top" style="width:72.4pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;"><p class="MsoNormal" align="center" style="margin-bottom:.0001pt;text-align:center;line-height:normal;"><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; ">2.</span></p></td>
+                             <td width="391" valign="top" style="width:292.9pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;"><p class="MsoNormal" style="margin-bottom:.0001pt;line-height:normal;"><strong><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; ">Post Graduate(PG)</span></strong></p></td>
+                             <td width="81" valign="top" style="width:60.85pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;"><p class="MsoNormal" align="center" style="margin-bottom:.0001pt;text-align:center;line-height:normal;"><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; ">E&amp;TC(VLSI &amp; Embedded Systems)</span></p>
+                                 </td><td width="97" valign="top" style="width:72.4pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;"><p class="MsoNormal" align="center" style="margin-bottom:.0001pt;text-align:center;line-height:normal;"><strong><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; ">2 Years</span></strong></p></td>
+                               <td width="97" valign="top" style="width:72.4pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:12.85pt;"><p class="MsoNormal" align="center" style="margin-bottom:.0001pt;text-align:center;line-height:normal;"><strong><span style="font-family:&#39;Times New Roman&#39;,serif; font-size:12.0pt; ">24</span></strong></p></td>
+  
+                           </tr>
+  
+  
+                         </tbody></table>
+  
+             </div>
+            <br>
+  
+            <strong ><i>Department Highlights</i></strong><br><br><i>
+   Affiliated to Savitribai Phule Pune University.<br>
+   Highly qualified, dynamic and experienced faculties.<br>
+  Facility for self-learning and learning beyond curriculum such as PCB Laboratory and Ham Radio Club.<br>
+   Efficient Mentoring system to help an individual.<br>
+   Student Forum: EESA (Electronics Engineers Student Association).<br>
+  MOU with industries.<br>
+   Effective and efficient<br> </i>
+  
+              </div>
+            </li>
+            <li id="faculty">
+            <div class="container">
+              <div class="row">
+                <h2> <strong> Faculty</strong></h2>
+                <br>
+              </div>
+              <div class="row mt-2 text-center  justify-content-center ml-1 mr-1">
+                <embed src="img/e_tc-lab/Pe_tcfaculty.pdf" width="100%" height="1000px" />
+  
+  
+              </div>
+  
+  
+            </div></li>
+            <li id="hod-profile">
+              <div class="container">
+  
+                <div class="row">
+                    <h2> <strong> Hod Profile</strong></h2>
+                    <br>
+                  <div class="col-md-12 text-center"style="font-family:Bodoni MT;font-size:20px;" >
+                    <img style="border-radius:10px;"   src="img/e_tc-lab/ansari.jpg" width="200vw" alt="">
+                    <br>
+                    <h2 ><strong>Dr. Saniya Ansari</strong></h2>
+                    <h5 >Ph. D (Electronics and Telecommunication Engineering) </h5>
+                  </div>
+                  <p class="mt-3 mr-2" style="font-style:italic; color:#575655; font-size:18px; text-indent:50px; text-align:justify;">The Department is having highly qualified, experienced and dedicated teaching and supporting staff. Under the guidance of the management and principal, the department is flourishing by leaps and bounds. Department of Electronics and Telecommunication Engineering are committed to excellence in teaching, and inculcating a sense of pride and confidence in our students.<br>
+  The department works with the objective of addressing acute challenges faced by the Academia, Industry and the Society. Perhaps, even more important is our endless commitment to our students, helping them to learn, cultivate, progress, and accomplish their goals in their chase to excel in their professional career.<br>
+  
+  We welcome you to the Electronics and Telecommunication Engineering Department as undergraduate student or Post Graduate student or Research Scholar and we expect to be part of your achievement. The department is open to all Stakeholders to be a part of our growth with their valuable inputs.
+                   </p>
+  
+  
+  
+                </div>
+  
+              </div>
+            </li>
+            <li id="research">
+                 <div class="container">
+                   <div class="row">
+                       <h2> <strong> Research:-</strong></h2>
+                   </div>
+                   <div class="row mt-2 text-center  justify-content-center ml-1 mr-1">
+                     <embed src="img/e_tc-lab/research.pdf" width="100%" height="1000px" />
+  
+  
+                   </div>
+  
+  
+                 </div>
+             </li>
+            <li id="vm">
+              <div class="container">
+                <div class="row">
+                    <h2> <strong> Vision & Mission</strong></h2>
+                </div>
+                <div class="row mt-3 mr-2">
+                  <h4> <strong> Vision :- </strong></h4>
+                  <br>
+                  <div class="">
+                    <br>  To educate the student in adopting rapidly changing technologies for solving socio-economic and industrial challenges with accountability in the field of E&amp;TC Engineering.
+                  </div>
+  
+                </div>
+                <div class="row mt-3 mr-2">
+                  <h4> <strong> Mission :-</strong></h4>
+                     <ul>
+                        To consistently engage students with the latest technological advancements for collaborative and multidisciplinary activities.<br>
+   To participate in collaborative efforts to achieve quality education.<br>
+   To develop the department into a state-of-art education hub with multi-faceted learning environment accompanied by necessary facilities and resources.<br>
+                     </ul>
+                    </div>
+  
+  
+              </div>
+            </li>
+  
+            <li id="pospeos">
+                 <div class="container ">
+                   <div class="row">
+                     <h2> <strong> PO's and PEO's</strong></h2>
+                   </div>
+                   <div class="row mt-3  mr-2">
+                     <h6> <strong> Program Outcomes(PO):-</strong></h6>
+                      <ul class="">
+                       <li>Masters students of this program have ability to apply knowledge of mathematics, sciences and engineering to Electronics and Telec
+                         ommunication problems. </li>
+                       <li>	Post graduate students gain an ability to design and conduct experiments, as well as to analyze and interpret data. </li>
+                       <li>	Learners of this program built an ability to design a system, component, devices, or process to meet desired needs. </li>
+                       <li>Learners of this program have an ability to identify, formulate, and solve Engineering problems by applying mathematical foundations, algorithmic principles, and Electronics and Telecommunication theory in the modeling and design of Electronics systems in a way that demonstrates comprehension of the tradeoffs involved in design choices. </li>
+                       <li>Post graduates have an ability to communicate effectively orally and in writing and also understanding of professional and ethical responsibility.</li>
+                       <li>	Masters students of this program have an ability to function on multi-disciplinary teams and also as an individual for solving issues of Electronics and Telecommunication. </li>
+                       <li>	Develop an ability to use the techniques, skills, and modern engineering EDA tools necessary for Electronics and Telecommunication practices. </li>
+                       <li>Develop an ability to use the techniques, skills, and modern engineering EDA tools necessary for Electronics and Telecommunication practices. </li>
+                       <li>	Learners of this program have an ability to evaluate Electronics and Telecommunication Engineering problems with cost effectiveness, features, user friendliness etc. to cater needs for product development. </li>
+                       <li>	Igniting masterâ€™s students to peruse inventive concept to provide solutions to industrial, social or nation problem. </li>
+                       <li>Masters of this program generate an ability to identify, inspect, analyze, interpret and communicate research results. </li>
+                       <li>Post graduates recognize the need and an ability to engage in life-long learning and knowledge of contemporary issues. </li>
+                       <li>Masters of this program put on the broad education necessary to understand the impact of Electronics and Telecommunication solutions in a global, economic, environmental, and societal prospective. </li>
+                      </ul>
+                      <br>
+                      <h6> <strong><br> Program Educational Objectives (PEO) :-</strong></h6>
+                      <ul>
+                        <li>	To serve the University, the Nation, and the Engineering profession by providing high quality educational programs to all students; engaging in research and scholarship that will extend knowledge; and assisting the economic development of the regional, state, and national economies through technology transfer. </li>
+                        <li>	To provide Post-graduate students with an excellent education through research and co-operative work experience/culture to enable successful, innovative, and life-long careers in Electronics and Telecommunication. </li>
+                        <li>To sculpture Post-graduates students, to acquire the advanced level academic expertise and practical engineering experience necessary to function as Electronics and Telecommunication professional in a modern, ever-evolving world. Engrave Post-graduate students, to demonstrate competence by being selected for employment by industrial, academic or government entities or pursue further professional/doctoral studies. </li>
+                        <li>To understand the broad, social, ethical and professional issues of contemporary engineering practice. Post-graduation program will inculcate a mastery of underlying Electronics and Telecommunication Engineering and related technologies, as well as professional, ethical, and societal responsibilities.</li>
+                      </ul>
+  
+  
+                   </div>
+  
+                 </div>
+              </li>
+  
+            <li id="labdetail">
+              <div class="container">
+                <div class="row">
+                  <h2> <strong>Lab Details :-</strong></h2>
+                </div>
+                <div class="row">
+  
+                  <div class="col-md-12 mt-2">
+                    <div class="p-3 card text-center" style="background-color:#ebf2f2;">
+                      <h4> <strong>PG Lab</strong></h4>
+                      <div class="m-3 row  justify-content-center">
+                        <img src="img/e_tc-lab/lab_8.jpg" width="80%" alt="">
+                      </div>
+                      <div class="row  justify-content-center">
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-danger text-center" >Laboratory Hardware- </h5>
+                          </div>
+  
+  
+                          <div class="col-md-12 justify-content-center">
+                            <h5 class="text-info text-center" >LABORATORY SOFTWARE- </h5>
+                          </div>
+                          <p>CAD-FEKO</p>
+                        </div>
+  
+  
+  
+                    </div>
+  
+                  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+                  <div class="col-md-12 mt-4">
+                    <div class="row">
+  
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+  
+              </div>
+            </li>
+            <li id="gearlever">
+                <div class="container">
+                  <div class="row">
+                    <h2> <strong>News & Events :-</strong></h2>
+                  </div>
+                  <br>
+                  <div class="row  justify-content-center">
+                    <img src="img/e_tc-lab/eve6.png" width="80%" alt="">
+                  </div>
+                  <br>
+                  <div class="row   justify-content-center">
+                    <div class="col-md-6 ">
+                     <div class="row p-2 justify-content-center">
+                       <img src="img/e_tc-lab/eve7.png" width="80%"  alt="">
+  
+                     </div>
+                    </div>
+                    <div class="col-md-6 ">
+                     <div class="row p-2 justify-content-center">
+                       <img src="img/e_tc-lab/eve8.png" width="80%"  alt="">
+  
+                     </div>
+                    </div>
+  
+                  </div><br>
+                  <div class="row text-center justify-content-center">
+                    <h5><b>EPGPEX-2018</b></h5>
+  
+                  </div>
+  
+                </div>
+            </li>
+            <li id="syllabus">
+               <div class="container">
+                 <div class="row">
+                    <h2> <strong>Syllabus</strong></h2>
+  
+                 </div>
+                 <br>
+                 <div class="row justify-content-center">
+                   <div class="col-md-4">
+                     <div class="card m-1 text-center">
+                       <div class="justify-content-center p-3">
+  
+                           <img class="p-3 rounded-circle border " src="img/pdficon.png" width="80px" alt="">
+  
+                         <h4>ME COMP</h4>
+  
+                         <a href="img/e_tc-lab/ME syllabus.pdf">Download</a>
+                       </div>
+  
+                     </div>
+                   </div>
+  
+  
+  
+                 </div>
+               </div>
+            </li>
+  
+          </ul>
+  
+  
+        </div>
+  
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSet1vdPvjCxUACaZI-PJpdWB4AreoTsXarcNZanu4RYrqNtHQ/viewform" target="_blank" class="text-white bg-primary p-2 text-decoration-none"> <b>Apply Now </b></a>
+        </div>
+  
+      </div>
+  
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </section>
+ 
+<div id="loader"></div>
+<div id="footer">footer</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+
+  $(document).ready(()=>{
+   $('#loader').load('loader.html');
+    $('#footer').load('footer.html');
+    $('#header').load('header.html');
+  })
+    document.onreadystatechange = function() {
+    if (document.readyState !== "complete") {
+        document.querySelector("body").style.visibility = "hidden";
+        document.querySelector("#loader").style.visibility = "visible";
+    } else {
+        document.querySelector("#loader").style.display = "none";
+        document.querySelector("body").style.visibility = "visible";
+    }
+};
+  </script>
+</body>
+</html>
